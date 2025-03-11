@@ -2,8 +2,9 @@
 __pycache__/
 *.py[cod]
 *$py.class
-/data/raw/
-/data/images/
+
+/data/
+/dataset_creation/
 # C extensions
 *.so
 

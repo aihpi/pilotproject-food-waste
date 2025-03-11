@@ -1,0 +1,1239 @@
+[
+    {
+        "type": {
+            "Kartoffeln": 20.0,
+            "Erbsen": 10.0,
+            "M\u00f6hre": 10.0,
+            "Schnitzel": 30.0,
+            "Pilze": 10.0,
+            "Sahne": 2.0,
+            "Braune Sauce": 5.0
+        },
+        "total_weight": 77.0,
+        "image": "480659.00015.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Erbsen": 10.0,
+            "M\u00f6hre": 10.0,
+            "Schnitzel": 50.0,
+            "Pilze": 15.0,
+            "Sahne": 2.0
+        },
+        "total_weight": 117.0,
+        "image": "480659.00001.jpg"
+    },
+    {
+        "type": {
+            "Kartoffelp\u00fcree": 40.0,
+            "Erbsen": 10.0,
+            "M\u00f6hre": 10.0,
+            "Bratenjus": 2.0,
+            "H\u00e4hnchen": 30.0
+        },
+        "total_weight": 82.0,
+        "image": "480654.00016.jpg"
+    },
+    {
+        "type": {
+            "Kartoffelp\u00fcree": 60.0,
+            "Erbsen": 20.0,
+            "M\u00f6hre": 20.0,
+            "Bratenjus": 10.0,
+            "H\u00e4hnchen": 50.0
+        },
+        "total_weight": 160.0,
+        "image": "480654.00002.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Sauerkraut": 40.0,
+            "Braune Sauce": 10.0,
+            "Rostbratwurst": 20.0
+        },
+        "total_weight": 100.0,
+        "image": "480657.00022.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Sauerkraut": 30.0,
+            "Braune Sauce": 10.0,
+            "Rostbratwurst": 10.0
+        },
+        "total_weight": 70.0,
+        "image": "480657.00023.jpg"
+    },
+    {
+        "type": {
+            "Kartoffelp\u00fcree": 60.0,
+            "Erbsen": 20.0,
+            "M\u00f6hre": 20.0,
+            "Bratenjus": 10.0,
+            "H\u00e4hnchen": 50.0
+        },
+        "total_weight": 160.0,
+        "image": "480654.00003.jpg"
+    },
+    {
+        "type": {
+            "Mashed Potatoes": 60.0,
+            "Peas": 20.0,
+            "Carrots": 15.0,
+            "Chicken": 45.0,
+            "Gravy": 5.0
+        },
+        "total_weight": 145.0,
+        "image": "480654.00017.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Erbsen": 10.0,
+            "M\u00f6hre": 10.0,
+            "Schnitzel": 50.0,
+            "Pilze": 10.0,
+            "Sahne": 2.0
+        },
+        "total_weight": 114.0,
+        "image": "480659.00014.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 40.0,
+            "Erbsen": 15.0,
+            "M\u00f6hre": 10.0,
+            "Pilze": 20.0,
+            "Braune Sauce": 5.0
+        },
+        "total_weight": 100.0,
+        "image": "480659.00002.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Erbsen": 10.0,
+            "M\u00f6hre": 10.0,
+            "Schnitzel": 50.0,
+            "Pilze": 10.0,
+            "Sahne": 2.0,
+            "Braune Sauce": 5.0
+        },
+        "total_weight": 109.0,
+        "image": "480659.00016.jpg"
+    },
+    {
+        "type": {
+            "H\u00e4hnchen": 45.5,
+            "Kartoffelp\u00fcree": 30.0,
+            "Erbsen": 10.0,
+            "M\u00f6hre": 10.0,
+            "Bratenjus": 2.5
+        },
+        "total_weight": 108.0,
+        "image": "480654.00001.jpg"
+    },
+    {
+        "type": {
+            "Kartoffelp\u00fcree": 40.0,
+            "Erbsen": 10.0,
+            "M\u00f6hre": 10.0,
+            "Bratenjus": 5.0,
+            "H\u00e4hnchen": 30.0
+        },
+        "total_weight": 130.0,
+        "image": "480654.00015.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 40.0,
+            "Sauerkraut": 50.0,
+            "Braune Sauce": 10.0,
+            "Rostbratwurst": 15.0
+        },
+        "total_weight": 115.0,
+        "image": "480657.00009.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Sauerkraut": 40.0,
+            "Braune Sauce": 10.0
+        },
+        "total_weight": 80.0,
+        "image": "480657.00021.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Sauerkraut": 20.0,
+            "Braune Sauce": 10.0,
+            "Rostbratwurst": 40.0
+        },
+        "total_weight": 100.0,
+        "image": "480657.00020.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 40.0,
+            "Sauerkraut": 50.0,
+            "Braune Sauce": 10.0,
+            "Rostbratwurst": 20.0
+        },
+        "total_weight": 120.0,
+        "image": "480657.00008.jpg"
+    },
+    {
+        "type": {
+            "Kartoffelp\u00fcree": 30.0,
+            "Erbsen": 10.0,
+            "M\u00f6hre": 10.0,
+            "Bratenjus": 2.0,
+            "H\u00e4hnchen": 15.0
+        },
+        "total_weight": 77.0,
+        "image": "480654.00014.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Erbsen": 10.0,
+            "M\u00f6hre": 10.0,
+            "Schnitzel": 50.0,
+            "Pilze": 15.0,
+            "Sahne": 2.0
+        },
+        "total_weight": 137.0,
+        "image": "480659.00017.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Erbsen": 10.0,
+            "M\u00f6hre": 10.0,
+            "Schnitzel": 40.0,
+            "Pilze": 20.0,
+            "Sahne": 2.0,
+            "Braune Sauce": 5.0
+        },
+        "total_weight": 109.0,
+        "image": "480659.00003.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Erbsen": 10.0,
+            "M\u00f6hre": 10.0,
+            "Schnitzel": 50.0,
+            "Pilze": 15.0,
+            "Sahne": 2.0
+        },
+        "total_weight": 137.0,
+        "image": "480659.00007.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Erbsen": 10.0,
+            "M\u00f6hre": 10.0,
+            "Schnitzel": 50.0,
+            "Pilze": 10.0,
+            "Sahne": 2.0
+        },
+        "total_weight": 122.0,
+        "image": "480659.00013.jpg"
+    },
+    {
+        "type": {
+            "Kartoffelp\u00fcree": 60.0,
+            "Erbsen": 20.0,
+            "M\u00f6hre": 15.0,
+            "Bratenjus": 5.0,
+            "H\u00e4hnchen": 40.0
+        },
+        "total_weight": 140.0,
+        "image": "480654.00004.jpg"
+    },
+    {
+        "type": {
+            "Mashed Potatoes": 40.0,
+            "Peas": 10.0,
+            "Carrots": 10.0,
+            "Chicken": 30.0,
+            "Gravy": 5.0
+        },
+        "total_weight": 95.0,
+        "image": "480654.00010.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 40.0,
+            "Sauerkraut": 30.0,
+            "Braune Sauce": 10.0
+        },
+        "total_weight": 80.0,
+        "image": "480657.00018.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Sauerkraut": 20.0,
+            "Braune Sauce": 1.0,
+            "Rostbratwurst": 20.0
+        },
+        "total_weight": 61.0,
+        "image": "480657.00019.jpg"
+    },
+    {
+        "type": {
+            "Kartoffelp\u00fcree": 10.0,
+            "Erbsen": 5.0,
+            "M\u00f6hre": 5.0,
+            "Bratenjus": 2.0,
+            "H\u00e4hnchen": 8.0
+        },
+        "total_weight": 30.0,
+        "image": "480654.00011.jpg"
+    },
+    {
+        "type": {
+            "Kartoffelp\u00fcree": 50.0,
+            "Erbsen": 15.0,
+            "M\u00f6hre": 10.0,
+            "Bratenjus": 2.0,
+            "H\u00e4hnchen": 10.0
+        },
+        "total_weight": 87.0,
+        "image": "480654.00005.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Erbsen": 10.0,
+            "M\u00f6hre": 10.0,
+            "Schnitzel": 40.0,
+            "Pilze": 10.0,
+            "Sahne": 2.0
+        },
+        "total_weight": 104.0,
+        "image": "480659.00012.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Erbsen": 10.0,
+            "M\u00f6hre": 10.0,
+            "Schnitzel": 50.0,
+            "Pilze": 20.0,
+            "Sahne": 2.0
+        },
+        "total_weight": 132.0,
+        "image": "480659.00006.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Erbsen": 10.0,
+            "M\u00f6hre": 10.0,
+            "Schnitzel": 50.0,
+            "Pilze": 10.0,
+            "Sahne": 2.0,
+            "Braune Sauce": 5.0
+        },
+        "total_weight": 137.0,
+        "image": "480659.00010.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Erbsen": 10.0,
+            "M\u00f6hre": 10.0,
+            "Pilze": 20.0,
+            "Sahne": 2.0
+        },
+        "total_weight": 72.0,
+        "image": "480659.00004.jpg"
+    },
+    {
+        "type": {
+            "Kartoffelp\u00fcree": 10.0,
+            "Erbsen": 5.0,
+            "M\u00f6hre": 5.0,
+            "Bratenjus": 2.0,
+            "H\u00e4hnchen": 8.0
+        },
+        "total_weight": 30.0,
+        "image": "480654.00013.jpg"
+    },
+    {
+        "type": {
+            "Kartoffelp\u00fcree": 40.0,
+            "Erbsen": 10.0,
+            "M\u00f6hre": 10.0,
+            "Bratenjus": 2.0,
+            "H\u00e4hnchen": 20.0
+        },
+        "total_weight": 72.0,
+        "image": "480654.00007.jpg"
+    },
+    {
+        "type": {
+            "Kartoffelp\u00fcree": 40.0,
+            "Erbsen": 10.0,
+            "M\u00f6hre": 10.0,
+            "Bratenjus": 2.0,
+            "H\u00e4hnchen": 39.0
+        },
+        "total_weight": 103.0,
+        "image": "480654.00006.jpg"
+    },
+    {
+        "type": {
+            "Kartoffelp\u00fcree": 40.0,
+            "Erbsen": 10.0,
+            "M\u00f6hre": 10.0,
+            "Bratenjus": 2.0,
+            "H\u00e4hnchen": 30.0
+        },
+        "total_weight": 104.0,
+        "image": "480654.00012.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Erbsen": 10.0,
+            "M\u00f6hre": 10.0,
+            "Schnitzel": 50.0,
+            "Pilze": 20.0,
+            "Sahne": 5.0
+        },
+        "total_weight": 125.0,
+        "image": "480659.00005.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Erbsen": 10.0,
+            "M\u00f6hre": 10.0,
+            "Schnitzel": 50.0,
+            "Pilze": 15.0,
+            "Sahne": 2.0,
+            "Braune Sauce": 5.0
+        },
+        "total_weight": 142.0,
+        "image": "480659.00011.jpg"
+    },
+    {
+        "type": {
+            "Kartoffelp\u00fcree": 40.0,
+            "Rotkohl": 20.0,
+            "Braune Sauce": 2.0
+        },
+        "total_weight": 62.0,
+        "image": "480658.00015.jpg"
+    },
+    {
+        "type": {
+            "Kartoffelp\u00fcree": 40.0,
+            "Rotkohl": 20.0,
+            "Braune Sauce": 10.0
+        },
+        "total_weight": 70.0,
+        "image": "480658.00001.jpg"
+    },
+    {
+        "type": {
+            "Reis": 20.0,
+            "Blumenkohl": 40.0,
+            "Paniertes Fischfilet": 30.0,
+            "Helle Sauce": 5.0
+        },
+        "total_weight": 75.0,
+        "image": "480660.00003.jpg"
+    },
+    {
+        "type": {
+            "Reis": 10.0,
+            "Blumenkohl": 20.0,
+            "Paniertes Fischfilet": 15.0,
+            "Helle Sauce": 2.0
+        },
+        "total_weight": 37.0,
+        "image": "480660.00017.jpg"
+    },
+    {
+        "type": {
+            "Reis": 20.0,
+            "Blumenkohl": 40.0,
+            "Paniertes Fischfilet": 35.0,
+            "Helle Sauce": 5.0
+        },
+        "total_weight": 90.0,
+        "image": "480660.00016.jpg"
+    },
+    {
+        "type": {
+            "Reis": 15.0,
+            "Blumenkohl": 30.0,
+            "Paniertes Fischfilet": 25.0,
+            "Helle Sauce": 2.0
+        },
+        "total_weight": 72.0,
+        "image": "480660.00002.jpg"
+    },
+    {
+        "type": {
+            "Kartoffelp\u00fcree": 40.0,
+            "Rotkohl": 15.0,
+            "Braune Sauce": 2.0
+        },
+        "total_weight": 77.0,
+        "image": "480658.00014.jpg"
+    },
+    {
+        "type": {
+            "Kartoffelp\u00fcree": 40.0,
+            "Rotkohl": 30.0,
+            "Braune Sauce": 2.0
+        },
+        "total_weight": 72.0,
+        "image": "480658.00002.jpg"
+    },
+    {
+        "type": {
+            "Kartoffelp\u00fcree": 40.0,
+            "Rotkohl": 15.0,
+            "Braune Sauce": 5.0
+        },
+        "total_weight": 50.0,
+        "image": "480658.00016.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Erbsen": 10.0,
+            "M\u00f6hre": 10.0,
+            "Braune Sauce": 2.0,
+            "H\u00e4hnchen": 40.0
+        },
+        "total_weight": 104.0,
+        "image": "480656.00009.jpg"
+    },
+    {
+        "type": {
+            "Reis": 20.0,
+            "Blumenkohl": 30.0,
+            "Paniertes Fischfilet": 15.0
+        },
+        "total_weight": 65.0,
+        "image": "480660.00014.jpg"
+    },
+    {
+        "type": {
+            "Reis": 30.0,
+            "Blumenkohl": 50.0,
+            "Paniertes Fischfilet": 10.0,
+            "Helle Sauce": 2.0
+        },
+        "total_weight": 92.0,
+        "image": "480660.00001.jpg"
+    },
+    {
+        "type": {
+            "Reis": 10.0,
+            "Blumenkohl": 20.0,
+            "Paniertes Fischfilet": 15.0
+        },
+        "total_weight": 45.0,
+        "image": "480660.00015.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 40.0,
+            "Erbsen": 15.0,
+            "M\u00f6hre": 15.0,
+            "Braune Sauce": 2.0,
+            "H\u00e4hnchen": 30.0
+        },
+        "total_weight": 102.0,
+        "image": "480656.00008.jpg"
+    },
+    {
+        "type": {
+            "Kartoffelp\u00fcree": 40.0,
+            "Rotkohl": 20.0,
+            "Braune Sauce": 2.0
+        },
+        "total_weight": 62.0,
+        "image": "480658.00017.jpg"
+    },
+    {
+        "type": {
+            "Mashed Potatoes": 60.0,
+            "Red Cabbage": 30.0,
+            "Brown Sauce": 10.0
+        },
+        "total_weight": 100.0,
+        "image": "480658.00003.jpg"
+    },
+    {
+        "type": {
+            "Kartoffelp\u00fcree": 40.0,
+            "Rotkohl": 30.0,
+            "Braune Sauce": 10.0
+        },
+        "total_weight": 80.0,
+        "image": "480658.00007.jpg"
+    },
+    {
+        "type": {
+            "Rotkohl": 30.0,
+            "Braune Sauce": 10.0
+        },
+        "total_weight": 40.0,
+        "image": "480658.00013.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Erbsen": 15.0,
+            "M\u00f6hre": 10.0,
+            "Braune Sauce": 2.0,
+            "H\u00e4hnchen": 43.0
+        },
+        "total_weight": 110.0,
+        "image": "480656.00018.jpg"
+    },
+    {
+        "type": {
+            "Reis": 20.0,
+            "Blumenkohl": 30.0,
+            "Paniertes Fischfilet": 15.0,
+            "Helle Sauce": 5.0
+        },
+        "total_weight": 70.0,
+        "image": "480660.00011.jpg"
+    },
+    {
+        "type": {
+            "Reis": 30.0,
+            "Blumenkohl": 40.0,
+            "Paniertes Fischfilet": 20.0,
+            "Helle Sauce": 10.0
+        },
+        "total_weight": 100.0,
+        "image": "480660.00005.jpg"
+    },
+    {
+        "type": {
+            "Reis": 20.0,
+            "Blumenkohl": 30.0,
+            "Paniertes Fischfilet": 40.0,
+            "Helle Sauce": 10.0
+        },
+        "total_weight": 100.0,
+        "image": "480660.00004.jpg"
+    },
+    {
+        "type": {
+            "Reis": 20.0,
+            "Blumenkohl": 40.0,
+            "Paniertes Fischfilet": 30.0,
+            "Helle Sauce": 10.0
+        },
+        "total_weight": 100.0,
+        "image": "480660.00010.jpg"
+    },
+    {
+        "type": {
+            "Kartoffelp\u00fcree": 40.0,
+            "Rotkohl": 20.0,
+            "Braune Sauce": 2.0
+        },
+        "total_weight": 62.0,
+        "image": "480658.00012.jpg"
+    },
+    {
+        "type": {
+            "Kartoffelp\u00fcree": 40.0,
+            "Rotkohl": 30.0,
+            "Braune Sauce": 10.0,
+            "Rostbratwurst": 20.0
+        },
+        "total_weight": 100.0,
+        "image": "480658.00006.jpg"
+    },
+    {
+        "type": {
+            "Kartoffelp\u00fcree": 40.0,
+            "Rotkohl": 20.0,
+            "Braune Sauce": 2.0
+        },
+        "total_weight": 62.0,
+        "image": "480658.00010.jpg"
+    },
+    {
+        "type": {
+            "Kartoffelp\u00fcree": 40.0,
+            "Rotkohl": 30.0,
+            "Braune Sauce": 10.0,
+            "Rostbratwurst": 20.0
+        },
+        "total_weight": 100.0,
+        "image": "480658.00004.jpg"
+    },
+    {
+        "type": {
+            "Reis": 25.0,
+            "Blumenkohl": 30.0,
+            "Paniertes Fischfilet": 15.0,
+            "Helle Sauce": 5.0
+        },
+        "total_weight": 65.0,
+        "image": "480660.00006.jpg"
+    },
+    {
+        "type": {
+            "Reis": 25.0,
+            "Blumenkohl": 30.0,
+            "Paniertes Fischfilet": 35.0,
+            "Helle Sauce": 1.0
+        },
+        "total_weight": 61.0,
+        "image": "480660.00012.jpg"
+    },
+    {
+        "type": {
+            "Reis": 30.0,
+            "Blumenkohl": 20.0,
+            "Paniertes Fischfilet": 15.0,
+            "Helle Sauce": 2.0
+        },
+        "total_weight": 67.0,
+        "image": "480660.00013.jpg"
+    },
+    {
+        "type": {
+            "Reis": 20.0,
+            "Blumenkohl": 30.0,
+            "Paniertes Fischfilet": 40.0,
+            "Helle Sauce": 10.0
+        },
+        "total_weight": 100.0,
+        "image": "480660.00007.jpg"
+    },
+    {
+        "type": {
+            "Kartoffelp\u00fcree": 40.0,
+            "Rotkohl": 30.0,
+            "Braune Sauce": 2.0
+        },
+        "total_weight": 72.0,
+        "image": "480658.00005.jpg"
+    },
+    {
+        "type": {
+            "Kartoffelp\u00fcree": 40.0,
+            "Rotkohl": 20.0,
+            "Braune Sauce": 2.0
+        },
+        "total_weight": 62.0,
+        "image": "480658.00011.jpg"
+    },
+    {
+        "type": {
+            "Kartoffelp\u00fcree": 50.0,
+            "Rotkohl": 30.0,
+            "Braune Sauce": 10.0
+        },
+        "total_weight": 90.0,
+        "image": "480658.00008.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Erbsen": 10.0,
+            "M\u00f6hre": 10.0,
+            "Braune Sauce": 2.0,
+            "H\u00e4hnchen": 20.0
+        },
+        "total_weight": 72.0,
+        "image": "480656.00003.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Erbsen": 15.0,
+            "M\u00f6hre": 15.0,
+            "H\u00e4hnchen": 60.0,
+            "Braune Sauce": 2.0
+        },
+        "total_weight": 122.0,
+        "image": "480656.00017.jpg"
+    },
+    {
+        "type": {
+            "Reis": 15.0,
+            "Blumenkohl": 30.0,
+            "Paniertes Fischfilet": 25.0,
+            "Helle Sauce": 1.0
+        },
+        "total_weight": 61.0,
+        "image": "480660.00022.jpg"
+    },
+    {
+        "type": {
+            "Reis": 15.0,
+            "Blumenkohl": 20.0,
+            "Paniertes Fischfilet": 10.0
+        },
+        "total_weight": 45.0,
+        "image": "480660.00023.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Erbsen": 15.0,
+            "M\u00f6hre": 15.0,
+            "Braune Sauce": 2.0,
+            "H\u00e4hnchen": 40.0
+        },
+        "total_weight": 102.0,
+        "image": "480656.00016.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Erbsen": 15.0,
+            "M\u00f6hre": 15.0,
+            "Braune Sauce": 2.0,
+            "H\u00e4hnchen": 40.0
+        },
+        "total_weight": 102.0,
+        "image": "480656.00002.jpg"
+    },
+    {
+        "type": {
+            "Kartoffelp\u00fcree": 40.0,
+            "Rotkohl": 20.0,
+            "Braune Sauce": 2.0
+        },
+        "total_weight": 62.0,
+        "image": "480658.00009.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 40.0,
+            "Erbsen": 15.0,
+            "M\u00f6hre": 10.0,
+            "Braune Sauce": 2.0,
+            "H\u00e4hnchen": 60.0
+        },
+        "total_weight": 127.0,
+        "image": "480656.00014.jpg"
+    },
+    {
+        "type": {
+            "Reis": 20.0,
+            "Blumenkohl": 30.0,
+            "Paniertes Fischfilet": 25.0,
+            "Helle Sauce": 5.0
+        },
+        "total_weight": 70.0,
+        "image": "480660.00021.jpg"
+    },
+    {
+        "type": {
+            "Reis": 15.0,
+            "Blumenkohl": 40.0,
+            "Paniertes Fischfilet": 35.0,
+            "Helle Sauce": 5.0
+        },
+        "total_weight": 95.0,
+        "image": "480660.00009.jpg"
+    },
+    {
+        "type": {
+            "Reis": 15.0,
+            "Blumenkohl": 25.0,
+            "Paniertes Fischfilet": 20.0,
+            "Helle Sauce": 5.0
+        },
+        "total_weight": 65.0,
+        "image": "480660.00008.jpg"
+    },
+    {
+        "type": {
+            "Reis": 20.0,
+            "Blumenkohl": 15.0,
+            "Paniertes Fischfilet": 10.0
+        },
+        "total_weight": 45.0,
+        "image": "480660.00020.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 40.0,
+            "Erbsen": 15.0,
+            "M\u00f6hre": 10.0,
+            "Braune Sauce": 2.0,
+            "H\u00e4hnchen": 50.0
+        },
+        "total_weight": 137.0,
+        "image": "480656.00001.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Erbsen": 10.0,
+            "M\u00f6hre": 10.0,
+            "H\u00e4hnchen": 40.0,
+            "Braune Sauce": 2.0
+        },
+        "total_weight": 104.0,
+        "image": "480656.00015.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Erbsen": 15.0,
+            "M\u00f6hre": 10.0,
+            "Braune Sauce": 2.0,
+            "H\u00e4hnchen": 43.0
+        },
+        "total_weight": 110.0,
+        "image": "480656.00011.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 40.0,
+            "Erbsen": 15.0,
+            "M\u00f6hre": 15.0,
+            "H\u00e4hnchen": 60.0,
+            "Braune Sauce": 2.0
+        },
+        "total_weight": 122.0,
+        "image": "480656.00005.jpg"
+    },
+    {
+        "type": {
+            "Reis": 15.0,
+            "Blumenkohl": 30.0,
+            "Paniertes Fischfilet": 10.0
+        },
+        "total_weight": 55.0,
+        "image": "480660.00018.jpg"
+    },
+    {
+        "type": {
+            "Reis": 10.0,
+            "Blumenkohl": 30.0,
+            "Paniertes Fischfilet": 20.0,
+            "Helle Sauce": 1.0
+        },
+        "total_weight": 41.0,
+        "image": "480660.00019.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 40.0,
+            "Erbsen": 15.0,
+            "M\u00f6hre": 10.0,
+            "Braune Sauce": 2.0,
+            "H\u00e4hnchen": 23.0
+        },
+        "total_weight": 90.0,
+        "image": "480656.00004.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Erbsen": 15.0,
+            "M\u00f6hre": 15.0,
+            "Braune Sauce": 2.0,
+            "H\u00e4hnchen": 40.0
+        },
+        "total_weight": 82.0,
+        "image": "480656.00010.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 45.0,
+            "Erbsen": 20.0,
+            "M\u00f6hre": 15.0,
+            "Braune Sauce": 2.0,
+            "H\u00e4hnchen": 48.0
+        },
+        "total_weight": 120.0,
+        "image": "480656.00006.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Erbsen": 15.0,
+            "M\u00f6hre": 15.0,
+            "Braune Sauce": 2.0,
+            "H\u00e4hnchen": 40.0
+        },
+        "total_weight": 102.0,
+        "image": "480656.00012.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Erbsen": 10.0,
+            "M\u00f6hre": 10.0,
+            "Braune Sauce": 2.0,
+            "H\u00e4hnchen": 25.0
+        },
+        "total_weight": 77.0,
+        "image": "480656.00013.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Erbsen": 15.0,
+            "M\u00f6hre": 10.0,
+            "Braune Sauce": 2.0,
+            "H\u00e4hnchen": 45.0
+        },
+        "total_weight": 112.0,
+        "image": "480656.00007.jpg"
+    },
+    {
+        "type": {
+            "Kartoffelp\u00fcree": 40.0,
+            "Rotkohl": 20.0,
+            "Braune Sauce": 2.0
+        },
+        "total_weight": 62.0,
+        "image": "480658.00018.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Erbsen": 10.0,
+            "M\u00f6hre": 10.0,
+            "Pilze": 10.0,
+            "Sahne": 2.0
+        },
+        "total_weight": 72.0,
+        "image": "480659.00008.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Sauerkraut": 40.0,
+            "Braune Sauce": 10.0,
+            "Rostbratwurst": 20.0
+        },
+        "total_weight": 100.0,
+        "image": "480657.00003.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 40.0,
+            "Sauerkraut": 50.0,
+            "Braune Sauce": 10.0,
+            "Rostbratwurst": 20.0
+        },
+        "total_weight": 120.0,
+        "image": "480657.00017.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Sauerkraut": 40.0,
+            "Braune Sauce": 10.0
+        },
+        "total_weight": 80.0,
+        "image": "480657.00016.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Sauerkraut": 40.0,
+            "Braune Sauce": 10.0,
+            "Rostbratwurst": 20.0
+        },
+        "total_weight": 100.0,
+        "image": "480657.00002.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Erbsen": 10.0,
+            "M\u00f6hre": 10.0,
+            "Pilze": 10.0,
+            "Sahne": 2.0
+        },
+        "total_weight": 72.0,
+        "image": "480659.00009.jpg"
+    },
+    {
+        "type": {
+            "Mashed Potatoes": 40.0,
+            "Peas": 10.0,
+            "Carrots": 15.0,
+            "Gravy": 2.0,
+            "Chicken": 14.0
+        },
+        "total_weight": 101.0,
+        "image": "480654.00008.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Sauerkraut": 20.0,
+            "Braune Sauce": 10.0
+        },
+        "total_weight": 60.0,
+        "image": "480657.00014.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Sauerkraut": 20.0,
+            "Braune Sauce": 1.0,
+            "Rostbratwurst": 10.0
+        },
+        "total_weight": 61.0,
+        "image": "480657.00001.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 40.0,
+            "Sauerkraut": 30.0,
+            "Braune Sauce": 10.0
+        },
+        "total_weight": 80.0,
+        "image": "480657.00015.jpg"
+    },
+    {
+        "type": {
+            "Kartoffelp\u00fcree": 40.0,
+            "Erbsen": 10.0,
+            "M\u00f6hre": 10.0,
+            "Bratenjus": 2.0,
+            "H\u00e4hnchen": 20.0
+        },
+        "total_weight": 72.0,
+        "image": "480654.00009.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 40.0,
+            "Sauerkraut": 50.0,
+            "Braune Sauce": 10.0
+        },
+        "total_weight": 100.0,
+        "image": "480657.00011.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Sauerkraut": 40.0,
+            "Braune Sauce": 10.0,
+            "Rostbratwurst": 10.0
+        },
+        "total_weight": 90.0,
+        "image": "480657.00005.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Sauerkraut": 50.0,
+            "Braune Sauce": 10.0,
+            "Rostbratwurst": 20.0
+        },
+        "total_weight": 110.0,
+        "image": "480657.00004.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 40.0,
+            "Sauerkraut": 50.0,
+            "Braune Sauce": 10.0
+        },
+        "total_weight": 100.0,
+        "image": "480657.00010.jpg"
+    },
+    {
+        "type": {
+            "Kartoffelp\u00fcree": 50.0,
+            "Erbsen": 15.0,
+            "M\u00f6hre": 15.0,
+            "Bratenjus": 10.0,
+            "H\u00e4hnchen": 40.0
+        },
+        "total_weight": 130.0,
+        "image": "480654.00018.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Erbsen": 10.0,
+            "M\u00f6hre": 10.0,
+            "Schnitzel": 50.0,
+            "Pilze": 20.0,
+            "Sahne": 5.0
+        },
+        "total_weight": 125.0,
+        "image": "480659.00019.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 40.0,
+            "Sauerkraut": 50.0,
+            "Braune Sauce": 10.0,
+            "Rostbratwurst": 20.0
+        },
+        "total_weight": 120.0,
+        "image": "480657.00006.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Sauerkraut": 20.0,
+            "Braune Sauce": 1.0,
+            "Rostbratwurst": 20.0
+        },
+        "total_weight": 61.0,
+        "image": "480657.00012.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Sauerkraut": 20.0,
+            "Braune Sauce": 1.0,
+            "Rostbratwurst": 20.0
+        },
+        "total_weight": 61.0,
+        "image": "480657.00013.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 40.0,
+            "Sauerkraut": 50.0,
+            "Braune Sauce": 10.0,
+            "Rostbratwurst": 20.0
+        },
+        "total_weight": 120.0,
+        "image": "480657.00007.jpg"
+    },
+    {
+        "type": {
+            "Kartoffeln": 30.0,
+            "Erbsen": 10.0,
+            "M\u00f6hre": 10.0,
+            "Schnitzel": 40.0,
+            "Pilze": 15.0,
+            "Sahne": 2.0,
+            "Braune Sauce": 5.0
+        },
+        "total_weight": 102.0,
+        "image": "480659.00018.jpg"
+    }
+]
