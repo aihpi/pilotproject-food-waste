@@ -32,7 +32,7 @@ pip install .
 Process and upload your dataset:
 
 ```bash
-python dataset_processor.py \
+python dataset/data_processor.py \
     --image-dir /path/to/images \
     --csv-dir /path/to/csv \
     --hf-repo-id username/dataset-name \

@@ -3,7 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-/data/
+/dataset/data/images
+/dataset/data/images_new
+/dataset/data/RAW
+
 # C extensions
 *.so
 
