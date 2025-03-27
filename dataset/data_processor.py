@@ -464,7 +464,7 @@ if __name__ == "__main__":
         
         # Display dataset information
         print("\n" + "="*50)
-        print("DATASET SUMMARY")
+        print("NEW DATASET SUMMARY")
         print("="*50)
         print(f"Number of samples: {len(dataset)}")
         print(f"Features: {list(dataset.features.keys())}")
@@ -485,6 +485,45 @@ if __name__ == "__main__":
         print("="*50)
         
         if args.hf_repo_id:
+            # Check if dataset already exists
+            try:
+                existing_dataset = load_dataset(args.hf_repo_id)
+                
+                # Display combined dataset information
+                print("\n" + "="*50)
+                print("EXISTING DATASET SUMMARY")
+                print("="*50)
+                print(f"Number of samples: {len(existing_dataset['train'])}")
+                
+                # Calculate combined dataset size
+                combined_size = len(existing_dataset['train']) + len(dataset)
+                
+                print("\n" + "="*50)
+                print("COMBINED DATASET SUMMARY")
+                print("="*50)
+                print(f"Existing samples: {len(existing_dataset['train'])}")
+                print(f"New samples: {len(dataset)}")
+                print(f"Total samples after upload: {combined_size}")
+                
+                # Get current version from existing dataset's metadata
+                try:
+                    current_version = existing_dataset['train'].info.version
+                    version_info = json.loads(current_version) if current_version else {"version": 0}
+                    print(f"Current version: {version_info.get('version', 0)}")
+                    print(f"New version will be: {version_info.get('version', 0) + 1}")
+                except Exception:
+                    print("Could not determine version information")
+                
+                print("="*50)
+                
+            except Exception as e:
+                print("\n" + "="*50)
+                print("NEW REPOSITORY")
+                print("="*50)
+                print(f"This will create a new dataset repository '{args.hf_repo_id}'")
+                print(f"With {len(dataset)} initial samples")
+                print("="*50)
+            
             # Ask for confirmation
             confirmation = input(f"\nDo you want to upload this dataset to {args.hf_repo_id}? (yes/no): ").strip().lower()
             
