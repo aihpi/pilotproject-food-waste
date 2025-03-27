@@ -330,48 +330,89 @@ dataset = load_dataset("{dataset.name}")
             logger.info(f"Found existing dataset with {len(existing_dataset['train'])} samples")
             
             # Get current version from existing dataset's metadata
-            current_version = existing_dataset['train'].info.version
             try:
-                version_info = json.loads(current_version) if current_version else {"version": 0, "history": []}
-            except (json.JSONDecodeError, TypeError):
-                logger.warning(f"Could not parse existing version info: {current_version}")
-                version_info = {"version": 0, "history": []}
-            
-            # Increment version number
-            version_info["version"] += 1
-            version_info["history"].append({
-                "version": version_info["version"],
-                "timestamp": datetime.now().isoformat(),
-                "samples_added": len(dataset),
-                "total_samples": len(existing_dataset['train']) + len(dataset)
-            })
-            
-            # Combine existing and new datasets
-            combined_dataset = concatenate_datasets([existing_dataset['train'], dataset])
-            logger.info(f"Combined dataset has {len(combined_dataset)} samples")
-            
-            # Update dataset info with new version
-            combined_dataset.info.version = json.dumps(version_info)
-            
-            # Push combined dataset to hub
-            combined_dataset.push_to_hub(repo_id, private=private)
-            
-            # Create version tag
-            try:
-                api.create_tag(
-                    repo_id=repo_id,
-                    tag=f"v{version_info['version']}",
-                    message=f"Version {version_info['version']}: Added {len(dataset)} samples"
-                )
+                current_version = existing_dataset['train'].info.version
+                # Parse semantic version (x.y.z format)
+                if current_version and isinstance(current_version, str):
+                    version_parts = current_version.split('.')
+                    if len(version_parts) == 3 and all(part.isdigit() for part in version_parts):
+                        major, minor, patch = map(int, version_parts)
+                        new_version = f"{major}.{minor}.{int(patch) + 1}"
+                    else:
+                        new_version = "0.0.1"
+                else:
+                    new_version = "0.0.1"
+                    
+                logger.info(f"Current version: {current_version}, New version: {new_version}")
+                
+                # Store version history in dataset metadata instead of version field
+                metadata = dataset.info.metadata or {}
+                
+                # Create or update version history in metadata
+                if 'version_history' not in metadata:
+                    metadata['version_history'] = []
+                    
+                metadata['version_history'].append({
+                    "version": new_version,
+                    "timestamp": datetime.now().isoformat(),
+                    "samples_added": len(dataset),
+                    "total_samples": len(existing_dataset['train']) + len(dataset)
+                })
+                
+                # Try to combine datasets
+                try:
+                    # Combine existing and new datasets
+                    combined_dataset = concatenate_datasets([existing_dataset['train'], dataset])
+                    logger.info(f"Combined dataset has {len(combined_dataset)} samples")
+                    
+                    # Update dataset info
+                    combined_dataset.info.version = new_version
+                    combined_dataset.info.metadata = metadata
+                    
+                    # Push combined dataset to hub
+                    combined_dataset.push_to_hub(repo_id, private=private)
+                    
+                    # Create version tag
+                    try:
+                        api.create_tag(
+                            repo_id=repo_id,
+                            tag=f"v{new_version}",
+                            message=f"Version {new_version}: Added {len(dataset)} samples"
+                        )
+                    except Exception as e:
+                        logger.warning(f"Failed to create version tag: {e}")
+                    
+                    logger.info(f"Successfully uploaded combined dataset to {repo_id}")
+                    
+                    return combined_dataset
+                
+                except ValueError as schema_error:
+                    logger.warning(f"Schema mismatch between datasets: {schema_error}")
+                    logger.warning("Cannot merge with existing dataset due to incompatible schemas.")
+                    logger.warning("Creating a new version by overwriting existing dataset...")
+                    
+                    # Set version and metadata for the new dataset
+                    dataset.info.version = new_version
+                    dataset.info.metadata = metadata
+                    
+                    # Push new dataset to hub (overwriting existing)
+                    dataset.push_to_hub(repo_id, private=private)
+                    
+                    logger.info(f"Successfully uploaded dataset to {repo_id} (overwriting previous version)")
+                    return dataset
+                    
             except Exception as e:
-                logger.warning(f"Failed to create version tag: {e}")
-            
-            logger.info(f"Successfully uploaded combined dataset to {repo_id}")
-            logger.info(f"Dataset version: {version_info['version']}")
-            logger.info(f"Version history: {json.dumps(version_info['history'], indent=2)}")
-            
-            return combined_dataset
-            
+                logger.warning(f"Error handling version: {e}")
+                new_version = "0.0.1"
+                
+                # Set version for new dataset
+                dataset.info.version = new_version
+                
+                # Push to hub
+                dataset.push_to_hub(repo_id, private=private)
+                logger.info(f"Uploaded dataset with reset version {new_version}")
+                return dataset
+                
         except Exception as e:
             logger.warning(f"No existing dataset found or error loading it: {e}")
             logger.info("Creating new dataset...")
@@ -382,19 +423,21 @@ dataset = load_dataset("{dataset.name}")
             except Exception as e:
                 logger.warning(f"Repository might already exist: {e}")
             
-            # Initialize version info for new dataset
-            version_info = {
-                "version": 1,
-                "history": [{
-                    "version": 1,
-                    "timestamp": datetime.now().isoformat(),
-                    "samples_added": len(dataset),
-                    "total_samples": len(dataset)
-                }]
-            }
+            # Initialize version for new dataset (standard semantic version)
+            new_version = "0.0.1"
             
-            # Update dataset info with version
-            dataset.info.version = json.dumps(version_info)
+            # Store version history in metadata
+            metadata = dataset.info.metadata or {}
+            metadata['version_history'] = [{
+                "version": new_version,
+                "timestamp": datetime.now().isoformat(),
+                "samples_added": len(dataset),
+                "total_samples": len(dataset)
+            }]
+            
+            # Update dataset info
+            dataset.info.version = new_version
+            dataset.info.metadata = metadata
             
             # Push new dataset to hub
             dataset.push_to_hub(repo_id, private=private)
@@ -403,8 +446,8 @@ dataset = load_dataset("{dataset.name}")
             try:
                 api.create_tag(
                     repo_id=repo_id,
-                    tag="v1",
-                    message="Initial version"
+                    tag=f"v{new_version}",
+                    message=f"Initial version with {len(dataset)} samples"
                 )
             except Exception as e:
                 logger.warning(f"Failed to create version tag: {e}")
@@ -425,8 +468,8 @@ dataset = load_dataset("{dataset.name}")
                 logger.warning(f"Failed to upload README: {e}")
             
             logger.info(f"Successfully uploaded new dataset to {repo_id}")
-            logger.info(f"Dataset version: 1")
-            logger.info(f"Version history: {json.dumps(version_info['history'], indent=2)}")
+            logger.info(f"Dataset version: {new_version}")
+            logger.info(f"Version history stored in dataset metadata")
             
             return dataset
 
