@@ -6,7 +6,12 @@ __pycache__/
 /dataset/data/images
 /dataset/data/images_new
 /dataset/data/RAW
-
+dataset_backup/
+downloaded_parquet/
+hf_cache/
+local_data/
+previous_dataset/
+temp_images/
 # C extensions
 *.so
 
