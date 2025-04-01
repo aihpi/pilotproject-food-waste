@@ -6,7 +6,9 @@ __pycache__/
 /dataset/data/images
 /dataset/data/images_new
 /dataset/data/RAW
-
+/train/data
+train/lightning_logs
+/train/wandb
 # C extensions
 *.so
 
