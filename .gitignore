@@ -9,6 +9,12 @@ __pycache__/
 /train/data
 train/lightning_logs
 /train/wandb
+dataset_backup/
+downloaded_parquet/
+hf_cache/
+local_data/
+previous_dataset/
+temp_images/
 # C extensions
 *.so
 
