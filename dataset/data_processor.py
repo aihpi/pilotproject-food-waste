@@ -171,7 +171,7 @@ class DatasetProcessor:
         logger.info(f"Created DataFrame with {len(self.gericht_df)} rows")
         
         # Set image filename as index and rename to image_id
-        self.gericht_df.index = self.gericht_df['image_filename'].str.replace('\.(jpg|jpeg)', '', regex=True, case=False)
+        self.gericht_df.index = self.gericht_df['image_filename'].str.replace('\\.(jpg|jpeg)', '', regex=True, case=False)
         self.gericht_df.index.name = 'image_id'
         self.gericht_df = self.gericht_df.drop('image_filename', axis=1)
         return self
@@ -225,6 +225,7 @@ class DatasetProcessor:
             'bonid': [],
             'image': [],
         }
+        
         
         # Group by Bon_ID and populate dictionary
         for bon_id, bon_group in self.gericht_df.groupby('Bon_ID'):
@@ -366,7 +367,10 @@ dataset = load_dataset("{dataset.name}")
                 logger.info(f"Current version: {current_version}, New version: {new_version}")
                 
                 # Store version history in dataset metadata instead of version field
-                metadata = dataset.info.metadata or {}
+                # Ensure metadata exists
+                if dataset.info.metadata is None:
+                    dataset.info.metadata = {}
+                metadata = dataset.info.metadata # Now safe to access
                 
                 # Create or update version history in metadata
                 if 'version_history' not in metadata:
@@ -527,7 +531,10 @@ new_dataset = load_dataset("parquet", data_files="https://huggingface.co/{repo_i
             new_version = "0.0.1"
             
             # Store version history in metadata
-            metadata = dataset.info.metadata or {}
+            # Ensure metadata exists
+            if dataset.info.metadata is None:
+                dataset.info.metadata = {}
+            metadata = dataset.info.metadata # Now safe to access
             metadata['version_history'] = [{
                 "version": new_version,
                 "timestamp": datetime.now().isoformat(),
@@ -608,113 +615,357 @@ new_dataset = load_dataset("parquet", data_files="https://huggingface.co/{repo_i
 
     def combine_with_new_data(self, existing_dataset, new_dataset):
         """
-        Attempt to combine existing dataset with new dataset, handling schema differences.
-        
-        Args:
-            existing_dataset: Existing Dataset object
-            new_dataset: New Dataset object
-            
-        Returns:
-            Combined Dataset object or the new dataset if combination fails
+        Combine existing dataset with new dataset by proactively aligning schemas.
         """
-        logger.info(f"Attempting to combine datasets: existing ({len(existing_dataset)} samples) + new ({len(new_dataset)} samples)")
+        print("="*80)
+        print("START OF DATASET COMBINATION")
+        print("="*80)
         
+        print(f"Existing dataset: {len(existing_dataset)} samples")
+        print(f"New dataset: {len(new_dataset)} samples")
+        
+        # Print sample data from both datasets
+        if len(existing_dataset) > 0:
+            print("\nSAMPLE FROM EXISTING DATASET:")
+            sample = existing_dataset[0]
+            for key, value in list(sample.items())[:10]:
+                if key != 'image':
+                    print(f"  {key}: {type(value).__name__} - {value}")
+        
+        if len(new_dataset) > 0:
+            print("\nSAMPLE FROM NEW DATASET:")
+            sample = new_dataset[0]
+            for key, value in list(sample.items())[:10]:
+                if key != 'image':
+                    print(f"  {key}: {type(value).__name__} - {value}")
+        
+        # Compare features and identify mismatches BEFORE attempting concatenation
+        print("\nCOMPARING FEATURES:")
+        mismatches = []
+        
+        print("Existing dataset features:")
+        for name, feature in existing_dataset.features.items():
+            if name != 'image':
+                print(f"  {name}: {str(feature)}")
+        
+        print("New dataset features:")
+        for name, feature in new_dataset.features.items():
+            if name != 'image':
+                print(f"  {name}: {str(feature)}")
+        
+        for feature_name in set(existing_dataset.features.keys()).intersection(set(new_dataset.features.keys())):
+            if feature_name == 'image':
+                continue  # Skip image feature
+            
+            existing_feature = existing_dataset.features[feature_name]
+            new_feature = new_dataset.features[feature_name]
+            
+            # Check if types are different
+            if str(existing_feature) != str(new_feature):
+                mismatches.append((feature_name, existing_feature, new_feature))
+                print(f"MISMATCH: {feature_name}: existing={existing_feature}, new={new_feature}")
+        
+        print(f"\nFound {len(mismatches)} mismatched features")
+        
+        # If no mismatches, we can directly concatenate
+        if not mismatches:
+            print("No schema mismatches found, proceeding with direct concatenation")
+            try:
+                combined_dataset = concatenate_datasets([existing_dataset, new_dataset])
+                print(f"Successfully combined datasets with {len(combined_dataset)} total samples")
+                return combined_dataset
+            except Exception as e:
+                print(f"ERROR during concatenation despite no mismatches: {e}")
+                # Continue with alignment logic
+        
+        # Process each mismatch
+        modified_dataset = new_dataset
+        
+        # Print sample data for mismatched features
+        if len(new_dataset) > 0:
+            print("\nSAMPLE DATA FOR MISMATCHED FEATURES:")
+            sample = new_dataset[0]
+            for feature_name, _, _ in mismatches:
+                if feature_name in sample:
+                    value = sample[feature_name]
+                    print(f"  {feature_name}: {type(value).__name__} - {value}")
+                    if isinstance(value, list) and len(value) > 0:
+                        print(f"    First element: {type(value[0]).__name__} - {value[0]}")
+        
+        # Process each mismatch
+        print("\nAPPLYING TYPE CONVERSIONS:")
+        for feature_name, existing_feature, new_feature in mismatches:
+            # Handle sequence features
+            if hasattr(existing_feature, 'feature') and hasattr(new_feature, 'feature'):
+                # Both are sequence types
+                existing_type = existing_feature.feature.dtype
+                new_type = new_feature.feature.dtype
+                
+                print(f"Converting sequence feature '{feature_name}' from {new_type} to {existing_type}")
+                
+                # Get sample data to better understand what we're working with
+                if len(new_dataset) > 0:
+                    sample_value = new_dataset[0][feature_name] if feature_name in new_dataset[0] else None
+                    print(f"  Sample data: {type(sample_value).__name__} - {sample_value[:3] if isinstance(sample_value, list) and len(sample_value) >= 3 else sample_value}")
+                
+                # Check for both flat lists and nested lists
+                sample_is_nested = False
+                if isinstance(sample_value, list) and len(sample_value) > 0 and isinstance(sample_value[0], list):
+                    sample_is_nested = True
+                    print(f"  Detected nested list structure for {feature_name}")
+                
+                # For numeric columns that need comma formatting in strings
+                needs_comma_format = feature_name in ['Gewicht_Kelle', 'Gewicht_Teller', 'kcal_Teller', 'kj_Teller', 'Fett_Teller', 
+                                                    'ges_Fettsäuren_Teller', 'Kohlenhydrate_Teller', 'Zucker_Teller', 'Eiweiß_Teller', 'Salz_Teller']
+                
+                if existing_type == 'string' and new_type in ('int64', 'float32'):
+                    # Convert numbers to strings, using comma as decimal separator if needed
+                    print(f"  Converting numerics to strings for {feature_name}")
+                    try:
+                        if needs_comma_format:
+                            # Convert numbers to strings with comma as decimal separator
+                            def format_with_comma(x):
+                                if isinstance(x, (int, float)):
+                                    return str(x).replace('.', ',')
+                                elif isinstance(x, str) and x.replace('.', '', 1).isdigit():
+                                    return str(float(x)).replace('.', ',')
+                                return str(x)
+                            
+                            modified_dataset = modified_dataset.map(
+                                lambda x: {feature_name: [format_with_comma(v) for v in x[feature_name]]},
+                                desc=f"Converting {feature_name} to strings with comma decimal"
+                            )
+                            print(f"  Converted to strings with comma decimal format")
+                        else:
+                            # Standard string conversion
+                            modified_dataset = modified_dataset.map(
+                                lambda x: {feature_name: [str(v) for v in x[feature_name]]},
+                                desc=f"Converting {feature_name} to strings"
+                            )
+                            print(f"  Converted to plain strings")
+                    except Exception as e:
+                        print(f"  ERROR during conversion to string: {e}")
+                        print(f"  Sample causing error: {new_dataset[0][feature_name] if len(new_dataset) > 0 and feature_name in new_dataset[0] else 'unknown'}")
+                
+                elif existing_type == 'int64' and new_type == 'float32':
+                    # Convert float sequences to int sequences
+                    print(f"  Converting floats to ints for {feature_name}")
+                    try:
+                        modified_dataset = modified_dataset.map(
+                            lambda x: {feature_name: [int(float(v)) for v in x[feature_name]]},
+                            desc=f"Converting {feature_name} floats to ints"
+                        )
+                        print(f"  Float to int conversion successful")
+                    except Exception as e:
+                        print(f"  ERROR during float to int conversion: {e}")
+                        print(f"  Sample causing error: {new_dataset[0][feature_name] if len(new_dataset) > 0 and feature_name in new_dataset[0] else 'unknown'}")
+                
+                elif existing_type == 'float32' and new_type == 'int64':
+                    # Convert int sequences to float sequences
+                    print(f"  Converting ints to floats for {feature_name}")
+                    try:
+                        modified_dataset = modified_dataset.map(
+                            lambda x: {feature_name: [float(v) for v in x[feature_name]]},
+                            desc=f"Converting {feature_name} ints to floats"
+                        )
+                        print(f"  Int to float conversion successful")
+                    except Exception as e:
+                        print(f"  ERROR during int to float conversion: {e}")
+                        print(f"  Sample causing error: {new_dataset[0][feature_name] if len(new_dataset) > 0 and feature_name in new_dataset[0] else 'unknown'}")
+                    
+                elif new_type == 'string' and existing_type in ('int64', 'float32'):
+                    # String to numeric conversion with handling comma decimal separator
+                    print(f"  Converting strings to {existing_type} for {feature_name}")
+                    try:
+                        if existing_type == 'int64':
+                            # Function to convert string (potentially with comma) to int
+                            def str_to_int(s):
+                                try:
+                                    # Replace comma with period, convert to float first then int
+                                    if isinstance(s, str):
+                                        s = s.replace(',', '.')
+                                    return int(float(s))
+                                except (ValueError, TypeError):
+                                    print(f"    Warning: Could not convert '{s}' to int, using 0")
+                                    return 0
+                            
+                            modified_dataset = modified_dataset.map(
+                                lambda x: {feature_name: [str_to_int(v) for v in x[feature_name]]},
+                                desc=f"Converting {feature_name} strings to ints"
+                            )
+                            print(f"  String to int conversion successful")
+                        else:  # float32
+                            # Function to convert string (potentially with comma) to float
+                            def str_to_float(s):
+                                try:
+                                    # Replace comma with period for decimal
+                                    if isinstance(s, str):
+                                        s = s.replace(',', '.')
+                                    return float(s)
+                                except (ValueError, TypeError):
+                                    print(f"    Warning: Could not convert '{s}' to float, using 0.0")
+                                    return 0.0
+                            
+                            modified_dataset = modified_dataset.map(
+                                lambda x: {feature_name: [str_to_float(v) for v in x[feature_name]]},
+                                desc=f"Converting {feature_name} strings to floats"
+                            )
+                            print(f"  String to float conversion successful")
+                    except Exception as e:
+                        print(f"  ERROR during string to numeric conversion: {e}")
+                        print(f"  Sample causing error: {new_dataset[0][feature_name] if len(new_dataset) > 0 and feature_name in new_dataset[0] else 'unknown'}")
+            
+            # Handle non-sequence features (scalar values)
+            else:
+                existing_type = existing_feature.dtype
+                new_type = new_feature.dtype
+                
+                print(f"Converting non-sequence feature '{feature_name}' from {new_type} to {existing_type}")
+                
+                # For numeric columns that need comma formatting in strings
+                needs_comma_format = feature_name in ['Gewicht_Kelle', 'Gewicht_Teller', 'kcal_Teller', 'kj_Teller', 'Fett_Teller', 
+                                                    'ges_Fettsäuren_Teller', 'Kohlenhydrate_Teller', 'Zucker_Teller', 'Eiweiß_Teller', 'Salz_Teller']
+                
+                if existing_type == 'string' and new_type in ('int64', 'float32'):
+                    # Convert to string, using comma as decimal separator if needed
+                    try:
+                        if needs_comma_format:
+                            # Numbers to strings with comma as decimal separator
+                            modified_dataset = modified_dataset.map(
+                                lambda x: {
+                                    feature_name: str(float(x[feature_name])).replace('.', ',') 
+                                    if isinstance(x[feature_name], (int, float)) or (
+                                        isinstance(x[feature_name], str) and 
+                                        x[feature_name].replace('.', '', 1).isdigit()
+                                    ) else str(x[feature_name])
+                                },
+                                desc=f"Converting {feature_name} to string with comma decimal"
+                            )
+                            print(f"  Converted to string with comma decimal format")
+                        else:
+                            # Standard string conversion
+                            modified_dataset = modified_dataset.map(
+                                lambda x: {feature_name: str(x[feature_name])},
+                                desc=f"Converting {feature_name} to string"
+                            )
+                            print(f"  Converted to plain string")
+                    except Exception as e:
+                        print(f"  ERROR during conversion to string: {e}")
+                        print(f"  Sample causing error: {new_dataset[0][feature_name] if len(new_dataset) > 0 and feature_name in new_dataset[0] else 'unknown'}")
+                
+                elif existing_type == 'int64' and new_type == 'float32':
+                    # Convert float to int
+                    try:
+                        modified_dataset = modified_dataset.map(
+                            lambda x: {feature_name: int(float(x[feature_name]))},
+                            desc=f"Converting {feature_name} float to int"
+                        )
+                        print(f"  Float to int conversion successful")
+                    except Exception as e:
+                        print(f"  ERROR during float to int conversion: {e}")
+                        print(f"  Sample causing error: {new_dataset[0][feature_name] if len(new_dataset) > 0 and feature_name in new_dataset[0] else 'unknown'}")
+                
+                elif existing_type == 'float32' and new_type == 'int64':
+                    # Convert int to float
+                    try:
+                        modified_dataset = modified_dataset.map(
+                            lambda x: {feature_name: float(x[feature_name])},
+                            desc=f"Converting {feature_name} int to float"
+                        )
+                        print(f"  Int to float conversion successful")
+                    except Exception as e:
+                        print(f"  ERROR during int to float conversion: {e}")
+                        print(f"  Sample causing error: {new_dataset[0][feature_name] if len(new_dataset) > 0 and feature_name in new_dataset[0] else 'unknown'}")
+                    
+                elif new_type == 'string' and existing_type in ('int64', 'float32'):
+                    # String to numeric conversion
+                    try:
+                        if existing_type == 'int64':
+                            # Function to convert string (potentially with comma) to int
+                            def scalar_str_to_int(s):
+                                try:
+                                    # Replace comma with period, convert to float first then int
+                                    if isinstance(s, str):
+                                        s = s.replace(',', '.')
+                                    return int(float(s))
+                                except (ValueError, TypeError):
+                                    print(f"    Warning: Could not convert '{s}' to int, using 0")
+                                    return 0
+                        
+                            modified_dataset = modified_dataset.map(
+                                lambda x: {feature_name: scalar_str_to_int(x[feature_name])},
+                                desc=f"Converting {feature_name} string to int"
+                            )
+                            print(f"  String to int conversion successful")
+                        else:  # float32
+                            # Function to convert string (potentially with comma) to float
+                            def scalar_str_to_float(s):
+                                try:
+                                    # Replace comma with period for decimal
+                                    if isinstance(s, str):
+                                        s = s.replace(',', '.')
+                                    return float(s)
+                                except (ValueError, TypeError):
+                                    print(f"    Warning: Could not convert '{s}' to float, using 0.0")
+                                    return 0.0
+                        
+                            modified_dataset = modified_dataset.map(
+                                lambda x: {feature_name: scalar_str_to_float(x[feature_name])},
+                                desc=f"Converting {feature_name} string to float"
+                            )
+                            print(f"  String to float conversion successful")
+                    except Exception as e:
+                        print(f"  ERROR during string to numeric conversion: {e}")
+                        print(f"  Sample causing error: {new_dataset[0][feature_name] if len(new_dataset) > 0 and feature_name in new_dataset[0] else 'unknown'}")
+        
+        # Verify that feature schemas match after conversion
+        print("\nVERIFYING FEATURE SCHEMAS AFTER CONVERSION:")
+        remaining_mismatches = []
+        for feature_name in set(existing_dataset.features.keys()).intersection(set(modified_dataset.features.keys())):
+            if feature_name == 'image':
+                continue
+            
+            existing_feature = existing_dataset.features[feature_name]
+            modified_feature = modified_dataset.features[feature_name]
+            
+            if str(existing_feature) != str(modified_feature):
+                remaining_mismatches.append((feature_name, existing_feature, modified_feature))
+                print(f"STILL MISMATCHED: {feature_name}: existing={existing_feature}, modified={modified_feature}")
+        
+        if remaining_mismatches:
+            print(f"\nWARNING: {len(remaining_mismatches)} features still have mismatched schemas")
+        else:
+            print("\nAll feature schemas now match!")
+        
+        # Now concatenate with aligned schemas
+        print("\nATTEMPTING CONCATENATION WITH ALIGNED SCHEMAS")
         try:
-            # Try simple concatenation first
-            combined_dataset = concatenate_datasets([existing_dataset, new_dataset])
-            logger.info(f"Successfully combined datasets with {len(combined_dataset)} total samples")
+            combined_dataset = concatenate_datasets([existing_dataset, modified_dataset])
+            print(f"Successfully combined datasets after schema alignment: {len(combined_dataset)} total samples")
+            
+            # Print a sample from the combined dataset
+            if len(combined_dataset) > 0:
+                print("\nCOMBINED DATASET SAMPLE:")
+                sample = combined_dataset[0]
+                for key, value in list(sample.items())[:10]:
+                    if key != 'image':
+                        print(f"  {key}: {type(value).__name__} - {value}")
+            
+            print("="*80)
+            print("END OF DATASET COMBINATION - SUCCESS")
+            print("="*80)
             return combined_dataset
         except ValueError as e:
-            logger.warning(f"Schema mismatch when combining datasets: {e}")
-            logger.warning("Attempting to align schemas and preserve image data...")
+            print(f"FAILED to combine datasets after type conversion: {e}")
+            print("\nDETAILED FEATURE COMPARISON AFTER ALIGNMENT:")
+            for feature_name in set(existing_dataset.features.keys()).intersection(set(modified_dataset.features.keys())):
+                if feature_name != 'image':
+                    print(f"  {feature_name}: existing={existing_dataset.features[feature_name]}, modified={modified_dataset.features[feature_name]}")
             
-            try:
-                # First, save images from both datasets
-                existing_images = existing_dataset['image'] if 'image' in existing_dataset.features else []
-                new_images = new_dataset['image'] if 'image' in new_dataset.features else []
-                
-                logger.info(f"Preserving {len(existing_images)} existing images and {len(new_images)} new images")
-                
-                # Convert to pandas for easier schema alignment
-                existing_df = existing_dataset.to_pandas()
-                new_df = new_dataset.to_pandas()
-                
-                # Remove image column temporarily from both dataframes
-                if 'image' in existing_df.columns:
-                    existing_df = existing_df.drop('image', axis=1)
-                if 'image' in new_df.columns:
-                    new_df = new_df.drop('image', axis=1)
-                
-                logger.info("Schema alignment: Converting all columns to string type")
-                
-                # Identify all columns
-                all_columns = set(existing_df.columns).union(set(new_df.columns))
-                
-                # Add missing columns to each dataframe
-                for col in all_columns:
-                    if col not in existing_df.columns:
-                        existing_df[col] = ""
-                    if col not in new_df.columns:
-                        new_df[col] = ""
-                
-                # Convert all columns to string to avoid type mismatches
-                for col in all_columns:
-                    existing_df[col] = existing_df[col].astype(str)
-                    new_df[col] = new_df[col].astype(str)
-                
-                # Combine dataframes
-                combined_df = pd.concat([existing_df, new_df], ignore_index=True)
-                logger.info(f"Combined dataframes with {len(combined_df)} rows")
-                
-                # Create a new dataset with all features except image
-                from datasets import Dataset as HFDataset
-                temp_dataset = HFDataset.from_pandas(combined_df)
-                
-                # Create dataset dictionary with specific column ordering
-                bonid_column = 'bonid'
-                if bonid_column not in temp_dataset.column_names and 'Bon_ID' in temp_dataset.column_names:
-                    bonid_column = 'Bon_ID'
-                
-                # Start with bonid and image as the first two columns
-                dataset_dict = {
-                    bonid_column: temp_dataset[bonid_column],
-                    'image': existing_images + new_images if (existing_images or new_images) else []
-                }
-                
-                # Add all other columns except bonid (already added)
-                for col in temp_dataset.column_names:
-                    if col != bonid_column:
-                        dataset_dict[col] = temp_dataset[col]
-                
-                # Set features with specific ordering
-                features = {}
-                if bonid_column == 'bonid':
-                    features[bonid_column] = Value('int64')
-                else:
-                    features[bonid_column] = temp_dataset.features[bonid_column]
-                
-                features['image'] = HFImage()
-                
-                # Add other features
-                for col in temp_dataset.column_names:
-                    if col != bonid_column:
-                        features[col] = temp_dataset.features[col]
-                
-                # Create final combined dataset with correct column order
-                combined_dataset = Dataset.from_dict(dataset_dict, features=Features(features))
-                logger.info(f"Created combined dataset with {len(combined_dataset)} samples")
-                logger.info(f"Combined dataset features: {list(combined_dataset.features.keys())[:5]}...")
-                
-                # Verify image data
-                if 'image' in combined_dataset.features and len(combined_dataset) > 0:
-                    img_check = combined_dataset['image'][0]
-                    logger.info(f"Image data type check: {type(img_check)}")
-                
-                return combined_dataset
-            except Exception as e2:
-                logger.error(f"Failed to align schemas: {e2}")
-                logger.warning("Returning only the new dataset")
-                return new_dataset
+            print("="*80)
+            print("END OF DATASET COMBINATION - FAILURE")
+            print("="*80)
+            raise
 
 
 if __name__ == "__main__":
@@ -765,28 +1016,6 @@ if __name__ == "__main__":
             
             logger.info("Creating dataset from new data...")
             new_dataset = processor.create_dataset()
-            
-            # Display new dataset information
-            print("\n" + "="*50)
-            print("NEW DATASET SUMMARY")
-            print("="*50)
-            print(f"Number of samples: {len(new_dataset)}")
-            print(f"Features: {list(new_dataset.features.keys())}")
-            if len(new_dataset) > 0:
-                print(f"First few Bon IDs: {new_dataset['bonid'][:min(5, len(new_dataset))]}")
-                
-                # Display bon_id distribution
-                bon_id_counts = {}
-                for bon_id in new_dataset['bonid']:
-                    bon_id_counts[bon_id] = bon_id_counts.get(bon_id, 0) + 1
-                
-                print("\nSample distribution:")
-                for bon_id, count in list(bon_id_counts.items())[:10]:  # Show first 10 bon_ids
-                    print(f"  Bon ID {bon_id}: {count} samples")
-                
-                if len(bon_id_counts) > 10:
-                    print(f"  ... and {len(bon_id_counts) - 10} more Bon IDs")
-            print("="*50)
         else:
             logger.info("Skipping new data processing as overwrite mode is selected")
             new_dataset = None
@@ -794,21 +1023,7 @@ if __name__ == "__main__":
         # Combine datasets if needed
         final_dataset = None
         if existing_dataset is not None and new_dataset is not None and args.combine_mode == 'append':
-            print("\n" + "="*50)
-            print("COMBINING DATASETS")
-            print("="*50)
-            print(f"Existing dataset: {len(existing_dataset)} samples")
-            print(f"New dataset: {len(new_dataset)} samples")
-            print(f"Expected total: {len(existing_dataset) + len(new_dataset)} samples")
-            print("="*50)
-            
             final_dataset = processor.combine_with_new_data(existing_dataset, new_dataset)
-            
-            print("\n" + "="*50)
-            print("COMBINED DATASET SUMMARY")
-            print("="*50)
-            print(f"Final dataset size: {len(final_dataset)} samples")
-            print("="*50)
         elif existing_dataset is not None and args.combine_mode == 'overwrite':
             logger.info("Overwriting existing data with new data")
             final_dataset = new_dataset
@@ -820,27 +1035,9 @@ if __name__ == "__main__":
             final_dataset = existing_dataset
         
         if args.hf_repo_id and final_dataset is not None:
-            # Check if dataset already exists on HF
-            try:
-                hf_dataset = load_dataset(args.hf_repo_id)
-                print("\n" + "="*50)
-                print("HUGGING FACE DATASET SUMMARY")
-                print("="*50)
-                print(f"Existing HF dataset: {len(hf_dataset['train'])} samples")
-                print(f"Local dataset to upload: {len(final_dataset)} samples")
-                print(f"Dataset Image to Upload: {type(final_dataset['image'][0])}")
-                print("="*50)
-            except Exception:
-                print("\n" + "="*50)
-                print("NEW REPOSITORY")
-                print("="*50)
-                print(f"This will create a new dataset repository '{args.hf_repo_id}'")
-                print(f"With {len(final_dataset)} initial samples")
-                print("="*50)
-            
             # Ask for confirmation
-            confirmation = input(f"\nDo you want to upload this dataset to {args.hf_repo_id}? (yes/no): ").strip().lower()
-            
+            confirmation = input(f"\nUpload {len(final_dataset)} samples to {args.hf_repo_id}? (yes/no): ").strip().lower()
+
             if confirmation in ('yes', 'y'):
                 logger.info("Uploading dataset to Huggingface...")
                 processor.upload_to_huggingface(
@@ -862,4 +1059,3 @@ if __name__ == "__main__":
         
     except Exception as e:
         logger.error(f"An error occurred: {str(e)}")
-        raise

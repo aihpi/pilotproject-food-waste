@@ -1,0 +1,5873 @@
+[
+    {
+        "id": "meal_0.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_0.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "returned_amount": 120
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "returned_amount": 80
+                },
+                {
+                    "name": "Bratenjus",
+                    "returned_amount": 50
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "returned_amount": 91
+                }
+            ],
+            "total_returned_weight": 341
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "initial_weight": 120,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "initial_weight": 80,
+                    "returned_weight": 26.0
+                },
+                {
+                    "name": "Bratenjus",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 40.0
+                }
+            ],
+            "total_initial_weight": 341
+        }
+    },
+    {
+        "id": "meal_1.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_1.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "returned_amount": 120
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "returned_amount": 80
+                },
+                {
+                    "name": "Bratenjus",
+                    "returned_amount": 50
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "returned_amount": 91
+                }
+            ],
+            "total_returned_weight": 341
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "initial_weight": 120,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "initial_weight": 80,
+                    "returned_weight": 26.0
+                },
+                {
+                    "name": "Bratenjus",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 40.0
+                }
+            ],
+            "total_initial_weight": 341
+        }
+    },
+    {
+        "id": "meal_2.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_2.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "returned_amount": 120
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "returned_amount": 80
+                },
+                {
+                    "name": "Bratenjus",
+                    "returned_amount": 50
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "returned_amount": 91
+                }
+            ],
+            "total_returned_weight": 341
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "initial_weight": 120,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "initial_weight": 80,
+                    "returned_weight": 26.0
+                },
+                {
+                    "name": "Bratenjus",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 40.0
+                }
+            ],
+            "total_initial_weight": 341
+        }
+    },
+    {
+        "id": "meal_3.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_3.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "returned_amount": 120
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "returned_amount": 80
+                },
+                {
+                    "name": "Bratenjus",
+                    "returned_amount": 50
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "returned_amount": 91
+                }
+            ],
+            "total_returned_weight": 341
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "initial_weight": 120,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "initial_weight": 80,
+                    "returned_weight": 26.0
+                },
+                {
+                    "name": "Bratenjus",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 40.0
+                }
+            ],
+            "total_initial_weight": 341
+        }
+    },
+    {
+        "id": "meal_4.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_4.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Bratenjus",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "returned_weight": 0
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "initial_weight": 120,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "initial_weight": 80,
+                    "returned_weight": 26.0
+                },
+                {
+                    "name": "Bratenjus",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 40.0
+                }
+            ],
+            "total_initial_weight": 341
+        }
+    },
+    {
+        "id": "meal_5.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_5.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "returned_weight": 80
+                },
+                {
+                    "name": "Bratenjus",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "returned_weight": 91
+                }
+            ],
+            "total_returned_weight": 171
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "initial_weight": 120,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "initial_weight": 80,
+                    "returned_weight": 26.0
+                },
+                {
+                    "name": "Bratenjus",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 40.0
+                }
+            ],
+            "total_initial_weight": 341
+        }
+    },
+    {
+        "id": "meal_6.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_6.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Bratenjus",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "returned_weight": 0
+                }
+            ],
+            "total_returned_weight": 0
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "initial_weight": 120,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "initial_weight": 80,
+                    "returned_weight": 26.0
+                },
+                {
+                    "name": "Bratenjus",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 40.0
+                }
+            ],
+            "total_initial_weight": 341
+        }
+    },
+    {
+        "id": "meal_7.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_7.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "returned_weight": 30
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "returned_weight": 20
+                },
+                {
+                    "name": "Bratenjus",
+                    "returned_weight": 10
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "returned_weight": 21
+                }
+            ],
+            "total_returned_weight": 81
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "initial_weight": 120,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "initial_weight": 80,
+                    "returned_weight": 26.0
+                },
+                {
+                    "name": "Bratenjus",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 40.0
+                }
+            ],
+            "total_initial_weight": 341
+        }
+    },
+    {
+        "id": "meal_8.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_8.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Bratenjus",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "returned_weight": 0
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "initial_weight": 120,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "initial_weight": 80,
+                    "returned_weight": 26.0
+                },
+                {
+                    "name": "Bratenjus",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 40.0
+                }
+            ],
+            "total_initial_weight": 341
+        }
+    },
+    {
+        "id": "meal_9.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_9.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Bratenjus",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "returned_weight": 0
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "initial_weight": 120,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "initial_weight": 80,
+                    "returned_weight": 26.0
+                },
+                {
+                    "name": "Bratenjus",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 40.0
+                }
+            ],
+            "total_initial_weight": 341
+        }
+    },
+    {
+        "id": "meal_10.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_10.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Bratenjus",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "returned_weight": 0
+                }
+            ],
+            "total_returned_weight": 0
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "initial_weight": 120,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "initial_weight": 80,
+                    "returned_weight": 26.0
+                },
+                {
+                    "name": "Bratenjus",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 40.0
+                }
+            ],
+            "total_initial_weight": 341
+        }
+    },
+    {
+        "id": "meal_11.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_11.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Bratenjus",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "returned_weight": 0
+                }
+            ],
+            "total_returned_weight": 0
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "initial_weight": 120,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "initial_weight": 80,
+                    "returned_weight": 26.0
+                },
+                {
+                    "name": "Bratenjus",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 40.0
+                }
+            ],
+            "total_initial_weight": 341
+        }
+    },
+    {
+        "id": "meal_12.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_12.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "weight_returned": 120
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "weight_returned": 80
+                },
+                {
+                    "name": "Bratenjus",
+                    "weight_returned": 50
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "weight_returned": 91
+                }
+            ],
+            "total_weight_returned": 341
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "initial_weight": 120,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "initial_weight": 80,
+                    "returned_weight": 26.0
+                },
+                {
+                    "name": "Bratenjus",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 40.0
+                }
+            ],
+            "total_initial_weight": 341
+        }
+    },
+    {
+        "id": "meal_13.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_13.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "returned_weight": 80
+                },
+                {
+                    "name": "Bratenjus",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "returned_weight": 91
+                }
+            ],
+            "total_returned_weight": 171
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "initial_weight": 120,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "initial_weight": 80,
+                    "returned_weight": 26.0
+                },
+                {
+                    "name": "Bratenjus",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 40.0
+                }
+            ],
+            "total_initial_weight": 341
+        }
+    },
+    {
+        "id": "meal_14.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_14.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "weight_returned": 0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "weight_returned": 0
+                },
+                {
+                    "name": "Bratenjus",
+                    "weight_returned": 0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "weight_returned": 0
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "initial_weight": 120,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "initial_weight": 80,
+                    "returned_weight": 26.0
+                },
+                {
+                    "name": "Bratenjus",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 40.0
+                }
+            ],
+            "total_initial_weight": 341
+        }
+    },
+    {
+        "id": "meal_15.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_15.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "weight_returned": 0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "weight_returned": 0
+                },
+                {
+                    "name": "Bratenjus",
+                    "weight_returned": 0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "weight_returned": 0
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "initial_weight": 120,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "initial_weight": 80,
+                    "returned_weight": 26.0
+                },
+                {
+                    "name": "Bratenjus",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 40.0
+                }
+            ],
+            "total_initial_weight": 341
+        }
+    },
+    {
+        "id": "meal_16.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_16.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Bratenjus",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "returned_weight": 0
+                }
+            ],
+            "total_returned_weight": 0
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "initial_weight": 120,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "initial_weight": 80,
+                    "returned_weight": 26.0
+                },
+                {
+                    "name": "Bratenjus",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 40.0
+                }
+            ],
+            "total_initial_weight": 341
+        }
+    },
+    {
+        "id": "meal_17.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_17.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Bratenjus",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "returned_weight": 0
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "initial_weight": 120,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "initial_weight": 80,
+                    "returned_weight": 26.0
+                },
+                {
+                    "name": "Bratenjus",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 40.0
+                }
+            ],
+            "total_initial_weight": 341
+        }
+    },
+    {
+        "id": "meal_18.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_18.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "returned_weight": 80
+                },
+                {
+                    "name": "Bratenjus",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "returned_weight": 91
+                }
+            ],
+            "total_returned_weight": 171
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "initial_weight": 120,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "initial_weight": 80,
+                    "returned_weight": 26.0
+                },
+                {
+                    "name": "Bratenjus",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 40.0
+                }
+            ],
+            "total_initial_weight": 341
+        }
+    },
+    {
+        "id": "meal_19.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_19.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "returned_weight": 30
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "returned_weight": 20
+                },
+                {
+                    "name": "Bratenjus",
+                    "returned_weight": 10
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "returned_weight": 20
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "initial_weight": 120,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "initial_weight": 80,
+                    "returned_weight": 26.0
+                },
+                {
+                    "name": "Bratenjus",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 40.0
+                }
+            ],
+            "total_initial_weight": 341
+        }
+    },
+    {
+        "id": "meal_20.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_20.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Bratenjus",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "returned_weight": 0
+                }
+            ],
+            "total_returned_weight": 0
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "initial_weight": 120,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "initial_weight": 80,
+                    "returned_weight": 26.0
+                },
+                {
+                    "name": "Bratenjus",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 40.0
+                }
+            ],
+            "total_initial_weight": 341
+        }
+    },
+    {
+        "id": "meal_21.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_21.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Bratenjus",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "returned_weight": 0
+                }
+            ],
+            "total_returned_weight": 0
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "initial_weight": 120,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "initial_weight": 80,
+                    "returned_weight": 26.0
+                },
+                {
+                    "name": "Bratenjus",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 40.0
+                }
+            ],
+            "total_initial_weight": 341
+        }
+    },
+    {
+        "id": "meal_22.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_22.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "returned_weight": 30
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "returned_weight": 20
+                },
+                {
+                    "name": "Bratenjus",
+                    "returned_weight": 10
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "returned_weight": 21
+                }
+            ],
+            "total_returned_weight": 81
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelp\u00fcree ",
+                    "initial_weight": 120,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Gr\u00fcne Bohnen ",
+                    "initial_weight": 80,
+                    "returned_weight": 26.0
+                },
+                {
+                    "name": "Bratenjus",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 40.0
+                }
+            ],
+            "total_initial_weight": 341
+        }
+    },
+    {
+        "id": "meal_23.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_23.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "returned_amount": 0
+                },
+                {
+                    "name": "Zucchini ",
+                    "returned_amount": 0
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "returned_amount": 0
+                },
+                {
+                    "name": "Seelachs",
+                    "returned_amount": 0
+                },
+                {
+                    "name": "Paprika",
+                    "returned_amount": 0
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "initial_weight": 60,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Zucchini ",
+                    "initial_weight": 70,
+                    "returned_weight": 34.0
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "Seelachs",
+                    "initial_weight": 108,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Paprika",
+                    "initial_weight": 30,
+                    "returned_weight": 0.0
+                }
+            ],
+            "total_initial_weight": 318
+        }
+    },
+    {
+        "id": "meal_24.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_24.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "returned_amount": 60
+                },
+                {
+                    "name": "Zucchini",
+                    "returned_amount": 70
+                },
+                {
+                    "name": "Helle Sauce",
+                    "returned_amount": 50
+                },
+                {
+                    "name": "Seelachs",
+                    "returned_amount": 108
+                },
+                {
+                    "name": "Paprika",
+                    "returned_amount": 30
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "initial_weight": 60,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Zucchini ",
+                    "initial_weight": 70,
+                    "returned_weight": 34.0
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "Seelachs",
+                    "initial_weight": 108,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Paprika",
+                    "initial_weight": 30,
+                    "returned_weight": 0.0
+                }
+            ],
+            "total_initial_weight": 318
+        }
+    },
+    {
+        "id": "meal_25.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_25.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "returned_amount": 60
+                },
+                {
+                    "name": "Zucchini",
+                    "returned_amount": 70
+                },
+                {
+                    "name": "Helle Sauce",
+                    "returned_amount": 50
+                },
+                {
+                    "name": "Seelachs",
+                    "returned_amount": 108
+                },
+                {
+                    "name": "Paprika",
+                    "returned_amount": 30
+                }
+            ],
+            "total_returned_weight": 318
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "initial_weight": 60,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Zucchini ",
+                    "initial_weight": 70,
+                    "returned_weight": 34.0
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "Seelachs",
+                    "initial_weight": 108,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Paprika",
+                    "initial_weight": 30,
+                    "returned_weight": 0.0
+                }
+            ],
+            "total_initial_weight": 318
+        }
+    },
+    {
+        "id": "meal_26.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_26.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "returned_amount": 60
+                },
+                {
+                    "name": "Zucchini",
+                    "returned_amount": 70
+                },
+                {
+                    "name": "Helle Sauce",
+                    "returned_amount": 50
+                },
+                {
+                    "name": "Seelachs",
+                    "returned_amount": 108
+                },
+                {
+                    "name": "Paprika",
+                    "returned_amount": 30
+                }
+            ],
+            "total_returned_weight": 318
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "initial_weight": 60,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Zucchini ",
+                    "initial_weight": 70,
+                    "returned_weight": 34.0
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "Seelachs",
+                    "initial_weight": 108,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Paprika",
+                    "initial_weight": 30,
+                    "returned_weight": 0.0
+                }
+            ],
+            "total_initial_weight": 318
+        }
+    },
+    {
+        "id": "meal_27.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_27.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "returned_amount": 60
+                },
+                {
+                    "name": "Zucchini",
+                    "returned_amount": 70
+                },
+                {
+                    "name": "Helle Sauce",
+                    "returned_amount": 50
+                },
+                {
+                    "name": "Seelachs",
+                    "returned_amount": 108
+                },
+                {
+                    "name": "Paprika",
+                    "returned_amount": 30
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "initial_weight": 60,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Zucchini ",
+                    "initial_weight": 70,
+                    "returned_weight": 34.0
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "Seelachs",
+                    "initial_weight": 108,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Paprika",
+                    "initial_weight": 30,
+                    "returned_weight": 0.0
+                }
+            ],
+            "total_initial_weight": 318
+        }
+    },
+    {
+        "id": "meal_28.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_28.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "returned_amount": 60
+                },
+                {
+                    "name": "Zucchini",
+                    "returned_amount": 70
+                },
+                {
+                    "name": "Helle Sauce",
+                    "returned_amount": 50
+                },
+                {
+                    "name": "Seelachs",
+                    "returned_amount": 108
+                },
+                {
+                    "name": "Paprika",
+                    "returned_amount": 30
+                }
+            ],
+            "total_returned_weight": 318
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "initial_weight": 60,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Zucchini ",
+                    "initial_weight": 70,
+                    "returned_weight": 34.0
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "Seelachs",
+                    "initial_weight": 108,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Paprika",
+                    "initial_weight": 30,
+                    "returned_weight": 0.0
+                }
+            ],
+            "total_initial_weight": 318
+        }
+    },
+    {
+        "id": "meal_29.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_29.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "returned_amount": 60
+                },
+                {
+                    "name": "Zucchini ",
+                    "returned_amount": 70
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "returned_amount": 50
+                },
+                {
+                    "name": "Seelachs",
+                    "returned_amount": 108
+                },
+                {
+                    "name": "Paprika",
+                    "returned_amount": 30
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "initial_weight": 60,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Zucchini ",
+                    "initial_weight": 70,
+                    "returned_weight": 34.0
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "Seelachs",
+                    "initial_weight": 108,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Paprika",
+                    "initial_weight": 30,
+                    "returned_weight": 0.0
+                }
+            ],
+            "total_initial_weight": 318
+        }
+    },
+    {
+        "id": "meal_30.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_30.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "returned_amount": 60
+                },
+                {
+                    "name": "Zucchini",
+                    "returned_amount": 70
+                },
+                {
+                    "name": "Helle Sauce",
+                    "returned_amount": 50
+                },
+                {
+                    "name": "Seelachs",
+                    "returned_amount": 108
+                },
+                {
+                    "name": "Paprika",
+                    "returned_amount": 30
+                }
+            ],
+            "total_returned_weight": 318
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "initial_weight": 60,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Zucchini ",
+                    "initial_weight": 70,
+                    "returned_weight": 34.0
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "Seelachs",
+                    "initial_weight": 108,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Paprika",
+                    "initial_weight": 30,
+                    "returned_weight": 0.0
+                }
+            ],
+            "total_initial_weight": 318
+        }
+    },
+    {
+        "id": "meal_31.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_31.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "returned_amount": 60
+                },
+                {
+                    "name": "Zucchini ",
+                    "returned_amount": 70
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "returned_amount": 50
+                },
+                {
+                    "name": "Seelachs",
+                    "returned_amount": 108
+                },
+                {
+                    "name": "Paprika",
+                    "returned_amount": 30
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "initial_weight": 60,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Zucchini ",
+                    "initial_weight": 70,
+                    "returned_weight": 34.0
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "Seelachs",
+                    "initial_weight": 108,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Paprika",
+                    "initial_weight": 30,
+                    "returned_weight": 0.0
+                }
+            ],
+            "total_initial_weight": 318
+        }
+    },
+    {
+        "id": "meal_32.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_32.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "returned_amount": 60
+                },
+                {
+                    "name": "Zucchini",
+                    "returned_amount": 70
+                },
+                {
+                    "name": "Helle Sauce",
+                    "returned_amount": 50
+                },
+                {
+                    "name": "Seelachs",
+                    "returned_amount": 108
+                },
+                {
+                    "name": "Paprika",
+                    "returned_amount": 30
+                }
+            ],
+            "total_returned_weight": 318
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "initial_weight": 60,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Zucchini ",
+                    "initial_weight": 70,
+                    "returned_weight": 34.0
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "Seelachs",
+                    "initial_weight": 108,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Paprika",
+                    "initial_weight": 30,
+                    "returned_weight": 0.0
+                }
+            ],
+            "total_initial_weight": 318
+        }
+    },
+    {
+        "id": "meal_33.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_33.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "returned_amount": 60
+                },
+                {
+                    "name": "Zucchini ",
+                    "returned_amount": 70
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "returned_amount": 50
+                },
+                {
+                    "name": "Seelachs",
+                    "returned_amount": 108
+                },
+                {
+                    "name": "Paprika",
+                    "returned_amount": 30
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "initial_weight": 60,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Zucchini ",
+                    "initial_weight": 70,
+                    "returned_weight": 34.0
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "Seelachs",
+                    "initial_weight": 108,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Paprika",
+                    "initial_weight": 30,
+                    "returned_weight": 0.0
+                }
+            ],
+            "total_initial_weight": 318
+        }
+    },
+    {
+        "id": "meal_34.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_34.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "returned_amount": 60
+                },
+                {
+                    "name": "Zucchini",
+                    "returned_amount": 70
+                },
+                {
+                    "name": "Helle Sauce",
+                    "returned_amount": 50
+                },
+                {
+                    "name": "Seelachs",
+                    "returned_amount": 108
+                },
+                {
+                    "name": "Paprika",
+                    "returned_amount": 30
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "initial_weight": 60,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Zucchini ",
+                    "initial_weight": 70,
+                    "returned_weight": 34.0
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "Seelachs",
+                    "initial_weight": 108,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Paprika",
+                    "initial_weight": 30,
+                    "returned_weight": 0.0
+                }
+            ],
+            "total_initial_weight": 318
+        }
+    },
+    {
+        "id": "meal_35.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_35.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "returned_amount": 60
+                },
+                {
+                    "name": "Zucchini",
+                    "returned_amount": 70
+                },
+                {
+                    "name": "Helle Sauce",
+                    "returned_amount": 50
+                },
+                {
+                    "name": "Seelachs",
+                    "returned_amount": 108
+                },
+                {
+                    "name": "Paprika",
+                    "returned_amount": 30
+                }
+            ],
+            "total_returned_weight": 318
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "initial_weight": 60,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Zucchini ",
+                    "initial_weight": 70,
+                    "returned_weight": 34.0
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "Seelachs",
+                    "initial_weight": 108,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Paprika",
+                    "initial_weight": 30,
+                    "returned_weight": 0.0
+                }
+            ],
+            "total_initial_weight": 318
+        }
+    },
+    {
+        "id": "meal_36.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_36.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "returned_amount": 60
+                },
+                {
+                    "name": "Zucchini",
+                    "returned_amount": 70
+                },
+                {
+                    "name": "Helle Sauce",
+                    "returned_amount": 50
+                },
+                {
+                    "name": "Seelachs",
+                    "returned_amount": 108
+                },
+                {
+                    "name": "Paprika",
+                    "returned_amount": 30
+                }
+            ],
+            "total_returned_weight": 318
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "initial_weight": 60,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Zucchini ",
+                    "initial_weight": 70,
+                    "returned_weight": 34.0
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "Seelachs",
+                    "initial_weight": 108,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Paprika",
+                    "initial_weight": 30,
+                    "returned_weight": 0.0
+                }
+            ],
+            "total_initial_weight": 318
+        }
+    },
+    {
+        "id": "meal_37.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_37.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "returned_amount": 0
+                },
+                {
+                    "name": "Zucchini ",
+                    "returned_amount": 0
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "returned_amount": 0
+                },
+                {
+                    "name": "Seelachs",
+                    "returned_amount": 0
+                },
+                {
+                    "name": "Paprika",
+                    "returned_amount": 0
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "initial_weight": 60,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Zucchini ",
+                    "initial_weight": 70,
+                    "returned_weight": 34.0
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "Seelachs",
+                    "initial_weight": 108,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Paprika",
+                    "initial_weight": 30,
+                    "returned_weight": 0.0
+                }
+            ],
+            "total_initial_weight": 318
+        }
+    },
+    {
+        "id": "meal_38.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_38.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "returned_amount": 0
+                },
+                {
+                    "name": "Zucchini ",
+                    "returned_amount": 0
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "returned_amount": 0
+                },
+                {
+                    "name": "Seelachs",
+                    "returned_amount": 0
+                },
+                {
+                    "name": "Paprika",
+                    "returned_amount": 0
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "initial_weight": 60,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Zucchini ",
+                    "initial_weight": 70,
+                    "returned_weight": 34.0
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "Seelachs",
+                    "initial_weight": 108,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Paprika",
+                    "initial_weight": 30,
+                    "returned_weight": 0.0
+                }
+            ],
+            "total_initial_weight": 318
+        }
+    },
+    {
+        "id": "meal_39.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_39.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "returned_amount": 60
+                },
+                {
+                    "name": "Zucchini",
+                    "returned_amount": 70
+                },
+                {
+                    "name": "Helle Sauce",
+                    "returned_amount": 50
+                },
+                {
+                    "name": "Seelachs",
+                    "returned_amount": 108
+                },
+                {
+                    "name": "Paprika",
+                    "returned_amount": 30
+                }
+            ],
+            "total_returned_weight": 318
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Eiersp\u00e4tzle",
+                    "initial_weight": 60,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Zucchini ",
+                    "initial_weight": 70,
+                    "returned_weight": 34.0
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "initial_weight": 50,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "Seelachs",
+                    "initial_weight": 108,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Paprika",
+                    "initial_weight": 30,
+                    "returned_weight": 0.0
+                }
+            ],
+            "total_initial_weight": 318
+        }
+    },
+    {
+        "id": "meal_40.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_40.jpg",
+        "prediction": {
+            "error": "Failed to parse response",
+            "raw_response": "Certainly! Based on the initial meal data and the image showing the remnants on the plate, we can estimate the amount of food returned for each ingredient. Here is the JSON format for the amounts of food returned:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"weight_returned\": 80  // Estimated based on the visible remnants\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"weight_returned\": 60  // Estimated based on the visible remnants\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"weight_returned\": 50  // Estimated based on the visible remnants\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"weight_returned\": 20  // Estimated based on the visible remnants\n    }\n  ]\n}\n```"
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Semmelkn\u00f6del ",
+                    "initial_weight": 120,
+                    "returned_weight": 32.0
+                },
+                {
+                    "name": "Rotkohl",
+                    "initial_weight": 100,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Rinderbraten",
+                    "initial_weight": 90,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Malzbier-Senf-Sauce",
+                    "initial_weight": 60,
+                    "returned_weight": 12.0
+                }
+            ],
+            "total_initial_weight": 370
+        }
+    },
+    {
+        "id": "meal_41.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_41.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Semmelkn\u00f6del ",
+                    "initial_weight": 120,
+                    "remaining_weight": 20
+                },
+                {
+                    "name": "Rotkohl",
+                    "initial_weight": 100,
+                    "remaining_weight": 90
+                },
+                {
+                    "name": "Rinderbraten",
+                    "initial_weight": 90,
+                    "remaining_weight": 10
+                },
+                {
+                    "name": "Malzbier-Senf-Sauce",
+                    "initial_weight": 60,
+                    "remaining_weight": 50
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Semmelkn\u00f6del ",
+                    "initial_weight": 120,
+                    "returned_weight": 32.0
+                },
+                {
+                    "name": "Rotkohl",
+                    "initial_weight": 100,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Rinderbraten",
+                    "initial_weight": 90,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Malzbier-Senf-Sauce",
+                    "initial_weight": 60,
+                    "returned_weight": 12.0
+                }
+            ],
+            "total_initial_weight": 370
+        }
+    },
+    {
+        "id": "meal_42.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_42.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Semmelkn\u00f6del ",
+                    "initial_weight": 120,
+                    "remaining_weight": 20
+                },
+                {
+                    "name": "Rotkohl",
+                    "initial_weight": 100,
+                    "remaining_weight": 80
+                },
+                {
+                    "name": "Rinderbraten",
+                    "initial_weight": 90,
+                    "remaining_weight": 70
+                },
+                {
+                    "name": "Malzbier-Senf-Sauce",
+                    "initial_weight": 60,
+                    "remaining_weight": 40
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Semmelkn\u00f6del ",
+                    "initial_weight": 120,
+                    "returned_weight": 32.0
+                },
+                {
+                    "name": "Rotkohl",
+                    "initial_weight": 100,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Rinderbraten",
+                    "initial_weight": 90,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Malzbier-Senf-Sauce",
+                    "initial_weight": 60,
+                    "returned_weight": 12.0
+                }
+            ],
+            "total_initial_weight": 370
+        }
+    },
+    {
+        "id": "meal_43.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_43.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Semmelkn\u00f6del ",
+                    "initial_weight": 120,
+                    "returned_weight": 20
+                },
+                {
+                    "name": "Rotkohl",
+                    "initial_weight": 100,
+                    "returned_weight": 80
+                },
+                {
+                    "name": "Rinderbraten",
+                    "initial_weight": 90,
+                    "returned_weight": 10
+                },
+                {
+                    "name": "Malzbier-Senf-Sauce",
+                    "initial_weight": 60,
+                    "returned_weight": 50
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Semmelkn\u00f6del ",
+                    "initial_weight": 120,
+                    "returned_weight": 32.0
+                },
+                {
+                    "name": "Rotkohl",
+                    "initial_weight": 100,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Rinderbraten",
+                    "initial_weight": 90,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Malzbier-Senf-Sauce",
+                    "initial_weight": 60,
+                    "returned_weight": 12.0
+                }
+            ],
+            "total_initial_weight": 370
+        }
+    },
+    {
+        "id": "meal_44.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_44.jpg",
+        "prediction": {
+            "error": "Failed to parse response",
+            "raw_response": "Certainly! Based on the initial meal data provided, we can calculate the amount of food returned for each ingredient. Since the total weight of the meal is 370 grams and the plate appears to have remnants of the meal, we can estimate the returned amounts by subtracting the weight of the remnants from the total weight of each ingredient.\n\nHere is the JSON format for the amount of food returned for each ingredient:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 120 - 30 // Assuming 30 grams of Semmelkn\\u00f6del is left\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 100 - 20 // Assuming 20 grams of Rotkohl is left\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"initial_weight\": 90,\n      \"returned_weight\": 90 - 15 // Assuming 15 grams of Rinderbraten is left\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 60 - 15 // Assuming 15 grams of Malzbier-Senf-Sauce is left\n    }\n  ],\n  \"total_weight\": 370\n}\n```\n\nNote: The amounts of remnants are estimated based on the visual appearance of the plate. Adjustments can be made based on more precise observations."
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Semmelkn\u00f6del ",
+                    "initial_weight": 120,
+                    "returned_weight": 32.0
+                },
+                {
+                    "name": "Rotkohl",
+                    "initial_weight": 100,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Rinderbraten",
+                    "initial_weight": 90,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Malzbier-Senf-Sauce",
+                    "initial_weight": 60,
+                    "returned_weight": 12.0
+                }
+            ],
+            "total_initial_weight": 370
+        }
+    },
+    {
+        "id": "meal_45.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_45.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Semmelkn\u00f6del ",
+                    "initial_weight": 120,
+                    "returned_weight": 20
+                },
+                {
+                    "name": "Rotkohl",
+                    "initial_weight": 100,
+                    "returned_weight": 80
+                },
+                {
+                    "name": "Rinderbraten",
+                    "initial_weight": 90,
+                    "returned_weight": 10
+                },
+                {
+                    "name": "Malzbier-Senf-Sauce",
+                    "initial_weight": 60,
+                    "returned_weight": 50
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Semmelkn\u00f6del ",
+                    "initial_weight": 120,
+                    "returned_weight": 32.0
+                },
+                {
+                    "name": "Rotkohl",
+                    "initial_weight": 100,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Rinderbraten",
+                    "initial_weight": 90,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Malzbier-Senf-Sauce",
+                    "initial_weight": 60,
+                    "returned_weight": 12.0
+                }
+            ],
+            "total_initial_weight": 370
+        }
+    },
+    {
+        "id": "meal_46.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_46.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Semmelkn\u00f6del ",
+                    "initial_weight": 120,
+                    "returned_weight": 20
+                },
+                {
+                    "name": "Rotkohl",
+                    "initial_weight": 100,
+                    "returned_weight": 80
+                },
+                {
+                    "name": "Rinderbraten",
+                    "initial_weight": 90,
+                    "returned_weight": 10
+                },
+                {
+                    "name": "Malzbier-Senf-Sauce",
+                    "initial_weight": 60,
+                    "returned_weight": 50
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Semmelkn\u00f6del ",
+                    "initial_weight": 120,
+                    "returned_weight": 32.0
+                },
+                {
+                    "name": "Rotkohl",
+                    "initial_weight": 100,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Rinderbraten",
+                    "initial_weight": 90,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Malzbier-Senf-Sauce",
+                    "initial_weight": 60,
+                    "returned_weight": 12.0
+                }
+            ],
+            "total_initial_weight": 370
+        }
+    },
+    {
+        "id": "meal_47.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_47.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Semmelkn\u00f6del ",
+                    "initial_weight": 120,
+                    "returned_weight": 20
+                },
+                {
+                    "name": "Rotkohl",
+                    "initial_weight": 100,
+                    "returned_weight": 80
+                },
+                {
+                    "name": "Rinderbraten",
+                    "initial_weight": 90,
+                    "returned_weight": 10
+                },
+                {
+                    "name": "Malzbier-Senf-Sauce",
+                    "initial_weight": 60,
+                    "returned_weight": 50
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Semmelkn\u00f6del ",
+                    "initial_weight": 120,
+                    "returned_weight": 32.0
+                },
+                {
+                    "name": "Rotkohl",
+                    "initial_weight": 100,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Rinderbraten",
+                    "initial_weight": 90,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Malzbier-Senf-Sauce",
+                    "initial_weight": 60,
+                    "returned_weight": 12.0
+                }
+            ],
+            "total_initial_weight": 370
+        }
+    },
+    {
+        "id": "meal_48.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_48.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Semmelkn\u00f6del",
+                    "returned_weight": 40
+                },
+                {
+                    "name": "Rotkohl",
+                    "returned_weight": 30
+                },
+                {
+                    "name": "Rinderbraten",
+                    "returned_weight": 20
+                },
+                {
+                    "name": "Malzbier-Senf-Sauce",
+                    "returned_weight": 10
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Semmelkn\u00f6del ",
+                    "initial_weight": 120,
+                    "returned_weight": 32.0
+                },
+                {
+                    "name": "Rotkohl",
+                    "initial_weight": 100,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Rinderbraten",
+                    "initial_weight": 90,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Malzbier-Senf-Sauce",
+                    "initial_weight": 60,
+                    "returned_weight": 12.0
+                }
+            ],
+            "total_initial_weight": 370
+        }
+    },
+    {
+        "id": "meal_49.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_49.jpg",
+        "prediction": {
+            "error": "Failed to parse response",
+            "raw_response": "Certainly! Based on the initial meal data provided, we can calculate the amount of food returned for each ingredient by subtracting the remaining weight from the initial weight. Here is the JSON format for the amount of food returned for each ingredient:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 120 - 0  // Assuming no Semmelkn\\u00f6del was returned\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 100 - 0  // Assuming no Rotkohl was returned\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"initial_weight\": 90,\n      \"returned_weight\": 90 - 0  // Assuming no Rinderbraten was returned\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 60 - 0  // Assuming no Malzbier-Senf-Sauce was returned\n    }\n  ]\n}\n```"
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Semmelkn\u00f6del ",
+                    "initial_weight": 120,
+                    "returned_weight": 32.0
+                },
+                {
+                    "name": "Rotkohl",
+                    "initial_weight": 100,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Rinderbraten",
+                    "initial_weight": 90,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Malzbier-Senf-Sauce",
+                    "initial_weight": 60,
+                    "returned_weight": 12.0
+                }
+            ],
+            "total_initial_weight": 370
+        }
+    },
+    {
+        "id": "meal_50.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_50.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Semmelkn\u00f6del ",
+                    "initial_weight": 120,
+                    "returned_weight": 120
+                },
+                {
+                    "name": "Rotkohl",
+                    "initial_weight": 100,
+                    "returned_weight": 100
+                },
+                {
+                    "name": "Rinderbraten",
+                    "initial_weight": 90,
+                    "returned_weight": 90
+                },
+                {
+                    "name": "Malzbier-Senf-Sauce",
+                    "initial_weight": 60,
+                    "returned_weight": 60
+                }
+            ],
+            "total_weight": 370
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Semmelkn\u00f6del ",
+                    "initial_weight": 120,
+                    "returned_weight": 32.0
+                },
+                {
+                    "name": "Rotkohl",
+                    "initial_weight": 100,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Rinderbraten",
+                    "initial_weight": 90,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Malzbier-Senf-Sauce",
+                    "initial_weight": 60,
+                    "returned_weight": 12.0
+                }
+            ],
+            "total_initial_weight": 370
+        }
+    },
+    {
+        "id": "meal_51.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_51.jpg",
+        "prediction": {
+            "error": "Failed to parse response",
+            "raw_response": "Certainly! Based on the initial meal data provided, we can calculate the amount of food returned for each ingredient. Since the total weight of the meal is 370 grams and the plate appears to have remnants of food, we can estimate the returned amounts by subtracting the weight of the remnants from the total weight of each ingredient.\n\nHere is the JSON format for the amount of food returned for each ingredient:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 120 - 30  // Assuming 30 grams of Semmelkn\\u00f6del is left\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 100 - 20  // Assuming 20 grams of Rotkohl is left\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"initial_weight\": 90,\n      \"returned_weight\": 90 - 15  // Assuming 15 grams of Rinderbraten is left\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 60 - 15  // Assuming 15 grams of Malzbier-Senf-Sauce is left\n    }\n  ],\n  \"total_weight\": 370\n}\n```\n\nNote: The amounts of remnants are estimated and may vary based on the actual remnants visible in the image."
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Semmelkn\u00f6del ",
+                    "initial_weight": 120,
+                    "returned_weight": 32.0
+                },
+                {
+                    "name": "Rotkohl",
+                    "initial_weight": 100,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Rinderbraten",
+                    "initial_weight": 90,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Malzbier-Senf-Sauce",
+                    "initial_weight": 60,
+                    "returned_weight": 12.0
+                }
+            ],
+            "total_initial_weight": 370
+        }
+    },
+    {
+        "id": "meal_52.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_52.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Semmelkn\u00f6del ",
+                    "initial_weight": 120,
+                    "returned_weight": 120
+                },
+                {
+                    "name": "Rotkohl",
+                    "initial_weight": 100,
+                    "returned_weight": 100
+                },
+                {
+                    "name": "Rinderbraten",
+                    "initial_weight": 90,
+                    "returned_weight": 90
+                },
+                {
+                    "name": "Malzbier-Senf-Sauce",
+                    "initial_weight": 60,
+                    "returned_weight": 60
+                }
+            ],
+            "total_weight": 370
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Semmelkn\u00f6del ",
+                    "initial_weight": 120,
+                    "returned_weight": 32.0
+                },
+                {
+                    "name": "Rotkohl",
+                    "initial_weight": 100,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Rinderbraten",
+                    "initial_weight": 90,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Malzbier-Senf-Sauce",
+                    "initial_weight": 60,
+                    "returned_weight": 12.0
+                }
+            ],
+            "total_initial_weight": 370
+        }
+    },
+    {
+        "id": "meal_53.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_53.jpg",
+        "prediction": {
+            "error": "Failed to parse response",
+            "raw_response": "Certainly! Based on the initial meal data provided, we can calculate the amount of food returned for each ingredient. Since the total weight of the meal is 370 grams and the plate appears to have remnants of food, we can estimate the returned amounts by subtracting the remaining food from the initial weights.\n\nHere is the JSON format for the amount of food returned for each ingredient:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 20  // Estimated based on the remnants\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 80  // Estimated based on the remnants\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"initial_weight\": 90,\n      \"returned_weight\": 10  // Estimated based on the remnants\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 50  // Estimated based on the remnants\n    }\n  ]\n}\n```\n\nNote: The returned weights are estimated based on the visual remnants on the plate."
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Semmelkn\u00f6del ",
+                    "initial_weight": 120,
+                    "returned_weight": 32.0
+                },
+                {
+                    "name": "Rotkohl",
+                    "initial_weight": 100,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Rinderbraten",
+                    "initial_weight": 90,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Malzbier-Senf-Sauce",
+                    "initial_weight": 60,
+                    "returned_weight": 12.0
+                }
+            ],
+            "total_initial_weight": 370
+        }
+    },
+    {
+        "id": "meal_54.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_54.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Pflanzencreme",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Erbsen",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Helle Sauce",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "returned_weight": 0
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "initial_weight": 65,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Pflanzencreme",
+                    "initial_weight": 3,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "initial_weight": 80,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "Erbsen",
+                    "initial_weight": 80,
+                    "returned_weight": 12.0
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "initial_weight": 50,
+                    "returned_weight": 8.0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "initial_weight": 80,
+                    "returned_weight": 0.0
+                }
+            ],
+            "total_initial_weight": 358
+        }
+    },
+    {
+        "id": "meal_55.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_55.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Pflanzencreme",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Erbsen",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Helle Sauce",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "returned_weight": 0
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "initial_weight": 65,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Pflanzencreme",
+                    "initial_weight": 3,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "initial_weight": 80,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "Erbsen",
+                    "initial_weight": 80,
+                    "returned_weight": 12.0
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "initial_weight": 50,
+                    "returned_weight": 8.0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "initial_weight": 80,
+                    "returned_weight": 0.0
+                }
+            ],
+            "total_initial_weight": 358
+        }
+    },
+    {
+        "id": "meal_56.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_56.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Pflanzencreme",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Erbsen",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Helle Sauce",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "returned_weight": 0
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "initial_weight": 65,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Pflanzencreme",
+                    "initial_weight": 3,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "initial_weight": 80,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "Erbsen",
+                    "initial_weight": 80,
+                    "returned_weight": 12.0
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "initial_weight": 50,
+                    "returned_weight": 8.0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "initial_weight": 80,
+                    "returned_weight": 0.0
+                }
+            ],
+            "total_initial_weight": 358
+        }
+    },
+    {
+        "id": "meal_57.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_57.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Pflanzencreme",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Erbsen",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Helle Sauce",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "returned_weight": 0
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "initial_weight": 65,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Pflanzencreme",
+                    "initial_weight": 3,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "initial_weight": 80,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "Erbsen",
+                    "initial_weight": 80,
+                    "returned_weight": 12.0
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "initial_weight": 50,
+                    "returned_weight": 8.0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "initial_weight": 80,
+                    "returned_weight": 0.0
+                }
+            ],
+            "total_initial_weight": 358
+        }
+    },
+    {
+        "id": "meal_58.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_58.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Pflanzencreme",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Erbsen",
+                    "returned_weight": 20
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "returned_weight": 0
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "initial_weight": 65,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Pflanzencreme",
+                    "initial_weight": 3,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "initial_weight": 80,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "Erbsen",
+                    "initial_weight": 80,
+                    "returned_weight": 12.0
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "initial_weight": 50,
+                    "returned_weight": 8.0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "initial_weight": 80,
+                    "returned_weight": 0.0
+                }
+            ],
+            "total_initial_weight": 358
+        }
+    },
+    {
+        "id": "meal_59.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_59.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Pflanzencreme",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Erbsen",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Helle Sauce",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "returned_weight": 0
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "initial_weight": 65,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Pflanzencreme",
+                    "initial_weight": 3,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "initial_weight": 80,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "Erbsen",
+                    "initial_weight": 80,
+                    "returned_weight": 12.0
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "initial_weight": 50,
+                    "returned_weight": 8.0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "initial_weight": 80,
+                    "returned_weight": 0.0
+                }
+            ],
+            "total_initial_weight": 358
+        }
+    },
+    {
+        "id": "meal_60.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_60.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Pflanzencreme",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Erbsen",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Helle Sauce",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "returned_weight": 0
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "initial_weight": 65,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Pflanzencreme",
+                    "initial_weight": 3,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "initial_weight": 80,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "Erbsen",
+                    "initial_weight": 80,
+                    "returned_weight": 12.0
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "initial_weight": 50,
+                    "returned_weight": 8.0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "initial_weight": 80,
+                    "returned_weight": 0.0
+                }
+            ],
+            "total_initial_weight": 358
+        }
+    },
+    {
+        "id": "meal_61.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_61.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Pflanzencreme",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Erbsen",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Helle Sauce",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "returned_weight": 0
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "initial_weight": 65,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Pflanzencreme",
+                    "initial_weight": 3,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "initial_weight": 80,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "Erbsen",
+                    "initial_weight": 80,
+                    "returned_weight": 12.0
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "initial_weight": 50,
+                    "returned_weight": 8.0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "initial_weight": 80,
+                    "returned_weight": 0.0
+                }
+            ],
+            "total_initial_weight": 358
+        }
+    },
+    {
+        "id": "meal_62.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_62.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Pflanzencreme",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Erbsen",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Helle Sauce",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "returned_weight": 0
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "initial_weight": 65,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Pflanzencreme",
+                    "initial_weight": 3,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "initial_weight": 80,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "Erbsen",
+                    "initial_weight": 80,
+                    "returned_weight": 12.0
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "initial_weight": 50,
+                    "returned_weight": 8.0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "initial_weight": 80,
+                    "returned_weight": 0.0
+                }
+            ],
+            "total_initial_weight": 358
+        }
+    },
+    {
+        "id": "meal_63.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_63.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "returned_weight": 65
+                },
+                {
+                    "name": "Pflanzencreme",
+                    "returned_weight": 3
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "returned_weight": 80
+                },
+                {
+                    "name": "Erbsen",
+                    "returned_weight": 80
+                },
+                {
+                    "name": "Helle Sauce",
+                    "returned_weight": 50
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "returned_weight": 80
+                }
+            ],
+            "total_returned_weight": 358
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "initial_weight": 65,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Pflanzencreme",
+                    "initial_weight": 3,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "initial_weight": 80,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "Erbsen",
+                    "initial_weight": 80,
+                    "returned_weight": 12.0
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "initial_weight": 50,
+                    "returned_weight": 8.0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "initial_weight": 80,
+                    "returned_weight": 0.0
+                }
+            ],
+            "total_initial_weight": 358
+        }
+    },
+    {
+        "id": "meal_64.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_64.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Pflanzencreme",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Erbsen",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Helle Sauce",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "returned_weight": 0
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "initial_weight": 65,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Pflanzencreme",
+                    "initial_weight": 3,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "initial_weight": 80,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "Erbsen",
+                    "initial_weight": 80,
+                    "returned_weight": 12.0
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "initial_weight": 50,
+                    "returned_weight": 8.0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "initial_weight": 80,
+                    "returned_weight": 0.0
+                }
+            ],
+            "total_initial_weight": 358
+        }
+    },
+    {
+        "id": "meal_65.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_65.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Pflanzencreme",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Erbsen",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Helle Sauce",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "returned_weight": 0
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "initial_weight": 65,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Pflanzencreme",
+                    "initial_weight": 3,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "initial_weight": 80,
+                    "returned_weight": 14.0
+                },
+                {
+                    "name": "Erbsen",
+                    "initial_weight": 80,
+                    "returned_weight": 12.0
+                },
+                {
+                    "name": "Helle Sauce ",
+                    "initial_weight": 50,
+                    "returned_weight": 8.0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "initial_weight": 80,
+                    "returned_weight": 0.0
+                }
+            ],
+            "total_initial_weight": 358
+        }
+    },
+    {
+        "id": "meal_66.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_66.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "returned_weight": 130
+                },
+                {
+                    "name": "Dressing Portion",
+                    "returned_weight": 25
+                },
+                {
+                    "name": "Eisbergsalat",
+                    "returned_weight": 40
+                },
+                {
+                    "name": "Krautsalat",
+                    "returned_weight": 60
+                },
+                {
+                    "name": "Paprika",
+                    "returned_weight": 30
+                },
+                {
+                    "name": "Sahne",
+                    "returned_weight": 10
+                },
+                {
+                    "name": "Braune Sauce ",
+                    "returned_weight": 35
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "returned_weight": 91
+                }
+            ],
+            "total_returned_weight": 421
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "initial_weight": 130,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Dressing Portion",
+                    "initial_weight": 25,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Eisbergsalat",
+                    "initial_weight": 40,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Krautsalat",
+                    "initial_weight": 60,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Paprika",
+                    "initial_weight": 30,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Sahne",
+                    "initial_weight": 10,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Braune Sauce ",
+                    "initial_weight": 35,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 26.0
+                }
+            ],
+            "total_initial_weight": 421
+        }
+    },
+    {
+        "id": "meal_67.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_67.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "weight": 130
+                },
+                {
+                    "name": "Dressing Portion",
+                    "weight": 25
+                },
+                {
+                    "name": "Eisbergsalat",
+                    "weight": 40
+                },
+                {
+                    "name": "Krautsalat",
+                    "weight": 60
+                },
+                {
+                    "name": "Paprika",
+                    "weight": 30
+                },
+                {
+                    "name": "Sahne",
+                    "weight": 10
+                },
+                {
+                    "name": "Braune Sauce ",
+                    "weight": 35
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "weight": 91
+                }
+            ],
+            "total_weight": 421,
+            "amount_returned": {
+                "Reis": 130,
+                "Dressing Portion": 25,
+                "Eisbergsalat": 40,
+                "Krautsalat": 60,
+                "Paprika": 30,
+                "Sahne": 10,
+                "Braune Sauce": 35,
+                "H\u00e4hnchen": 91
+            }
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "initial_weight": 130,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Dressing Portion",
+                    "initial_weight": 25,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Eisbergsalat",
+                    "initial_weight": 40,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Krautsalat",
+                    "initial_weight": 60,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Paprika",
+                    "initial_weight": 30,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Sahne",
+                    "initial_weight": 10,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Braune Sauce ",
+                    "initial_weight": 35,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 26.0
+                }
+            ],
+            "total_initial_weight": 421
+        }
+    },
+    {
+        "id": "meal_68.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_68.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "weight": 130,
+                    "returned_amount": 130
+                },
+                {
+                    "name": "Dressing Portion",
+                    "weight": 25,
+                    "returned_amount": 25
+                },
+                {
+                    "name": "Eisbergsalat",
+                    "weight": 40,
+                    "returned_amount": 40
+                },
+                {
+                    "name": "Krautsalat",
+                    "weight": 60,
+                    "returned_amount": 60
+                },
+                {
+                    "name": "Paprika",
+                    "weight": 30,
+                    "returned_amount": 30
+                },
+                {
+                    "name": "Sahne",
+                    "weight": 10,
+                    "returned_amount": 10
+                },
+                {
+                    "name": "Braune Sauce ",
+                    "weight": 35,
+                    "returned_amount": 35
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "weight": 91,
+                    "returned_amount": 91
+                }
+            ],
+            "total_weight": 421
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "initial_weight": 130,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Dressing Portion",
+                    "initial_weight": 25,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Eisbergsalat",
+                    "initial_weight": 40,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Krautsalat",
+                    "initial_weight": 60,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Paprika",
+                    "initial_weight": 30,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Sahne",
+                    "initial_weight": 10,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Braune Sauce ",
+                    "initial_weight": 35,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 26.0
+                }
+            ],
+            "total_initial_weight": 421
+        }
+    },
+    {
+        "id": "meal_69.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_69.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "weight": 130
+                },
+                {
+                    "name": "Dressing Portion",
+                    "weight": 25
+                },
+                {
+                    "name": "Eisbergsalat",
+                    "weight": 40
+                },
+                {
+                    "name": "Krautsalat",
+                    "weight": 60
+                },
+                {
+                    "name": "Paprika",
+                    "weight": 30
+                },
+                {
+                    "name": "Sahne",
+                    "weight": 10
+                },
+                {
+                    "name": "Braune Sauce ",
+                    "weight": 35
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "weight": 91
+                }
+            ],
+            "total_weight": 421
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "initial_weight": 130,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Dressing Portion",
+                    "initial_weight": 25,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Eisbergsalat",
+                    "initial_weight": 40,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Krautsalat",
+                    "initial_weight": 60,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Paprika",
+                    "initial_weight": 30,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Sahne",
+                    "initial_weight": 10,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Braune Sauce ",
+                    "initial_weight": 35,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 26.0
+                }
+            ],
+            "total_initial_weight": 421
+        }
+    },
+    {
+        "id": "meal_70.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_70.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "returned_weight": 130
+                },
+                {
+                    "name": "Dressing Portion",
+                    "returned_weight": 25
+                },
+                {
+                    "name": "Eisbergsalat",
+                    "returned_weight": 40
+                },
+                {
+                    "name": "Krautsalat",
+                    "returned_weight": 60
+                },
+                {
+                    "name": "Paprika",
+                    "returned_weight": 30
+                },
+                {
+                    "name": "Sahne",
+                    "returned_weight": 10
+                },
+                {
+                    "name": "Braune Sauce ",
+                    "returned_weight": 35
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "returned_weight": 91
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "initial_weight": 130,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Dressing Portion",
+                    "initial_weight": 25,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Eisbergsalat",
+                    "initial_weight": 40,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Krautsalat",
+                    "initial_weight": 60,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Paprika",
+                    "initial_weight": 30,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Sahne",
+                    "initial_weight": 10,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Braune Sauce ",
+                    "initial_weight": 35,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 26.0
+                }
+            ],
+            "total_initial_weight": 421
+        }
+    },
+    {
+        "id": "meal_71.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_71.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "weight": 130
+                },
+                {
+                    "name": "Dressing Portion",
+                    "weight": 25
+                },
+                {
+                    "name": "Eisbergsalat",
+                    "weight": 40
+                },
+                {
+                    "name": "Krautsalat",
+                    "weight": 60
+                },
+                {
+                    "name": "Paprika",
+                    "weight": 30
+                },
+                {
+                    "name": "Sahne",
+                    "weight": 10
+                },
+                {
+                    "name": "Braune Sauce ",
+                    "weight": 35
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "weight": 91
+                }
+            ],
+            "total_weight": 421,
+            "returned_amounts": [
+                {
+                    "name": "Reis",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Dressing Portion",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Eisbergsalat",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Krautsalat",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Paprika",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Sahne",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "Braune Sauce ",
+                    "returned_weight": 0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "returned_weight": 0
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "initial_weight": 130,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Dressing Portion",
+                    "initial_weight": 25,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Eisbergsalat",
+                    "initial_weight": 40,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Krautsalat",
+                    "initial_weight": 60,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Paprika",
+                    "initial_weight": 30,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Sahne",
+                    "initial_weight": 10,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Braune Sauce ",
+                    "initial_weight": 35,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 26.0
+                }
+            ],
+            "total_initial_weight": 421
+        }
+    },
+    {
+        "id": "meal_72.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_72.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "returned_weight": 130
+                },
+                {
+                    "name": "Dressing Portion",
+                    "returned_weight": 25
+                },
+                {
+                    "name": "Eisbergsalat",
+                    "returned_weight": 40
+                },
+                {
+                    "name": "Krautsalat",
+                    "returned_weight": 60
+                },
+                {
+                    "name": "Paprika",
+                    "returned_weight": 30
+                },
+                {
+                    "name": "Sahne",
+                    "returned_weight": 10
+                },
+                {
+                    "name": "Braune Sauce ",
+                    "returned_weight": 35
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "returned_weight": 91
+                }
+            ],
+            "total_returned_weight": 421
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "initial_weight": 130,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Dressing Portion",
+                    "initial_weight": 25,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Eisbergsalat",
+                    "initial_weight": 40,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Krautsalat",
+                    "initial_weight": 60,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Paprika",
+                    "initial_weight": 30,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Sahne",
+                    "initial_weight": 10,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Braune Sauce ",
+                    "initial_weight": 35,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 26.0
+                }
+            ],
+            "total_initial_weight": 421
+        }
+    },
+    {
+        "id": "meal_73.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_73.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "weight": 130
+                },
+                {
+                    "name": "Dressing Portion",
+                    "weight": 25
+                },
+                {
+                    "name": "Eisbergsalat",
+                    "weight": 40
+                },
+                {
+                    "name": "Krautsalat",
+                    "weight": 60
+                },
+                {
+                    "name": "Paprika",
+                    "weight": 30
+                },
+                {
+                    "name": "Sahne",
+                    "weight": 10
+                },
+                {
+                    "name": "Braune Sauce ",
+                    "weight": 35
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "weight": 91
+                }
+            ],
+            "total_weight": 421
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "initial_weight": 130,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Dressing Portion",
+                    "initial_weight": 25,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Eisbergsalat",
+                    "initial_weight": 40,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Krautsalat",
+                    "initial_weight": 60,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Paprika",
+                    "initial_weight": 30,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Sahne",
+                    "initial_weight": 10,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Braune Sauce ",
+                    "initial_weight": 35,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 26.0
+                }
+            ],
+            "total_initial_weight": 421
+        }
+    },
+    {
+        "id": "meal_74.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_74.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "returned_weight": 130
+                },
+                {
+                    "name": "Dressing Portion",
+                    "returned_weight": 25
+                },
+                {
+                    "name": "Eisbergsalat",
+                    "returned_weight": 40
+                },
+                {
+                    "name": "Krautsalat",
+                    "returned_weight": 60
+                },
+                {
+                    "name": "Paprika",
+                    "returned_weight": 30
+                },
+                {
+                    "name": "Sahne",
+                    "returned_weight": 10
+                },
+                {
+                    "name": "Braune Sauce ",
+                    "returned_weight": 35
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "returned_weight": 91
+                }
+            ],
+            "total_returned_weight": 421
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "initial_weight": 130,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Dressing Portion",
+                    "initial_weight": 25,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Eisbergsalat",
+                    "initial_weight": 40,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Krautsalat",
+                    "initial_weight": 60,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Paprika",
+                    "initial_weight": 30,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Sahne",
+                    "initial_weight": 10,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Braune Sauce ",
+                    "initial_weight": 35,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 26.0
+                }
+            ],
+            "total_initial_weight": 421
+        }
+    },
+    {
+        "id": "meal_75.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_75.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "returned_weight": 130
+                },
+                {
+                    "name": "Dressing Portion",
+                    "returned_weight": 25
+                },
+                {
+                    "name": "Eisbergsalat",
+                    "returned_weight": 40
+                },
+                {
+                    "name": "Krautsalat",
+                    "returned_weight": 60
+                },
+                {
+                    "name": "Paprika",
+                    "returned_weight": 30
+                },
+                {
+                    "name": "Sahne",
+                    "returned_weight": 10
+                },
+                {
+                    "name": "Braune Sauce ",
+                    "returned_weight": 35
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "returned_weight": 91
+                }
+            ],
+            "total_returned_weight": 421
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "initial_weight": 130,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Dressing Portion",
+                    "initial_weight": 25,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Eisbergsalat",
+                    "initial_weight": 40,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Krautsalat",
+                    "initial_weight": 60,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Paprika",
+                    "initial_weight": 30,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Sahne",
+                    "initial_weight": 10,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Braune Sauce ",
+                    "initial_weight": 35,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 26.0
+                }
+            ],
+            "total_initial_weight": 421
+        }
+    },
+    {
+        "id": "meal_76.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_76.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "returned_weight": 130
+                },
+                {
+                    "name": "Dressing Portion",
+                    "returned_weight": 25
+                },
+                {
+                    "name": "Eisbergsalat",
+                    "returned_weight": 40
+                },
+                {
+                    "name": "Krautsalat",
+                    "returned_weight": 60
+                },
+                {
+                    "name": "Paprika",
+                    "returned_weight": 30
+                },
+                {
+                    "name": "Sahne",
+                    "returned_weight": 10
+                },
+                {
+                    "name": "Braune Sauce ",
+                    "returned_weight": 35
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "returned_weight": 91
+                }
+            ],
+            "total_returned_weight": 421
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "initial_weight": 130,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Dressing Portion",
+                    "initial_weight": 25,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Eisbergsalat",
+                    "initial_weight": 40,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Krautsalat",
+                    "initial_weight": 60,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Paprika",
+                    "initial_weight": 30,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Sahne",
+                    "initial_weight": 10,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Braune Sauce ",
+                    "initial_weight": 35,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 26.0
+                }
+            ],
+            "total_initial_weight": 421
+        }
+    },
+    {
+        "id": "meal_77.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_77.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "returned_weight": 130
+                },
+                {
+                    "name": "Dressing Portion",
+                    "returned_weight": 25
+                },
+                {
+                    "name": "Eisbergsalat",
+                    "returned_weight": 40
+                },
+                {
+                    "name": "Krautsalat",
+                    "returned_weight": 60
+                },
+                {
+                    "name": "Paprika",
+                    "returned_weight": 30
+                },
+                {
+                    "name": "Sahne",
+                    "returned_weight": 10
+                },
+                {
+                    "name": "Braune Sauce ",
+                    "returned_weight": 35
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "returned_weight": 91
+                }
+            ],
+            "total_returned_weight": 421
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Reis",
+                    "initial_weight": 130,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Dressing Portion",
+                    "initial_weight": 25,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Eisbergsalat",
+                    "initial_weight": 40,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Krautsalat",
+                    "initial_weight": 60,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Paprika",
+                    "initial_weight": 30,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Sahne",
+                    "initial_weight": 10,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "Braune Sauce ",
+                    "initial_weight": 35,
+                    "returned_weight": 0.0
+                },
+                {
+                    "name": "H\u00e4hnchen ",
+                    "initial_weight": 91,
+                    "returned_weight": 26.0
+                }
+            ],
+            "total_initial_weight": 421
+        }
+    },
+    {
+        "id": "meal_78.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_78.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "returned_weight": 45
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "returned_weight": 20
+                },
+                {
+                    "name": "Pilze",
+                    "returned_weight": 30
+                },
+                {
+                    "name": "Linsen",
+                    "returned_weight": 50
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "returned_weight": 60
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "returned_weight": 40
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "initial_weight": 95,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "initial_weight": 40,
+                    "returned_weight": 24.0
+                },
+                {
+                    "name": "Pilze",
+                    "initial_weight": 60,
+                    "returned_weight": 28.0
+                },
+                {
+                    "name": "Linsen",
+                    "initial_weight": 100,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "initial_weight": 120,
+                    "returned_weight": 48.0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "initial_weight": 80,
+                    "returned_weight": 52.0
+                }
+            ],
+            "total_initial_weight": 495
+        }
+    },
+    {
+        "id": "meal_79.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_79.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "returned_weight": 95
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "returned_weight": 40
+                },
+                {
+                    "name": "Pilze",
+                    "returned_weight": 60
+                },
+                {
+                    "name": "Linsen",
+                    "returned_weight": 100
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "returned_weight": 120
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "returned_weight": 80
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "initial_weight": 95,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "initial_weight": 40,
+                    "returned_weight": 24.0
+                },
+                {
+                    "name": "Pilze",
+                    "initial_weight": 60,
+                    "returned_weight": 28.0
+                },
+                {
+                    "name": "Linsen",
+                    "initial_weight": 100,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "initial_weight": 120,
+                    "returned_weight": 48.0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "initial_weight": 80,
+                    "returned_weight": 52.0
+                }
+            ],
+            "total_initial_weight": 495
+        }
+    },
+    {
+        "id": "meal_80.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_80.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "returned_weight": 40
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "returned_weight": 20
+                },
+                {
+                    "name": "Pilze",
+                    "returned_weight": 30
+                },
+                {
+                    "name": "Linsen",
+                    "returned_weight": 50
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "returned_weight": 60
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "returned_weight": 35
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "initial_weight": 95,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "initial_weight": 40,
+                    "returned_weight": 24.0
+                },
+                {
+                    "name": "Pilze",
+                    "initial_weight": 60,
+                    "returned_weight": 28.0
+                },
+                {
+                    "name": "Linsen",
+                    "initial_weight": 100,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "initial_weight": 120,
+                    "returned_weight": 48.0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "initial_weight": 80,
+                    "returned_weight": 52.0
+                }
+            ],
+            "total_initial_weight": 495
+        }
+    },
+    {
+        "id": "meal_81.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_81.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "returned_weight": 95
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "returned_weight": 40
+                },
+                {
+                    "name": "Pilze",
+                    "returned_weight": 60
+                },
+                {
+                    "name": "Linsen",
+                    "returned_weight": 100
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "returned_weight": 120
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "returned_weight": 80
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "initial_weight": 95,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "initial_weight": 40,
+                    "returned_weight": 24.0
+                },
+                {
+                    "name": "Pilze",
+                    "initial_weight": 60,
+                    "returned_weight": 28.0
+                },
+                {
+                    "name": "Linsen",
+                    "initial_weight": 100,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "initial_weight": 120,
+                    "returned_weight": 48.0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "initial_weight": 80,
+                    "returned_weight": 52.0
+                }
+            ],
+            "total_initial_weight": 495
+        }
+    },
+    {
+        "id": "meal_82.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_82.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "returned_weight": 95
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "returned_weight": 40
+                },
+                {
+                    "name": "Pilze",
+                    "returned_weight": 60
+                },
+                {
+                    "name": "Linsen",
+                    "returned_weight": 100
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "returned_weight": 120
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "returned_weight": 80
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "initial_weight": 95,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "initial_weight": 40,
+                    "returned_weight": 24.0
+                },
+                {
+                    "name": "Pilze",
+                    "initial_weight": 60,
+                    "returned_weight": 28.0
+                },
+                {
+                    "name": "Linsen",
+                    "initial_weight": 100,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "initial_weight": 120,
+                    "returned_weight": 48.0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "initial_weight": 80,
+                    "returned_weight": 52.0
+                }
+            ],
+            "total_initial_weight": 495
+        }
+    },
+    {
+        "id": "meal_83.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_83.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "returned_weight": 95
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "returned_weight": 40
+                },
+                {
+                    "name": "Pilze",
+                    "returned_weight": 60
+                },
+                {
+                    "name": "Linsen",
+                    "returned_weight": 100
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "returned_weight": 120
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "returned_weight": 80
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "initial_weight": 95,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "initial_weight": 40,
+                    "returned_weight": 24.0
+                },
+                {
+                    "name": "Pilze",
+                    "initial_weight": 60,
+                    "returned_weight": 28.0
+                },
+                {
+                    "name": "Linsen",
+                    "initial_weight": 100,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "initial_weight": 120,
+                    "returned_weight": 48.0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "initial_weight": 80,
+                    "returned_weight": 52.0
+                }
+            ],
+            "total_initial_weight": 495
+        }
+    },
+    {
+        "id": "meal_84.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_84.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "returned_weight": 95
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "returned_weight": 40
+                },
+                {
+                    "name": "Pilze",
+                    "returned_weight": 60
+                },
+                {
+                    "name": "Linsen",
+                    "returned_weight": 100
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "returned_weight": 120
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "returned_weight": 80
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "initial_weight": 95,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "initial_weight": 40,
+                    "returned_weight": 24.0
+                },
+                {
+                    "name": "Pilze",
+                    "initial_weight": 60,
+                    "returned_weight": 28.0
+                },
+                {
+                    "name": "Linsen",
+                    "initial_weight": 100,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "initial_weight": 120,
+                    "returned_weight": 48.0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "initial_weight": 80,
+                    "returned_weight": 52.0
+                }
+            ],
+            "total_initial_weight": 495
+        }
+    },
+    {
+        "id": "meal_85.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_85.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "returned_weight": 95
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "returned_weight": 40
+                },
+                {
+                    "name": "Pilze",
+                    "returned_weight": 60
+                },
+                {
+                    "name": "Linsen",
+                    "returned_weight": 100
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "returned_weight": 120
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "returned_weight": 80
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "initial_weight": 95,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "initial_weight": 40,
+                    "returned_weight": 24.0
+                },
+                {
+                    "name": "Pilze",
+                    "initial_weight": 60,
+                    "returned_weight": 28.0
+                },
+                {
+                    "name": "Linsen",
+                    "initial_weight": 100,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "initial_weight": 120,
+                    "returned_weight": 48.0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "initial_weight": 80,
+                    "returned_weight": 52.0
+                }
+            ],
+            "total_initial_weight": 495
+        }
+    },
+    {
+        "id": "meal_86.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_86.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "returned_weight": 30
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "returned_weight": 20
+                },
+                {
+                    "name": "Pilze",
+                    "returned_weight": 30
+                },
+                {
+                    "name": "Linsen",
+                    "returned_weight": 50
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "returned_weight": 60
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "returned_weight": 40
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "initial_weight": 95,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "initial_weight": 40,
+                    "returned_weight": 24.0
+                },
+                {
+                    "name": "Pilze",
+                    "initial_weight": 60,
+                    "returned_weight": 28.0
+                },
+                {
+                    "name": "Linsen",
+                    "initial_weight": 100,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "initial_weight": 120,
+                    "returned_weight": 48.0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "initial_weight": 80,
+                    "returned_weight": 52.0
+                }
+            ],
+            "total_initial_weight": 495
+        }
+    },
+    {
+        "id": "meal_87.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_87.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "returned_weight": 30
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "returned_weight": 20
+                },
+                {
+                    "name": "Pilze",
+                    "returned_weight": 30
+                },
+                {
+                    "name": "Linsen",
+                    "returned_weight": 50
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "returned_weight": 60
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "returned_weight": 40
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "initial_weight": 95,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "initial_weight": 40,
+                    "returned_weight": 24.0
+                },
+                {
+                    "name": "Pilze",
+                    "initial_weight": 60,
+                    "returned_weight": 28.0
+                },
+                {
+                    "name": "Linsen",
+                    "initial_weight": 100,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "initial_weight": 120,
+                    "returned_weight": 48.0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "initial_weight": 80,
+                    "returned_weight": 52.0
+                }
+            ],
+            "total_initial_weight": 495
+        }
+    },
+    {
+        "id": "meal_88.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_88.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "returned_weight": 40
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "returned_weight": 15
+                },
+                {
+                    "name": "Pilze",
+                    "returned_weight": 25
+                },
+                {
+                    "name": "Linsen",
+                    "returned_weight": 45
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "returned_weight": 50
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "returned_weight": 30
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "initial_weight": 95,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "initial_weight": 40,
+                    "returned_weight": 24.0
+                },
+                {
+                    "name": "Pilze",
+                    "initial_weight": 60,
+                    "returned_weight": 28.0
+                },
+                {
+                    "name": "Linsen",
+                    "initial_weight": 100,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "initial_weight": 120,
+                    "returned_weight": 48.0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "initial_weight": 80,
+                    "returned_weight": 52.0
+                }
+            ],
+            "total_initial_weight": 495
+        }
+    },
+    {
+        "id": "meal_89.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_89.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "returned_weight": 40
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "returned_weight": 15
+                },
+                {
+                    "name": "Pilze",
+                    "returned_weight": 25
+                },
+                {
+                    "name": "Linsen",
+                    "returned_weight": 45
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "returned_weight": 50
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "returned_weight": 30
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "initial_weight": 95,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "initial_weight": 40,
+                    "returned_weight": 24.0
+                },
+                {
+                    "name": "Pilze",
+                    "initial_weight": 60,
+                    "returned_weight": 28.0
+                },
+                {
+                    "name": "Linsen",
+                    "initial_weight": 100,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "initial_weight": 120,
+                    "returned_weight": 48.0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "initial_weight": 80,
+                    "returned_weight": 52.0
+                }
+            ],
+            "total_initial_weight": 495
+        }
+    },
+    {
+        "id": "meal_90.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_90.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "returned_weight": 30
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "returned_weight": 20
+                },
+                {
+                    "name": "Pilze",
+                    "returned_weight": 30
+                },
+                {
+                    "name": "Linsen",
+                    "returned_weight": 50
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "returned_weight": 60
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "returned_weight": 40
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "initial_weight": 95,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "initial_weight": 40,
+                    "returned_weight": 24.0
+                },
+                {
+                    "name": "Pilze",
+                    "initial_weight": 60,
+                    "returned_weight": 28.0
+                },
+                {
+                    "name": "Linsen",
+                    "initial_weight": 100,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "initial_weight": 120,
+                    "returned_weight": 48.0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "initial_weight": 80,
+                    "returned_weight": 52.0
+                }
+            ],
+            "total_initial_weight": 495
+        }
+    },
+    {
+        "id": "meal_91.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_91.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "returned_weight": 40
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "returned_weight": 15
+                },
+                {
+                    "name": "Pilze",
+                    "returned_weight": 25
+                },
+                {
+                    "name": "Linsen",
+                    "returned_weight": 45
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "returned_weight": 50
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "returned_weight": 30
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "initial_weight": 95,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "initial_weight": 40,
+                    "returned_weight": 24.0
+                },
+                {
+                    "name": "Pilze",
+                    "initial_weight": 60,
+                    "returned_weight": 28.0
+                },
+                {
+                    "name": "Linsen",
+                    "initial_weight": 100,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "initial_weight": 120,
+                    "returned_weight": 48.0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "initial_weight": 80,
+                    "returned_weight": 52.0
+                }
+            ],
+            "total_initial_weight": 495
+        }
+    },
+    {
+        "id": "meal_92.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_92.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "returned_weight": 95
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "returned_weight": 40
+                },
+                {
+                    "name": "Pilze",
+                    "returned_weight": 60
+                },
+                {
+                    "name": "Linsen",
+                    "returned_weight": 100
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "returned_weight": 120
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "returned_weight": 80
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "initial_weight": 95,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "initial_weight": 40,
+                    "returned_weight": 24.0
+                },
+                {
+                    "name": "Pilze",
+                    "initial_weight": 60,
+                    "returned_weight": 28.0
+                },
+                {
+                    "name": "Linsen",
+                    "initial_weight": 100,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "initial_weight": 120,
+                    "returned_weight": 48.0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "initial_weight": 80,
+                    "returned_weight": 52.0
+                }
+            ],
+            "total_initial_weight": 495
+        }
+    },
+    {
+        "id": "meal_93.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_93.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "returned_weight": 95
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "returned_weight": 40
+                },
+                {
+                    "name": "Pilze",
+                    "returned_weight": 60
+                },
+                {
+                    "name": "Linsen",
+                    "returned_weight": 100
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "returned_weight": 120
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "returned_weight": 80
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "initial_weight": 95,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "initial_weight": 40,
+                    "returned_weight": 24.0
+                },
+                {
+                    "name": "Pilze",
+                    "initial_weight": 60,
+                    "returned_weight": 28.0
+                },
+                {
+                    "name": "Linsen",
+                    "initial_weight": 100,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "initial_weight": 120,
+                    "returned_weight": 48.0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "initial_weight": 80,
+                    "returned_weight": 52.0
+                }
+            ],
+            "total_initial_weight": 495
+        }
+    },
+    {
+        "id": "meal_94.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_94.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "returned_weight": 95
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "returned_weight": 40
+                },
+                {
+                    "name": "Pilze",
+                    "returned_weight": 60
+                },
+                {
+                    "name": "Linsen",
+                    "returned_weight": 100
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "returned_weight": 120
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "returned_weight": 80
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "initial_weight": 95,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "initial_weight": 40,
+                    "returned_weight": 24.0
+                },
+                {
+                    "name": "Pilze",
+                    "initial_weight": 60,
+                    "returned_weight": 28.0
+                },
+                {
+                    "name": "Linsen",
+                    "initial_weight": 100,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "initial_weight": 120,
+                    "returned_weight": 48.0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "initial_weight": 80,
+                    "returned_weight": 52.0
+                }
+            ],
+            "total_initial_weight": 495
+        }
+    },
+    {
+        "id": "meal_95.jpg",
+        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_95.jpg",
+        "prediction": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "returned_weight": 95
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "returned_weight": 40
+                },
+                {
+                    "name": "Pilze",
+                    "returned_weight": 60
+                },
+                {
+                    "name": "Linsen",
+                    "returned_weight": 100
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "returned_weight": 120
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "returned_weight": 80
+                }
+            ]
+        },
+        "ground_truth": {
+            "ingredients": [
+                {
+                    "name": "Kartoffelw\u00fcrfel",
+                    "initial_weight": 95,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "M\u00f6hre",
+                    "initial_weight": 40,
+                    "returned_weight": 24.0
+                },
+                {
+                    "name": "Pilze",
+                    "initial_weight": 60,
+                    "returned_weight": 28.0
+                },
+                {
+                    "name": "Linsen",
+                    "initial_weight": 100,
+                    "returned_weight": 33.0
+                },
+                {
+                    "name": "Tomaten-Curry-Sauce",
+                    "initial_weight": 120,
+                    "returned_weight": 48.0
+                },
+                {
+                    "name": "H\u00e4hnchenstreifen",
+                    "initial_weight": 80,
+                    "returned_weight": 52.0
+                }
+            ],
+            "total_initial_weight": 495
+        }
+    }
+]

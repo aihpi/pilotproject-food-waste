@@ -1,0 +1,1442 @@
+[
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 341\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"initial_weight\": 80,\n      \"returned_weight\": 26.0\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 40.0\n    }\n  ],\n  \"total_initial_weight\": 341\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_0.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 341\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"initial_weight\": 80,\n      \"returned_weight\": 26.0\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 40.0\n    }\n  ],\n  \"total_initial_weight\": 341\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_1.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 341\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"initial_weight\": 80,\n      \"returned_weight\": 26.0\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 40.0\n    }\n  ],\n  \"total_initial_weight\": 341\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 341\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"initial_weight\": 80,\n      \"returned_weight\": 26.0\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 40.0\n    }\n  ],\n  \"total_initial_weight\": 341\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 341\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"initial_weight\": 80,\n      \"returned_weight\": 26.0\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 40.0\n    }\n  ],\n  \"total_initial_weight\": 341\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_4.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 341\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"initial_weight\": 80,\n      \"returned_weight\": 26.0\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 40.0\n    }\n  ],\n  \"total_initial_weight\": 341\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_5.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 341\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"initial_weight\": 80,\n      \"returned_weight\": 26.0\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 40.0\n    }\n  ],\n  \"total_initial_weight\": 341\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_6.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 341\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"initial_weight\": 80,\n      \"returned_weight\": 26.0\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 40.0\n    }\n  ],\n  \"total_initial_weight\": 341\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_7.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 341\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"initial_weight\": 80,\n      \"returned_weight\": 26.0\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 40.0\n    }\n  ],\n  \"total_initial_weight\": 341\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_8.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 341\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"initial_weight\": 80,\n      \"returned_weight\": 26.0\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 40.0\n    }\n  ],\n  \"total_initial_weight\": 341\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_9.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 341\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"initial_weight\": 80,\n      \"returned_weight\": 26.0\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 40.0\n    }\n  ],\n  \"total_initial_weight\": 341\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_10.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 341\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"initial_weight\": 80,\n      \"returned_weight\": 26.0\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 40.0\n    }\n  ],\n  \"total_initial_weight\": 341\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_11.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 341\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"initial_weight\": 80,\n      \"returned_weight\": 26.0\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 40.0\n    }\n  ],\n  \"total_initial_weight\": 341\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_12.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 341\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"initial_weight\": 80,\n      \"returned_weight\": 26.0\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 40.0\n    }\n  ],\n  \"total_initial_weight\": 341\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_13.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 341\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"initial_weight\": 80,\n      \"returned_weight\": 26.0\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 40.0\n    }\n  ],\n  \"total_initial_weight\": 341\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_14.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 341\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"initial_weight\": 80,\n      \"returned_weight\": 26.0\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 40.0\n    }\n  ],\n  \"total_initial_weight\": 341\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_15.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 341\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"initial_weight\": 80,\n      \"returned_weight\": 26.0\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 40.0\n    }\n  ],\n  \"total_initial_weight\": 341\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_16.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 341\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"initial_weight\": 80,\n      \"returned_weight\": 26.0\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 40.0\n    }\n  ],\n  \"total_initial_weight\": 341\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_17.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 341\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"initial_weight\": 80,\n      \"returned_weight\": 26.0\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 40.0\n    }\n  ],\n  \"total_initial_weight\": 341\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_18.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 341\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"initial_weight\": 80,\n      \"returned_weight\": 26.0\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 40.0\n    }\n  ],\n  \"total_initial_weight\": 341\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_19.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 341\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"initial_weight\": 80,\n      \"returned_weight\": 26.0\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 40.0\n    }\n  ],\n  \"total_initial_weight\": 341\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_20.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 341\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"initial_weight\": 80,\n      \"returned_weight\": 26.0\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 40.0\n    }\n  ],\n  \"total_initial_weight\": 341\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_21.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 341\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelp\\u00fcree \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Gr\\u00fcne Bohnen \",\n      \"initial_weight\": 80,\n      \"returned_weight\": 26.0\n    },\n    {\n      \"name\": \"Bratenjus\",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 40.0\n    }\n  ],\n  \"total_initial_weight\": 341\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_22.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"weight\": 70\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"weight\": 108\n    },\n    {\n      \"name\": \"Paprika\",\n      \"weight\": 30\n    }\n  ],\n  \"total_weight\": 318\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"initial_weight\": 70,\n      \"returned_weight\": 34.0\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"initial_weight\": 108,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Paprika\",\n      \"initial_weight\": 30,\n      \"returned_weight\": 0.0\n    }\n  ],\n  \"total_initial_weight\": 318\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_23.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"weight\": 70\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"weight\": 108\n    },\n    {\n      \"name\": \"Paprika\",\n      \"weight\": 30\n    }\n  ],\n  \"total_weight\": 318\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"initial_weight\": 70,\n      \"returned_weight\": 34.0\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"initial_weight\": 108,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Paprika\",\n      \"initial_weight\": 30,\n      \"returned_weight\": 0.0\n    }\n  ],\n  \"total_initial_weight\": 318\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_24.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"weight\": 70\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"weight\": 108\n    },\n    {\n      \"name\": \"Paprika\",\n      \"weight\": 30\n    }\n  ],\n  \"total_weight\": 318\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"initial_weight\": 70,\n      \"returned_weight\": 34.0\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"initial_weight\": 108,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Paprika\",\n      \"initial_weight\": 30,\n      \"returned_weight\": 0.0\n    }\n  ],\n  \"total_initial_weight\": 318\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_25.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"weight\": 70\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"weight\": 108\n    },\n    {\n      \"name\": \"Paprika\",\n      \"weight\": 30\n    }\n  ],\n  \"total_weight\": 318\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"initial_weight\": 70,\n      \"returned_weight\": 34.0\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"initial_weight\": 108,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Paprika\",\n      \"initial_weight\": 30,\n      \"returned_weight\": 0.0\n    }\n  ],\n  \"total_initial_weight\": 318\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_26.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"weight\": 70\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"weight\": 108\n    },\n    {\n      \"name\": \"Paprika\",\n      \"weight\": 30\n    }\n  ],\n  \"total_weight\": 318\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"initial_weight\": 70,\n      \"returned_weight\": 34.0\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"initial_weight\": 108,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Paprika\",\n      \"initial_weight\": 30,\n      \"returned_weight\": 0.0\n    }\n  ],\n  \"total_initial_weight\": 318\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_27.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"weight\": 70\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"weight\": 108\n    },\n    {\n      \"name\": \"Paprika\",\n      \"weight\": 30\n    }\n  ],\n  \"total_weight\": 318\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"initial_weight\": 70,\n      \"returned_weight\": 34.0\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"initial_weight\": 108,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Paprika\",\n      \"initial_weight\": 30,\n      \"returned_weight\": 0.0\n    }\n  ],\n  \"total_initial_weight\": 318\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_28.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"weight\": 70\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"weight\": 108\n    },\n    {\n      \"name\": \"Paprika\",\n      \"weight\": 30\n    }\n  ],\n  \"total_weight\": 318\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"initial_weight\": 70,\n      \"returned_weight\": 34.0\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"initial_weight\": 108,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Paprika\",\n      \"initial_weight\": 30,\n      \"returned_weight\": 0.0\n    }\n  ],\n  \"total_initial_weight\": 318\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_29.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"weight\": 70\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"weight\": 108\n    },\n    {\n      \"name\": \"Paprika\",\n      \"weight\": 30\n    }\n  ],\n  \"total_weight\": 318\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"initial_weight\": 70,\n      \"returned_weight\": 34.0\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"initial_weight\": 108,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Paprika\",\n      \"initial_weight\": 30,\n      \"returned_weight\": 0.0\n    }\n  ],\n  \"total_initial_weight\": 318\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_30.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"weight\": 70\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"weight\": 108\n    },\n    {\n      \"name\": \"Paprika\",\n      \"weight\": 30\n    }\n  ],\n  \"total_weight\": 318\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"initial_weight\": 70,\n      \"returned_weight\": 34.0\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"initial_weight\": 108,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Paprika\",\n      \"initial_weight\": 30,\n      \"returned_weight\": 0.0\n    }\n  ],\n  \"total_initial_weight\": 318\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_31.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"weight\": 70\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"weight\": 108\n    },\n    {\n      \"name\": \"Paprika\",\n      \"weight\": 30\n    }\n  ],\n  \"total_weight\": 318\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"initial_weight\": 70,\n      \"returned_weight\": 34.0\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"initial_weight\": 108,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Paprika\",\n      \"initial_weight\": 30,\n      \"returned_weight\": 0.0\n    }\n  ],\n  \"total_initial_weight\": 318\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_32.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"weight\": 70\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"weight\": 108\n    },\n    {\n      \"name\": \"Paprika\",\n      \"weight\": 30\n    }\n  ],\n  \"total_weight\": 318\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"initial_weight\": 70,\n      \"returned_weight\": 34.0\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"initial_weight\": 108,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Paprika\",\n      \"initial_weight\": 30,\n      \"returned_weight\": 0.0\n    }\n  ],\n  \"total_initial_weight\": 318\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_33.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"weight\": 70\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"weight\": 108\n    },\n    {\n      \"name\": \"Paprika\",\n      \"weight\": 30\n    }\n  ],\n  \"total_weight\": 318\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"initial_weight\": 70,\n      \"returned_weight\": 34.0\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"initial_weight\": 108,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Paprika\",\n      \"initial_weight\": 30,\n      \"returned_weight\": 0.0\n    }\n  ],\n  \"total_initial_weight\": 318\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_34.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"weight\": 70\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"weight\": 108\n    },\n    {\n      \"name\": \"Paprika\",\n      \"weight\": 30\n    }\n  ],\n  \"total_weight\": 318\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"initial_weight\": 70,\n      \"returned_weight\": 34.0\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"initial_weight\": 108,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Paprika\",\n      \"initial_weight\": 30,\n      \"returned_weight\": 0.0\n    }\n  ],\n  \"total_initial_weight\": 318\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_35.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"weight\": 70\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"weight\": 108\n    },\n    {\n      \"name\": \"Paprika\",\n      \"weight\": 30\n    }\n  ],\n  \"total_weight\": 318\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"initial_weight\": 70,\n      \"returned_weight\": 34.0\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"initial_weight\": 108,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Paprika\",\n      \"initial_weight\": 30,\n      \"returned_weight\": 0.0\n    }\n  ],\n  \"total_initial_weight\": 318\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_36.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"weight\": 70\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"weight\": 108\n    },\n    {\n      \"name\": \"Paprika\",\n      \"weight\": 30\n    }\n  ],\n  \"total_weight\": 318\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"initial_weight\": 70,\n      \"returned_weight\": 34.0\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"initial_weight\": 108,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Paprika\",\n      \"initial_weight\": 30,\n      \"returned_weight\": 0.0\n    }\n  ],\n  \"total_initial_weight\": 318\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_37.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"weight\": 70\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"weight\": 108\n    },\n    {\n      \"name\": \"Paprika\",\n      \"weight\": 30\n    }\n  ],\n  \"total_weight\": 318\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"initial_weight\": 70,\n      \"returned_weight\": 34.0\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"initial_weight\": 108,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Paprika\",\n      \"initial_weight\": 30,\n      \"returned_weight\": 0.0\n    }\n  ],\n  \"total_initial_weight\": 318\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_38.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"weight\": 70\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"weight\": 108\n    },\n    {\n      \"name\": \"Paprika\",\n      \"weight\": 30\n    }\n  ],\n  \"total_weight\": 318\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Eiersp\\u00e4tzle\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Zucchini \",\n      \"initial_weight\": 70,\n      \"returned_weight\": 34.0\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"initial_weight\": 50,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"Seelachs\",\n      \"initial_weight\": 108,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Paprika\",\n      \"initial_weight\": 30,\n      \"returned_weight\": 0.0\n    }\n  ],\n  \"total_initial_weight\": 318\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_39.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"weight\": 100\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"weight\": 90\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"weight\": 60\n    }\n  ],\n  \"total_weight\": 370\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 32.0\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"initial_weight\": 90,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 12.0\n    }\n  ],\n  \"total_initial_weight\": 370\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_40.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"weight\": 100\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"weight\": 90\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"weight\": 60\n    }\n  ],\n  \"total_weight\": 370\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 32.0\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"initial_weight\": 90,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 12.0\n    }\n  ],\n  \"total_initial_weight\": 370\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_41.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"weight\": 100\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"weight\": 90\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"weight\": 60\n    }\n  ],\n  \"total_weight\": 370\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 32.0\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"initial_weight\": 90,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 12.0\n    }\n  ],\n  \"total_initial_weight\": 370\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_42.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"weight\": 100\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"weight\": 90\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"weight\": 60\n    }\n  ],\n  \"total_weight\": 370\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 32.0\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"initial_weight\": 90,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 12.0\n    }\n  ],\n  \"total_initial_weight\": 370\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_43.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"weight\": 100\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"weight\": 90\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"weight\": 60\n    }\n  ],\n  \"total_weight\": 370\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 32.0\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"initial_weight\": 90,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 12.0\n    }\n  ],\n  \"total_initial_weight\": 370\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_44.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"weight\": 100\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"weight\": 90\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"weight\": 60\n    }\n  ],\n  \"total_weight\": 370\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 32.0\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"initial_weight\": 90,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 12.0\n    }\n  ],\n  \"total_initial_weight\": 370\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_45.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"weight\": 100\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"weight\": 90\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"weight\": 60\n    }\n  ],\n  \"total_weight\": 370\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 32.0\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"initial_weight\": 90,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 12.0\n    }\n  ],\n  \"total_initial_weight\": 370\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_46.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"weight\": 100\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"weight\": 90\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"weight\": 60\n    }\n  ],\n  \"total_weight\": 370\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 32.0\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"initial_weight\": 90,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 12.0\n    }\n  ],\n  \"total_initial_weight\": 370\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_47.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"weight\": 100\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"weight\": 90\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"weight\": 60\n    }\n  ],\n  \"total_weight\": 370\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 32.0\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"initial_weight\": 90,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 12.0\n    }\n  ],\n  \"total_initial_weight\": 370\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_48.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"weight\": 100\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"weight\": 90\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"weight\": 60\n    }\n  ],\n  \"total_weight\": 370\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 32.0\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"initial_weight\": 90,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 12.0\n    }\n  ],\n  \"total_initial_weight\": 370\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_49.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"weight\": 100\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"weight\": 90\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"weight\": 60\n    }\n  ],\n  \"total_weight\": 370\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 32.0\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"initial_weight\": 90,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 12.0\n    }\n  ],\n  \"total_initial_weight\": 370\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_50.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"weight\": 100\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"weight\": 90\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"weight\": 60\n    }\n  ],\n  \"total_weight\": 370\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 32.0\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"initial_weight\": 90,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 12.0\n    }\n  ],\n  \"total_initial_weight\": 370\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_51.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"weight\": 100\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"weight\": 90\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"weight\": 60\n    }\n  ],\n  \"total_weight\": 370\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 32.0\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"initial_weight\": 90,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 12.0\n    }\n  ],\n  \"total_initial_weight\": 370\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_52.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"weight\": 100\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"weight\": 90\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"weight\": 60\n    }\n  ],\n  \"total_weight\": 370\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 32.0\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"initial_weight\": 90,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 12.0\n    }\n  ],\n  \"total_initial_weight\": 370\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_53.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"weight\": 65\n    },\n    {\n      \"name\": \"Pflanzencreme\",\n      \"weight\": 3\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Erbsen\",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"weight\": 80\n    }\n  ],\n  \"total_weight\": 358\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"initial_weight\": 65,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Pflanzencreme\",\n      \"initial_weight\": 3,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"Erbsen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 12.0\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"initial_weight\": 50,\n      \"returned_weight\": 8.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 0.0\n    }\n  ],\n  \"total_initial_weight\": 358\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_54.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"weight\": 65\n    },\n    {\n      \"name\": \"Pflanzencreme\",\n      \"weight\": 3\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Erbsen\",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"weight\": 80\n    }\n  ],\n  \"total_weight\": 358\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"initial_weight\": 65,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Pflanzencreme\",\n      \"initial_weight\": 3,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"Erbsen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 12.0\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"initial_weight\": 50,\n      \"returned_weight\": 8.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 0.0\n    }\n  ],\n  \"total_initial_weight\": 358\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_55.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"weight\": 65\n    },\n    {\n      \"name\": \"Pflanzencreme\",\n      \"weight\": 3\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Erbsen\",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"weight\": 80\n    }\n  ],\n  \"total_weight\": 358\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"initial_weight\": 65,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Pflanzencreme\",\n      \"initial_weight\": 3,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"Erbsen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 12.0\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"initial_weight\": 50,\n      \"returned_weight\": 8.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 0.0\n    }\n  ],\n  \"total_initial_weight\": 358\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_56.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"weight\": 65\n    },\n    {\n      \"name\": \"Pflanzencreme\",\n      \"weight\": 3\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Erbsen\",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"weight\": 80\n    }\n  ],\n  \"total_weight\": 358\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"initial_weight\": 65,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Pflanzencreme\",\n      \"initial_weight\": 3,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"Erbsen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 12.0\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"initial_weight\": 50,\n      \"returned_weight\": 8.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 0.0\n    }\n  ],\n  \"total_initial_weight\": 358\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_57.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"weight\": 65\n    },\n    {\n      \"name\": \"Pflanzencreme\",\n      \"weight\": 3\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Erbsen\",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"weight\": 80\n    }\n  ],\n  \"total_weight\": 358\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"initial_weight\": 65,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Pflanzencreme\",\n      \"initial_weight\": 3,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"Erbsen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 12.0\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"initial_weight\": 50,\n      \"returned_weight\": 8.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 0.0\n    }\n  ],\n  \"total_initial_weight\": 358\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_58.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"weight\": 65\n    },\n    {\n      \"name\": \"Pflanzencreme\",\n      \"weight\": 3\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Erbsen\",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"weight\": 80\n    }\n  ],\n  \"total_weight\": 358\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"initial_weight\": 65,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Pflanzencreme\",\n      \"initial_weight\": 3,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"Erbsen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 12.0\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"initial_weight\": 50,\n      \"returned_weight\": 8.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 0.0\n    }\n  ],\n  \"total_initial_weight\": 358\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_59.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"weight\": 65\n    },\n    {\n      \"name\": \"Pflanzencreme\",\n      \"weight\": 3\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Erbsen\",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"weight\": 80\n    }\n  ],\n  \"total_weight\": 358\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"initial_weight\": 65,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Pflanzencreme\",\n      \"initial_weight\": 3,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"Erbsen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 12.0\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"initial_weight\": 50,\n      \"returned_weight\": 8.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 0.0\n    }\n  ],\n  \"total_initial_weight\": 358\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_60.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"weight\": 65\n    },\n    {\n      \"name\": \"Pflanzencreme\",\n      \"weight\": 3\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Erbsen\",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"weight\": 80\n    }\n  ],\n  \"total_weight\": 358\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"initial_weight\": 65,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Pflanzencreme\",\n      \"initial_weight\": 3,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"Erbsen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 12.0\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"initial_weight\": 50,\n      \"returned_weight\": 8.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 0.0\n    }\n  ],\n  \"total_initial_weight\": 358\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_61.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"weight\": 65\n    },\n    {\n      \"name\": \"Pflanzencreme\",\n      \"weight\": 3\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Erbsen\",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"weight\": 80\n    }\n  ],\n  \"total_weight\": 358\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"initial_weight\": 65,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Pflanzencreme\",\n      \"initial_weight\": 3,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"Erbsen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 12.0\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"initial_weight\": 50,\n      \"returned_weight\": 8.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 0.0\n    }\n  ],\n  \"total_initial_weight\": 358\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_62.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"weight\": 65\n    },\n    {\n      \"name\": \"Pflanzencreme\",\n      \"weight\": 3\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Erbsen\",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"weight\": 80\n    }\n  ],\n  \"total_weight\": 358\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"initial_weight\": 65,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Pflanzencreme\",\n      \"initial_weight\": 3,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"Erbsen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 12.0\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"initial_weight\": 50,\n      \"returned_weight\": 8.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 0.0\n    }\n  ],\n  \"total_initial_weight\": 358\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_63.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"weight\": 65\n    },\n    {\n      \"name\": \"Pflanzencreme\",\n      \"weight\": 3\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Erbsen\",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"weight\": 80\n    }\n  ],\n  \"total_weight\": 358\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"initial_weight\": 65,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Pflanzencreme\",\n      \"initial_weight\": 3,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"Erbsen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 12.0\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"initial_weight\": 50,\n      \"returned_weight\": 8.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 0.0\n    }\n  ],\n  \"total_initial_weight\": 358\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_64.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"weight\": 65\n    },\n    {\n      \"name\": \"Pflanzencreme\",\n      \"weight\": 3\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Erbsen\",\n      \"weight\": 80\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"weight\": 50\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"weight\": 80\n    }\n  ],\n  \"total_weight\": 358\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"initial_weight\": 65,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Pflanzencreme\",\n      \"initial_weight\": 3,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 14.0\n    },\n    {\n      \"name\": \"Erbsen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 12.0\n    },\n    {\n      \"name\": \"Helle Sauce \",\n      \"initial_weight\": 50,\n      \"returned_weight\": 8.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 0.0\n    }\n  ],\n  \"total_initial_weight\": 358\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_65.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"weight\": 130\n    },\n    {\n      \"name\": \"Dressing Portion\",\n      \"weight\": 25\n    },\n    {\n      \"name\": \"Eisbergsalat\",\n      \"weight\": 40\n    },\n    {\n      \"name\": \"Krautsalat\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Paprika\",\n      \"weight\": 30\n    },\n    {\n      \"name\": \"Sahne\",\n      \"weight\": 10\n    },\n    {\n      \"name\": \"Braune Sauce \",\n      \"weight\": 35\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 421\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"initial_weight\": 130,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Dressing Portion\",\n      \"initial_weight\": 25,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Eisbergsalat\",\n      \"initial_weight\": 40,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Krautsalat\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Paprika\",\n      \"initial_weight\": 30,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Sahne\",\n      \"initial_weight\": 10,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Braune Sauce \",\n      \"initial_weight\": 35,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 26.0\n    }\n  ],\n  \"total_initial_weight\": 421\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_66.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"weight\": 130\n    },\n    {\n      \"name\": \"Dressing Portion\",\n      \"weight\": 25\n    },\n    {\n      \"name\": \"Eisbergsalat\",\n      \"weight\": 40\n    },\n    {\n      \"name\": \"Krautsalat\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Paprika\",\n      \"weight\": 30\n    },\n    {\n      \"name\": \"Sahne\",\n      \"weight\": 10\n    },\n    {\n      \"name\": \"Braune Sauce \",\n      \"weight\": 35\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 421\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"initial_weight\": 130,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Dressing Portion\",\n      \"initial_weight\": 25,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Eisbergsalat\",\n      \"initial_weight\": 40,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Krautsalat\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Paprika\",\n      \"initial_weight\": 30,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Sahne\",\n      \"initial_weight\": 10,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Braune Sauce \",\n      \"initial_weight\": 35,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 26.0\n    }\n  ],\n  \"total_initial_weight\": 421\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_67.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"weight\": 130\n    },\n    {\n      \"name\": \"Dressing Portion\",\n      \"weight\": 25\n    },\n    {\n      \"name\": \"Eisbergsalat\",\n      \"weight\": 40\n    },\n    {\n      \"name\": \"Krautsalat\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Paprika\",\n      \"weight\": 30\n    },\n    {\n      \"name\": \"Sahne\",\n      \"weight\": 10\n    },\n    {\n      \"name\": \"Braune Sauce \",\n      \"weight\": 35\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 421\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"initial_weight\": 130,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Dressing Portion\",\n      \"initial_weight\": 25,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Eisbergsalat\",\n      \"initial_weight\": 40,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Krautsalat\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Paprika\",\n      \"initial_weight\": 30,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Sahne\",\n      \"initial_weight\": 10,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Braune Sauce \",\n      \"initial_weight\": 35,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 26.0\n    }\n  ],\n  \"total_initial_weight\": 421\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_68.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"weight\": 130\n    },\n    {\n      \"name\": \"Dressing Portion\",\n      \"weight\": 25\n    },\n    {\n      \"name\": \"Eisbergsalat\",\n      \"weight\": 40\n    },\n    {\n      \"name\": \"Krautsalat\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Paprika\",\n      \"weight\": 30\n    },\n    {\n      \"name\": \"Sahne\",\n      \"weight\": 10\n    },\n    {\n      \"name\": \"Braune Sauce \",\n      \"weight\": 35\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 421\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"initial_weight\": 130,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Dressing Portion\",\n      \"initial_weight\": 25,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Eisbergsalat\",\n      \"initial_weight\": 40,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Krautsalat\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Paprika\",\n      \"initial_weight\": 30,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Sahne\",\n      \"initial_weight\": 10,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Braune Sauce \",\n      \"initial_weight\": 35,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 26.0\n    }\n  ],\n  \"total_initial_weight\": 421\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_69.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"weight\": 130\n    },\n    {\n      \"name\": \"Dressing Portion\",\n      \"weight\": 25\n    },\n    {\n      \"name\": \"Eisbergsalat\",\n      \"weight\": 40\n    },\n    {\n      \"name\": \"Krautsalat\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Paprika\",\n      \"weight\": 30\n    },\n    {\n      \"name\": \"Sahne\",\n      \"weight\": 10\n    },\n    {\n      \"name\": \"Braune Sauce \",\n      \"weight\": 35\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 421\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"initial_weight\": 130,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Dressing Portion\",\n      \"initial_weight\": 25,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Eisbergsalat\",\n      \"initial_weight\": 40,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Krautsalat\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Paprika\",\n      \"initial_weight\": 30,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Sahne\",\n      \"initial_weight\": 10,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Braune Sauce \",\n      \"initial_weight\": 35,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 26.0\n    }\n  ],\n  \"total_initial_weight\": 421\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_70.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"weight\": 130\n    },\n    {\n      \"name\": \"Dressing Portion\",\n      \"weight\": 25\n    },\n    {\n      \"name\": \"Eisbergsalat\",\n      \"weight\": 40\n    },\n    {\n      \"name\": \"Krautsalat\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Paprika\",\n      \"weight\": 30\n    },\n    {\n      \"name\": \"Sahne\",\n      \"weight\": 10\n    },\n    {\n      \"name\": \"Braune Sauce \",\n      \"weight\": 35\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 421\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"initial_weight\": 130,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Dressing Portion\",\n      \"initial_weight\": 25,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Eisbergsalat\",\n      \"initial_weight\": 40,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Krautsalat\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Paprika\",\n      \"initial_weight\": 30,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Sahne\",\n      \"initial_weight\": 10,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Braune Sauce \",\n      \"initial_weight\": 35,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 26.0\n    }\n  ],\n  \"total_initial_weight\": 421\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_71.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"weight\": 130\n    },\n    {\n      \"name\": \"Dressing Portion\",\n      \"weight\": 25\n    },\n    {\n      \"name\": \"Eisbergsalat\",\n      \"weight\": 40\n    },\n    {\n      \"name\": \"Krautsalat\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Paprika\",\n      \"weight\": 30\n    },\n    {\n      \"name\": \"Sahne\",\n      \"weight\": 10\n    },\n    {\n      \"name\": \"Braune Sauce \",\n      \"weight\": 35\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 421\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"initial_weight\": 130,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Dressing Portion\",\n      \"initial_weight\": 25,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Eisbergsalat\",\n      \"initial_weight\": 40,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Krautsalat\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Paprika\",\n      \"initial_weight\": 30,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Sahne\",\n      \"initial_weight\": 10,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Braune Sauce \",\n      \"initial_weight\": 35,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 26.0\n    }\n  ],\n  \"total_initial_weight\": 421\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_72.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"weight\": 130\n    },\n    {\n      \"name\": \"Dressing Portion\",\n      \"weight\": 25\n    },\n    {\n      \"name\": \"Eisbergsalat\",\n      \"weight\": 40\n    },\n    {\n      \"name\": \"Krautsalat\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Paprika\",\n      \"weight\": 30\n    },\n    {\n      \"name\": \"Sahne\",\n      \"weight\": 10\n    },\n    {\n      \"name\": \"Braune Sauce \",\n      \"weight\": 35\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 421\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"initial_weight\": 130,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Dressing Portion\",\n      \"initial_weight\": 25,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Eisbergsalat\",\n      \"initial_weight\": 40,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Krautsalat\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Paprika\",\n      \"initial_weight\": 30,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Sahne\",\n      \"initial_weight\": 10,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Braune Sauce \",\n      \"initial_weight\": 35,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 26.0\n    }\n  ],\n  \"total_initial_weight\": 421\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_73.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"weight\": 130\n    },\n    {\n      \"name\": \"Dressing Portion\",\n      \"weight\": 25\n    },\n    {\n      \"name\": \"Eisbergsalat\",\n      \"weight\": 40\n    },\n    {\n      \"name\": \"Krautsalat\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Paprika\",\n      \"weight\": 30\n    },\n    {\n      \"name\": \"Sahne\",\n      \"weight\": 10\n    },\n    {\n      \"name\": \"Braune Sauce \",\n      \"weight\": 35\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 421\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"initial_weight\": 130,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Dressing Portion\",\n      \"initial_weight\": 25,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Eisbergsalat\",\n      \"initial_weight\": 40,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Krautsalat\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Paprika\",\n      \"initial_weight\": 30,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Sahne\",\n      \"initial_weight\": 10,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Braune Sauce \",\n      \"initial_weight\": 35,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 26.0\n    }\n  ],\n  \"total_initial_weight\": 421\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_74.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"weight\": 130\n    },\n    {\n      \"name\": \"Dressing Portion\",\n      \"weight\": 25\n    },\n    {\n      \"name\": \"Eisbergsalat\",\n      \"weight\": 40\n    },\n    {\n      \"name\": \"Krautsalat\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Paprika\",\n      \"weight\": 30\n    },\n    {\n      \"name\": \"Sahne\",\n      \"weight\": 10\n    },\n    {\n      \"name\": \"Braune Sauce \",\n      \"weight\": 35\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 421\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"initial_weight\": 130,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Dressing Portion\",\n      \"initial_weight\": 25,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Eisbergsalat\",\n      \"initial_weight\": 40,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Krautsalat\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Paprika\",\n      \"initial_weight\": 30,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Sahne\",\n      \"initial_weight\": 10,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Braune Sauce \",\n      \"initial_weight\": 35,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 26.0\n    }\n  ],\n  \"total_initial_weight\": 421\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_75.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"weight\": 130\n    },\n    {\n      \"name\": \"Dressing Portion\",\n      \"weight\": 25\n    },\n    {\n      \"name\": \"Eisbergsalat\",\n      \"weight\": 40\n    },\n    {\n      \"name\": \"Krautsalat\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Paprika\",\n      \"weight\": 30\n    },\n    {\n      \"name\": \"Sahne\",\n      \"weight\": 10\n    },\n    {\n      \"name\": \"Braune Sauce \",\n      \"weight\": 35\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 421\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"initial_weight\": 130,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Dressing Portion\",\n      \"initial_weight\": 25,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Eisbergsalat\",\n      \"initial_weight\": 40,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Krautsalat\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Paprika\",\n      \"initial_weight\": 30,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Sahne\",\n      \"initial_weight\": 10,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Braune Sauce \",\n      \"initial_weight\": 35,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 26.0\n    }\n  ],\n  \"total_initial_weight\": 421\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_76.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"weight\": 130\n    },\n    {\n      \"name\": \"Dressing Portion\",\n      \"weight\": 25\n    },\n    {\n      \"name\": \"Eisbergsalat\",\n      \"weight\": 40\n    },\n    {\n      \"name\": \"Krautsalat\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Paprika\",\n      \"weight\": 30\n    },\n    {\n      \"name\": \"Sahne\",\n      \"weight\": 10\n    },\n    {\n      \"name\": \"Braune Sauce \",\n      \"weight\": 35\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"weight\": 91\n    }\n  ],\n  \"total_weight\": 421\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Reis\",\n      \"initial_weight\": 130,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Dressing Portion\",\n      \"initial_weight\": 25,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Eisbergsalat\",\n      \"initial_weight\": 40,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Krautsalat\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Paprika\",\n      \"initial_weight\": 30,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Sahne\",\n      \"initial_weight\": 10,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"Braune Sauce \",\n      \"initial_weight\": 35,\n      \"returned_weight\": 0.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchen \",\n      \"initial_weight\": 91,\n      \"returned_weight\": 26.0\n    }\n  ],\n  \"total_initial_weight\": 421\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_77.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"weight\": 95\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"weight\": 40\n    },\n    {\n      \"name\": \"Pilze\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Linsen\",\n      \"weight\": 100\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"weight\": 80\n    }\n  ],\n  \"total_weight\": 495\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"initial_weight\": 95,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"initial_weight\": 40,\n      \"returned_weight\": 24.0\n    },\n    {\n      \"name\": \"Pilze\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 28.0\n    },\n    {\n      \"name\": \"Linsen\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"initial_weight\": 120,\n      \"returned_weight\": 48.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 52.0\n    }\n  ],\n  \"total_initial_weight\": 495\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_78.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"weight\": 95\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"weight\": 40\n    },\n    {\n      \"name\": \"Pilze\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Linsen\",\n      \"weight\": 100\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"weight\": 80\n    }\n  ],\n  \"total_weight\": 495\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"initial_weight\": 95,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"initial_weight\": 40,\n      \"returned_weight\": 24.0\n    },\n    {\n      \"name\": \"Pilze\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 28.0\n    },\n    {\n      \"name\": \"Linsen\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"initial_weight\": 120,\n      \"returned_weight\": 48.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 52.0\n    }\n  ],\n  \"total_initial_weight\": 495\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_79.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"weight\": 95\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"weight\": 40\n    },\n    {\n      \"name\": \"Pilze\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Linsen\",\n      \"weight\": 100\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"weight\": 80\n    }\n  ],\n  \"total_weight\": 495\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"initial_weight\": 95,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"initial_weight\": 40,\n      \"returned_weight\": 24.0\n    },\n    {\n      \"name\": \"Pilze\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 28.0\n    },\n    {\n      \"name\": \"Linsen\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"initial_weight\": 120,\n      \"returned_weight\": 48.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 52.0\n    }\n  ],\n  \"total_initial_weight\": 495\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_80.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"weight\": 95\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"weight\": 40\n    },\n    {\n      \"name\": \"Pilze\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Linsen\",\n      \"weight\": 100\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"weight\": 80\n    }\n  ],\n  \"total_weight\": 495\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"initial_weight\": 95,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"initial_weight\": 40,\n      \"returned_weight\": 24.0\n    },\n    {\n      \"name\": \"Pilze\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 28.0\n    },\n    {\n      \"name\": \"Linsen\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"initial_weight\": 120,\n      \"returned_weight\": 48.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 52.0\n    }\n  ],\n  \"total_initial_weight\": 495\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_81.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"weight\": 95\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"weight\": 40\n    },\n    {\n      \"name\": \"Pilze\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Linsen\",\n      \"weight\": 100\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"weight\": 80\n    }\n  ],\n  \"total_weight\": 495\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"initial_weight\": 95,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"initial_weight\": 40,\n      \"returned_weight\": 24.0\n    },\n    {\n      \"name\": \"Pilze\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 28.0\n    },\n    {\n      \"name\": \"Linsen\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"initial_weight\": 120,\n      \"returned_weight\": 48.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 52.0\n    }\n  ],\n  \"total_initial_weight\": 495\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_82.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"weight\": 95\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"weight\": 40\n    },\n    {\n      \"name\": \"Pilze\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Linsen\",\n      \"weight\": 100\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"weight\": 80\n    }\n  ],\n  \"total_weight\": 495\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"initial_weight\": 95,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"initial_weight\": 40,\n      \"returned_weight\": 24.0\n    },\n    {\n      \"name\": \"Pilze\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 28.0\n    },\n    {\n      \"name\": \"Linsen\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"initial_weight\": 120,\n      \"returned_weight\": 48.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 52.0\n    }\n  ],\n  \"total_initial_weight\": 495\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_83.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"weight\": 95\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"weight\": 40\n    },\n    {\n      \"name\": \"Pilze\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Linsen\",\n      \"weight\": 100\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"weight\": 80\n    }\n  ],\n  \"total_weight\": 495\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"initial_weight\": 95,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"initial_weight\": 40,\n      \"returned_weight\": 24.0\n    },\n    {\n      \"name\": \"Pilze\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 28.0\n    },\n    {\n      \"name\": \"Linsen\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"initial_weight\": 120,\n      \"returned_weight\": 48.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 52.0\n    }\n  ],\n  \"total_initial_weight\": 495\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_84.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"weight\": 95\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"weight\": 40\n    },\n    {\n      \"name\": \"Pilze\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Linsen\",\n      \"weight\": 100\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"weight\": 80\n    }\n  ],\n  \"total_weight\": 495\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"initial_weight\": 95,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"initial_weight\": 40,\n      \"returned_weight\": 24.0\n    },\n    {\n      \"name\": \"Pilze\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 28.0\n    },\n    {\n      \"name\": \"Linsen\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"initial_weight\": 120,\n      \"returned_weight\": 48.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 52.0\n    }\n  ],\n  \"total_initial_weight\": 495\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_85.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"weight\": 95\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"weight\": 40\n    },\n    {\n      \"name\": \"Pilze\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Linsen\",\n      \"weight\": 100\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"weight\": 80\n    }\n  ],\n  \"total_weight\": 495\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"initial_weight\": 95,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"initial_weight\": 40,\n      \"returned_weight\": 24.0\n    },\n    {\n      \"name\": \"Pilze\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 28.0\n    },\n    {\n      \"name\": \"Linsen\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"initial_weight\": 120,\n      \"returned_weight\": 48.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 52.0\n    }\n  ],\n  \"total_initial_weight\": 495\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_86.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"weight\": 95\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"weight\": 40\n    },\n    {\n      \"name\": \"Pilze\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Linsen\",\n      \"weight\": 100\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"weight\": 80\n    }\n  ],\n  \"total_weight\": 495\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"initial_weight\": 95,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"initial_weight\": 40,\n      \"returned_weight\": 24.0\n    },\n    {\n      \"name\": \"Pilze\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 28.0\n    },\n    {\n      \"name\": \"Linsen\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"initial_weight\": 120,\n      \"returned_weight\": 48.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 52.0\n    }\n  ],\n  \"total_initial_weight\": 495\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_87.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"weight\": 95\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"weight\": 40\n    },\n    {\n      \"name\": \"Pilze\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Linsen\",\n      \"weight\": 100\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"weight\": 80\n    }\n  ],\n  \"total_weight\": 495\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"initial_weight\": 95,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"initial_weight\": 40,\n      \"returned_weight\": 24.0\n    },\n    {\n      \"name\": \"Pilze\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 28.0\n    },\n    {\n      \"name\": \"Linsen\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"initial_weight\": 120,\n      \"returned_weight\": 48.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 52.0\n    }\n  ],\n  \"total_initial_weight\": 495\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_88.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"weight\": 95\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"weight\": 40\n    },\n    {\n      \"name\": \"Pilze\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Linsen\",\n      \"weight\": 100\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"weight\": 80\n    }\n  ],\n  \"total_weight\": 495\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"initial_weight\": 95,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"initial_weight\": 40,\n      \"returned_weight\": 24.0\n    },\n    {\n      \"name\": \"Pilze\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 28.0\n    },\n    {\n      \"name\": \"Linsen\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"initial_weight\": 120,\n      \"returned_weight\": 48.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 52.0\n    }\n  ],\n  \"total_initial_weight\": 495\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_89.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"weight\": 95\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"weight\": 40\n    },\n    {\n      \"name\": \"Pilze\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Linsen\",\n      \"weight\": 100\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"weight\": 80\n    }\n  ],\n  \"total_weight\": 495\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"initial_weight\": 95,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"initial_weight\": 40,\n      \"returned_weight\": 24.0\n    },\n    {\n      \"name\": \"Pilze\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 28.0\n    },\n    {\n      \"name\": \"Linsen\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"initial_weight\": 120,\n      \"returned_weight\": 48.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 52.0\n    }\n  ],\n  \"total_initial_weight\": 495\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_90.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"weight\": 95\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"weight\": 40\n    },\n    {\n      \"name\": \"Pilze\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Linsen\",\n      \"weight\": 100\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"weight\": 80\n    }\n  ],\n  \"total_weight\": 495\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"initial_weight\": 95,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"initial_weight\": 40,\n      \"returned_weight\": 24.0\n    },\n    {\n      \"name\": \"Pilze\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 28.0\n    },\n    {\n      \"name\": \"Linsen\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"initial_weight\": 120,\n      \"returned_weight\": 48.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 52.0\n    }\n  ],\n  \"total_initial_weight\": 495\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_91.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"weight\": 95\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"weight\": 40\n    },\n    {\n      \"name\": \"Pilze\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Linsen\",\n      \"weight\": 100\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"weight\": 80\n    }\n  ],\n  \"total_weight\": 495\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"initial_weight\": 95,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"initial_weight\": 40,\n      \"returned_weight\": 24.0\n    },\n    {\n      \"name\": \"Pilze\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 28.0\n    },\n    {\n      \"name\": \"Linsen\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"initial_weight\": 120,\n      \"returned_weight\": 48.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 52.0\n    }\n  ],\n  \"total_initial_weight\": 495\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_92.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"weight\": 95\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"weight\": 40\n    },\n    {\n      \"name\": \"Pilze\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Linsen\",\n      \"weight\": 100\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"weight\": 80\n    }\n  ],\n  \"total_weight\": 495\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"initial_weight\": 95,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"initial_weight\": 40,\n      \"returned_weight\": 24.0\n    },\n    {\n      \"name\": \"Pilze\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 28.0\n    },\n    {\n      \"name\": \"Linsen\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"initial_weight\": 120,\n      \"returned_weight\": 48.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 52.0\n    }\n  ],\n  \"total_initial_weight\": 495\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_93.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"weight\": 95\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"weight\": 40\n    },\n    {\n      \"name\": \"Pilze\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Linsen\",\n      \"weight\": 100\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"weight\": 80\n    }\n  ],\n  \"total_weight\": 495\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"initial_weight\": 95,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"initial_weight\": 40,\n      \"returned_weight\": 24.0\n    },\n    {\n      \"name\": \"Pilze\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 28.0\n    },\n    {\n      \"name\": \"Linsen\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"initial_weight\": 120,\n      \"returned_weight\": 48.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 52.0\n    }\n  ],\n  \"total_initial_weight\": 495\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_94.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Given this initial meal data in JSON format:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"weight\": 95\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"weight\": 40\n    },\n    {\n      \"name\": \"Pilze\",\n      \"weight\": 60\n    },\n    {\n      \"name\": \"Linsen\",\n      \"weight\": 100\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"weight\": 120\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"weight\": 80\n    }\n  ],\n  \"total_weight\": 495\n}\n```\n\nPlease provide the amount of food returned for each ingredient in JSON format.",
+        "role": "user"
+      },
+      {
+        "content": "Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Kartoffelw\\u00fcrfel\",\n      \"initial_weight\": 95,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"M\\u00f6hre\",\n      \"initial_weight\": 40,\n      \"returned_weight\": 24.0\n    },\n    {\n      \"name\": \"Pilze\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 28.0\n    },\n    {\n      \"name\": \"Linsen\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 33.0\n    },\n    {\n      \"name\": \"Tomaten-Curry-Sauce\",\n      \"initial_weight\": 120,\n      \"returned_weight\": 48.0\n    },\n    {\n      \"name\": \"H\\u00e4hnchenstreifen\",\n      \"initial_weight\": 80,\n      \"returned_weight\": 52.0\n    }\n  ],\n  \"total_initial_weight\": 495\n}\n```",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_95.jpg"
+    ]
+  }
+]

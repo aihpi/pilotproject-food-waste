@@ -12,12 +12,15 @@ train/lightning_logs
 dataset_backup/
 downloaded_parquet/
 hf_cache/
+images/
+local_hf_datasets/
+food-waste-dataset/
 local_data/
 previous_dataset/
 temp_images/
 # C extensions
 *.so
-
+data_processor_copy.py
 # Distribution / packaging
 .Python
 build/
