@@ -25,8 +25,7 @@ def download_dataset():
         image = example['image']
         if image is not None:
             # Create a filename based on the index
-            # TODO: change to relative path
-            filename = f"/home/felix.boelter/food-waste/train/data/images/meal_{index}.jpg"
+            filename = f"{os.getcwd()}/images/meal_{index}.jpg"
             # Save the image
             image.save(filename)
             return filename

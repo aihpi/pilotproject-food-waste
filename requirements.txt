@@ -6,3 +6,8 @@ datasets>=2.12.0
 wandb>=0.15.0
 accelerate>=0.20.0
 bitsandbytes>=0.41.0
+pandas
+huggingface_hub
+Pillow
+pyarrow
+# Add any other specific dependencies if needed
