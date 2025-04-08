@@ -1,39 +1,55 @@
----
-language: en
-tags:
-- vision-language
-- food-waste
-- qwen
-- lora
-license: apache-2.0
----
+# Food Waste Project
 
-# Food Waste Vision-Language Model
+## 📦 Installation
 
-This is a fine-tuned version of Qwen-VL model for food waste detection and analysis. The model has been trained using LoRA fine-tuning on a custom food waste dataset.
-
-## Model Details
-
-- **Base Model**: Qwen-VL
-- **Fine-tuning Method**: LoRA
-- **Task**: Vision-Language Understanding for Food Waste
-- **License**: Apache 2.0
-
-## Usage
-
-```python
-from transformers import AutoModelForCausalLM, AutoTokenizer
-import torch
-
-model_id = "aihpi/food-waste-vlm"
-model = AutoModelForCausalLM.from_pretrained(model_id)
-tokenizer = AutoTokenizer.from_pretrained(model_id)
+1. Clone the repository:
+```bash
+git clone https://github.com/aihpi/food-waste
+cd food-waste
 ```
 
-## Training Details
+2. Create and activate a virtual environment:
 
-The model was fine-tuned using LoRA on a custom food waste dataset. The training was conducted using the LLaMA-Factory framework.
+**Linux/macOS:**
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
 
-## License
+**Windows:**
+```bash
+python -m venv .venv
+.\.venv\Scripts\activate
+```
 
-This model is licensed under the Apache 2.0 License.
+3. Install the package:
+```bash
+pip install .
+```
+
+## 🛠️ Usage
+
+Process and upload your dataset:
+
+```bash
+python dataset/data_processor.py \
+    --image-dir /path/to/images \
+    --csv-dir /path/to/csv \
+    --hf-repo-id username/dataset-name \
+    --private
+```
+
+### Arguments
+
+- `--image-dir`: Path to directory containing images
+- `--csv-dir`: Path to directory containing CSV files
+- `--hf-repo-id`: Hugging Face repository ID (e.g., "username/dataset-name")
+- `--private`: Make the repository private (default: True)
+
+## 📝 License
+
+[Add your license here]
+
+## 🤝 Contributing
+
+[Add contribution guidelines here]
