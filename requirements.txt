@@ -1,0 +1,13 @@
+torch>=2.0.0
+pytorch-lightning>=2.0.0
+transformers>=4.30.0
+peft>=0.4.0
+datasets>=2.12.0
+wandb>=0.15.0
+accelerate>=0.20.0
+bitsandbytes>=0.41.0
+pandas
+huggingface_hub
+Pillow
+pyarrow
+# Add any other specific dependencies if needed

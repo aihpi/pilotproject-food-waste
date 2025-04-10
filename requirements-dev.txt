@@ -1,0 +1,7 @@
+pytest
+pytest-mock
+pandas
+pillow
+datasets
+huggingface_hub
+pyarrow 
