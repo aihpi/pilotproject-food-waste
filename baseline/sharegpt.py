@@ -5,6 +5,7 @@ import pandas as pd
 import ast
 import os
 from PIL import Image
+import random
 
 def download_dataset():
     """
@@ -115,7 +116,6 @@ def create_food_qa(meal_data: Dict) -> Dict:
         if name and weight is not None:
             returned_ingredients.append({
                 "name": name,
-                "initial_weight": weight,
                 "returned_weight": ruecklauf
             })
     
@@ -125,10 +125,11 @@ def create_food_qa(meal_data: Dict) -> Dict:
         "total_weight": meal_data.get("Gewicht_vorher", 0)
     }
     
-    # Create return data JSON
+    # Create return data JSON with randomized ingredient order
+    random.shuffle(returned_ingredients)  # Randomize the order of ingredients
     return_data = {
         "ingredients": returned_ingredients,
-        "total_initial_weight": meal_data.get("Gewicht_vorher", 0)
+        "total_returned_weight": sum(item["returned_weight"] for item in returned_ingredients)
     }
     
     # Get image path - using the correct key "image" instead of "image_path"
@@ -141,7 +142,7 @@ def create_food_qa(meal_data: Dict) -> Dict:
                 "role": "user"
             },
             {
-                "content": f"Here are the ingredients with their initial weights and returned amounts:\n\n```json\n{json.dumps(return_data, indent=2)}\n```",
+                "content": f"```json\n{json.dumps(return_data, indent=2)}\n```",
                 "role": "assistant"
             }
         ],
