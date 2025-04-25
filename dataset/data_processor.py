@@ -333,26 +333,67 @@ dataset = load_dataset("{dataset.name}")
 """
         return readme
 
-    def upload_to_huggingface(self, dataset, repo_id, private=True):
-        """Upload the dataset to Huggingface, safely handling existing data."""
-        api = HfApi()
+    def download_dataset(self, repo_id, split="train"):
+        """
+        Download a dataset from Hugging Face to a local directory and return the path to its parquet files.
+        
+        Args:
+            repo_id: Hugging Face repository ID
+            split: The dataset split to download (default: "train")
+            
+        Returns:
+            Dataset object and path to parquet directory or None if download fails
+        """
+        logger.info(f"Attempting to download dataset from {repo_id}, split: {split}")
+        parquet_dir = self.local_data_dir / f"{repo_id.replace('/', '_')}_{split}_parquet"
         
         try:
             # Try to load existing dataset
-            existing_dataset = load_dataset(repo_id)
-            logger.info(f"Found existing dataset with {len(existing_dataset['train'])} samples")
+            dataset = load_dataset(repo_id, split=split)
+            logger.info(f"Successfully loaded dataset with {len(dataset)} samples for split: {split}")
+            
+            # Create parquet directory
+            parquet_dir.mkdir(exist_ok=True, parents=True)
+            
+            # Save dataset as parquet
+            parquet_path = parquet_dir / f"{split}.parquet"
+            dataset.to_parquet(parquet_path)
+            logger.info(f"Saved dataset to {parquet_path}")
+            
+            return dataset, parquet_dir
+            
+        except Exception as e:
+            logger.warning(f"Failed to download dataset from {repo_id} (split: {split}): {e}")
+            logger.info(f"No existing dataset found for split {split} or error downloading it")
+            return None, None
+
+    def upload_to_huggingface(self, dataset, repo_id, private=True, split="train"):
+        """Upload the dataset to Huggingface, safely handling existing data.
+        
+        Args:
+            dataset: The dataset to upload
+            repo_id: Hugging Face repository ID
+            private: Whether the repository should be private
+            split: The dataset split to upload to (default: "train")
+        """
+        api = HfApi()
+        
+        try:
+            # Try to load existing dataset for the specified split
+            existing_dataset = load_dataset(repo_id, split=split)
+            logger.info(f"Found existing dataset for split '{split}' with {len(existing_dataset)} samples")
             
             # Backup existing dataset locally before doing anything
             backup_dir = Path("./dataset_backup")
             backup_dir.mkdir(exist_ok=True)
-            backup_path = backup_dir / f"{repo_id.replace('/', '_')}_backup_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+            backup_path = backup_dir / f"{repo_id.replace('/', '_')}_{split}_backup_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
             logger.info(f"Creating backup of existing dataset at {backup_path}")
-            existing_dataset['train'].save_to_disk(backup_path)
+            existing_dataset.save_to_disk(backup_path)
             logger.info(f"Backup created successfully at {backup_path}")
             
             # Get current version from existing dataset's metadata
             try:
-                current_version = existing_dataset['train'].info.version
+                current_version = existing_dataset.info.version
                 # Parse semantic version (x.y.z format)
                 if current_version and isinstance(current_version, str):
                     version_parts = current_version.split('.')
@@ -380,33 +421,47 @@ dataset = load_dataset("{dataset.name}")
                     "version": new_version,
                     "timestamp": datetime.now().isoformat(),
                     "samples_added": len(dataset),
-                    "total_samples": len(existing_dataset['train']) + len(dataset)
+                    "total_samples": len(existing_dataset) + len(dataset),
+                    "split": split
                 })
                 
                 # Try to combine datasets
                 try:
                     # Combine existing and new datasets
-                    combined_dataset = concatenate_datasets([existing_dataset['train'], dataset])
-                    logger.info(f"Combined dataset has {len(combined_dataset)} samples")
+                    combined_dataset = concatenate_datasets([existing_dataset, dataset])
+                    logger.info(f"Combined dataset has {len(combined_dataset)} samples for split '{split}'")
                     
                     # Update dataset info
                     combined_dataset.info.version = new_version
                     combined_dataset.info.metadata = metadata
                     
-                    # Push combined dataset to hub
-                    combined_dataset.push_to_hub(repo_id, private=private)
+                    # Get all splits in the repository
+                    try:
+                        all_splits = load_dataset(repo_id)
+                        dataset_dict = {s: all_splits[s] for s in all_splits.keys()}
+                        # Replace the updated split
+                        dataset_dict[split] = combined_dataset
+                        # Create a datasets.DatasetDict object
+                        from datasets import DatasetDict
+                        dataset_dict = DatasetDict(dataset_dict)
+                        # Push all splits to hub
+                        dataset_dict.push_to_hub(repo_id, private=private)
+                        logger.info(f"Successfully uploaded all splits to {repo_id}")
+                    except Exception as e:
+                        logger.warning(f"Could not load all splits, uploading only the '{split}' split: {e}")
+                        # Push just the combined dataset to hub for this split
+                        combined_dataset.push_to_hub(repo_id, split=split, private=private)
+                        logger.info(f"Successfully uploaded combined dataset to {repo_id} for split '{split}'")
                     
                     # Create version tag
                     try:
                         api.create_tag(
                             repo_id=repo_id,
                             tag=f"v{new_version}",
-                            message=f"Version {new_version}: Added {len(dataset)} samples"
+                            message=f"Version {new_version}: Added {len(dataset)} samples to split '{split}'"
                         )
                     except Exception as e:
                         logger.warning(f"Failed to create version tag: {e}")
-                    
-                    logger.info(f"Successfully uploaded combined dataset to {repo_id}")
                     
                     return combined_dataset
                 
@@ -422,39 +477,37 @@ dataset = load_dataset("{dataset.name}")
                     # Export current combined dataset
                     existing_path = tmp_dir / "existing"
                     existing_path.mkdir(exist_ok=True)
-                    existing_dataset['train'].save_to_disk(existing_path)
+                    existing_dataset.save_to_disk(existing_path)
                     
                     # Export new dataset
                     new_path = tmp_dir / "new"
                     new_path.mkdir(exist_ok=True)
                     dataset.save_to_disk(new_path)
                     
-                    # Push both datasets to hub with clear naming
-                    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-                    
                     # Generate parquet files
                     parquet_dir = tmp_dir / "parquet"
                     parquet_dir.mkdir(exist_ok=True)
                     
                     # Save existing dataset as parquet
-                    existing_parquet = parquet_dir / f"existing_data.parquet"
-                    existing_dataset['train'].to_parquet(existing_parquet)
+                    existing_parquet = parquet_dir / f"existing_data_{split}.parquet"
+                    existing_dataset.to_parquet(existing_parquet)
                     
                     # Save new dataset as parquet with version in filename
-                    new_parquet = parquet_dir / f"new_data_v{new_version}_{timestamp}.parquet"
+                    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                    new_parquet = parquet_dir / f"new_data_{split}_v{new_version}_{timestamp}.parquet"
                     dataset.to_parquet(new_parquet)
                     
                     # Upload both parquet files
                     api.upload_file(
                         path_or_fileobj=str(existing_parquet),
-                        path_in_repo=f"parquet/existing_data.parquet",
+                        path_in_repo=f"parquet/existing_data_{split}.parquet",
                         repo_id=repo_id,
                         repo_type="dataset"
                     )
                     
                     api.upload_file(
                         path_or_fileobj=str(new_parquet),
-                        path_in_repo=f"parquet/new_data_v{new_version}_{timestamp}.parquet",
+                        path_in_repo=f"parquet/new_data_{split}_v{new_version}_{timestamp}.parquet",
                         repo_id=repo_id,
                         repo_type="dataset"
                     )
@@ -464,24 +517,24 @@ dataset = load_dataset("{dataset.name}")
 
 ## Dataset Information
 - **Updated**: {datetime.now().strftime("%Y-%m-%d")}
-- **Existing samples**: {len(existing_dataset['train'])}
-- **New samples**: {len(dataset)}
+- **Existing samples in {split}**: {len(existing_dataset)}
+- **New samples in {split}**: {len(dataset)}
 - **Schema note**: The new data (v{new_version}) has a different schema than existing data.
 
 ## Accessing Data
 This repository contains multiple parquet files due to schema differences:
-- `parquet/existing_data.parquet`: Original dataset with {len(existing_dataset['train'])} samples
-- `parquet/new_data_v{new_version}_{timestamp}.parquet`: New dataset with {len(dataset)} samples
+- `parquet/existing_data_{split}.parquet`: Original dataset with {len(existing_dataset)} samples
+- `parquet/new_data_{split}_v{new_version}_{timestamp}.parquet`: New dataset with {len(dataset)} samples
 
 ## Loading Specific Datasets
 ```python
 from datasets import load_dataset
 
 # Load the original dataset
-original_dataset = load_dataset("parquet", data_files="https://huggingface.co/{repo_id}/resolve/main/parquet/existing_data.parquet")
+original_dataset = load_dataset("parquet", data_files="https://huggingface.co/{repo_id}/resolve/main/parquet/existing_data_{split}.parquet")
 
 # Load the new dataset
-new_dataset = load_dataset("parquet", data_files="https://huggingface.co/{repo_id}/resolve/main/parquet/new_data_v{new_version}_{timestamp}.parquet")
+new_dataset = load_dataset("parquet", data_files="https://huggingface.co/{repo_id}/resolve/main/parquet/new_data_{split}_v{new_version}_{timestamp}.parquet")
 ```
 
 ## Version History
@@ -500,8 +553,8 @@ new_dataset = load_dataset("parquet", data_files="https://huggingface.co/{repo_i
                     )
                     
                     logger.info(f"Successfully uploaded both datasets as separate parquet files")
-                    logger.info(f"Original data saved as parquet/existing_data.parquet")
-                    logger.info(f"New data saved as parquet/new_data_v{new_version}_{timestamp}.parquet")
+                    logger.info(f"Original data saved as parquet/existing_data_{split}.parquet")
+                    logger.info(f"New data saved as parquet/new_data_{split}_v{new_version}_{timestamp}.parquet")
                     
                     return dataset
                     
@@ -513,13 +566,13 @@ new_dataset = load_dataset("parquet", data_files="https://huggingface.co/{repo_i
                 dataset.info.version = new_version
                 
                 # Push to hub
-                dataset.push_to_hub(repo_id, private=private)
+                dataset.push_to_hub(repo_id, split=split, private=private)
                 logger.info(f"Uploaded dataset with reset version {new_version}")
                 return dataset
                 
         except Exception as e:
-            logger.warning(f"No existing dataset found or error loading it: {e}")
-            logger.info("Creating new dataset...")
+            logger.warning(f"No existing dataset found for split '{split}' or error loading it: {e}")
+            logger.info(f"Creating new dataset for split '{split}'...")
             
             # Create new repository if it doesn't exist
             try:
@@ -539,22 +592,38 @@ new_dataset = load_dataset("parquet", data_files="https://huggingface.co/{repo_i
                 "version": new_version,
                 "timestamp": datetime.now().isoformat(),
                 "samples_added": len(dataset),
-                "total_samples": len(dataset)
+                "total_samples": len(dataset),
+                "split": split
             }]
             
             # Update dataset info
             dataset.info.version = new_version
             dataset.info.metadata = metadata
             
-            # Push new dataset to hub
-            dataset.push_to_hub(repo_id, private=private)
+            # Check if other splits exist
+            try:
+                all_splits = load_dataset(repo_id)
+                dataset_dict = {s: all_splits[s] for s in all_splits.keys()}
+                # Add or replace the current split
+                dataset_dict[split] = dataset
+                # Create a datasets.DatasetDict object
+                from datasets import DatasetDict
+                dataset_dict = DatasetDict(dataset_dict)
+                # Push all splits to hub
+                dataset_dict.push_to_hub(repo_id, private=private)
+                logger.info(f"Successfully uploaded all splits to {repo_id}")
+            except Exception as e:
+                logger.warning(f"Could not load existing splits, creating new split '{split}': {e}")
+                # Push just this split to hub
+                dataset.push_to_hub(repo_id, split=split, private=private)
+                logger.info(f"Successfully uploaded new dataset to {repo_id} for split '{split}'")
             
             # Create initial version tag
             try:
                 api.create_tag(
                     repo_id=repo_id,
                     tag=f"v{new_version}",
-                    message=f"Initial version with {len(dataset)} samples"
+                    message=f"Initial version with {len(dataset)} samples for split '{split}'"
                 )
             except Exception as e:
                 logger.warning(f"Failed to create version tag: {e}")
@@ -574,44 +643,11 @@ new_dataset = load_dataset("parquet", data_files="https://huggingface.co/{repo_i
             except Exception as e:
                 logger.warning(f"Failed to upload README: {e}")
             
-            logger.info(f"Successfully uploaded new dataset to {repo_id}")
+            logger.info(f"Successfully uploaded new dataset to {repo_id} for split '{split}'")
             logger.info(f"Dataset version: {new_version}")
             logger.info(f"Version history stored in dataset metadata")
 
         return dataset
-
-    def download_dataset(self, repo_id):
-        """
-        Download a dataset from Hugging Face to a local directory and return the path to its parquet files.
-        
-        Args:
-            repo_id: Hugging Face repository ID
-            
-        Returns:
-            Dataset object and path to parquet directory or None if download fails
-        """
-        logger.info(f"Attempting to download dataset from {repo_id}")
-        parquet_dir = self.local_data_dir / f"{repo_id.replace('/', '_')}_parquet"
-        
-        try:
-            # Try to load existing dataset
-            dataset = load_dataset(repo_id)
-            logger.info(f"Successfully loaded dataset with {len(dataset['train'])} samples")
-            
-            # Create parquet directory
-            parquet_dir.mkdir(exist_ok=True, parents=True)
-            
-            # Save dataset as parquet
-            parquet_path = parquet_dir / "dataset.parquet"
-            dataset['train'].to_parquet(parquet_path)
-            logger.info(f"Saved dataset to {parquet_path}")
-            
-            return dataset['train'], parquet_dir
-            
-        except Exception as e:
-            logger.warning(f"Failed to download dataset from {repo_id}: {e}")
-            logger.info("No existing dataset found or error downloading it")
-            return None, None
 
     def combine_with_new_data(self, existing_dataset, new_dataset):
         """
@@ -985,6 +1021,8 @@ if __name__ == "__main__":
                       help='Make the repository private (default: True)')
     parser.add_argument('--combine-mode', choices=['ignore', 'append', 'overwrite'], default='append',
                       help='How to handle existing data: ignore=use only new data, append=combine with existing, overwrite=replace existing')
+    parser.add_argument('--split', type=str, default='train',
+                      help='Dataset split to upload to (default: train)')
     
     args = parser.parse_args()
 
@@ -1001,12 +1039,12 @@ if __name__ == "__main__":
         
         if args.hf_repo_id and args.combine_mode != 'ignore':
             # Attempt to download and get parquet files
-            existing_dataset, parquet_dir = processor.download_dataset(args.hf_repo_id)
+            existing_dataset, parquet_dir = processor.download_dataset(args.hf_repo_id, split=args.split)
             
             if existing_dataset is not None:
-                logger.info(f"Downloaded dataset with {len(existing_dataset)} samples")
+                logger.info(f"Downloaded dataset with {len(existing_dataset)} samples for split {args.split}")
             elif args.combine_mode == 'overwrite':
-                logger.error("Failed to download dataset for overwrite mode")
+                logger.error(f"Failed to download dataset for overwrite mode (split: {args.split})")
                 exit(1)
         
         # Process new data if not in overwrite-only mode
@@ -1036,22 +1074,23 @@ if __name__ == "__main__":
         
         if args.hf_repo_id and final_dataset is not None:
             # Ask for confirmation
-            confirmation = input(f"\nUpload {len(final_dataset)} samples to {args.hf_repo_id}? (yes/no): ").strip().lower()
+            confirmation = input(f"\nUpload {len(final_dataset)} samples to {args.hf_repo_id} (split: {args.split})? (yes/no): ").strip().lower()
 
             if confirmation in ('yes', 'y'):
-                logger.info("Uploading dataset to Huggingface...")
+                logger.info(f"Uploading dataset to Huggingface for split {args.split}...")
                 processor.upload_to_huggingface(
-                        dataset=final_dataset,
+                    dataset=final_dataset,
                     repo_id=args.hf_repo_id,
-                    private=args.private
+                    private=args.private,
+                    split=args.split
                 )
-                logger.info(f"Successfully uploaded dataset to {args.hf_repo_id}")
+                logger.info(f"Successfully uploaded dataset to {args.hf_repo_id} (split: {args.split})")
             else:
                 logger.info("Upload cancelled by user")
         elif final_dataset is not None:
             # Save locally if not uploading
-            output_dir = Path("./output_dataset")
-            output_dir.mkdir(exist_ok=True)
+            output_dir = Path(f"./output_dataset/{args.split}")
+            output_dir.mkdir(exist_ok=True, parents=True)
             final_dataset.save_to_disk(output_dir)
             logger.info(f"Saved dataset locally to {output_dir}")
         else:
