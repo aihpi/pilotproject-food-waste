@@ -36,6 +36,7 @@ python dataset/data_processor.py \
     --image-dir /path/to/images \
     --csv-dir /path/to/csv \
     --hf-repo-id username/dataset-name \
+    --split train \
     --private
 ```
 
@@ -44,6 +45,7 @@ python dataset/data_processor.py \
 - `--image-dir`: Path to directory containing images
 - `--csv-dir`: Path to directory containing CSV files
 - `--hf-repo-id`: Hugging Face repository ID (e.g., "username/dataset-name")
+- `--split`: Upload to a specific split [train, validation, test]
 - `--private`: Make the repository private (default: True)
 
 ## 📝 License
