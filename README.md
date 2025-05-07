@@ -37,7 +37,7 @@ python dataset/data_processor.py \
     --csv-dir /path/to/csv \
     --hf-repo-id username/dataset-name \
     --split train \
-    --combine-mode append \
+    --combine-mode ignore \
     --private
 ```
 
