@@ -37,6 +37,7 @@ python dataset/data_processor.py \
     --csv-dir /path/to/csv \
     --hf-repo-id username/dataset-name \
     --split train \
+    --combine-mode append \
     --private
 ```
 
@@ -47,6 +48,7 @@ python dataset/data_processor.py \
 - `--hf-repo-id`: Hugging Face repository ID (e.g., "username/dataset-name")
 - `--split`: Upload to a specific split [train, validation, test]
 - `--private`: Make the repository private (default: True)
+- `--combine-mode`: Use ignore for new datasets, overwrite if you want to overwrite the dataset and append if you want to add to a dataset (default: append)
 
 ## 📝 License
 
