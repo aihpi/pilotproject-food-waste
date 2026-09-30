@@ -7,6 +7,10 @@ This repository has the code to build the dataset, fine-tune a vision-language m
 - **Dataset**: [AI-ServicesBB/food-waste-dataset](https://huggingface.co/datasets/AI-ServicesBB/food-waste-dataset) on Hugging Face
 - **Model**: [aihpi/food-waste-vlm](https://huggingface.co/aihpi/food-waste-vlm), a LoRA fine-tune of Qwen2-VL-7B-Instruct
 
+## 🧭 Background
+
+This dataset was created in a pilot project of the AI Service Centre Berlin-Brandenburg with L. Stroetmann Zutaten für Profis, whose catering system à la QUARTO supplies senior care homes. Food returns in care homes are logged by hand: staff scan the meal's receipt, scrape the leftovers of each ingredient into a container and weigh them. This takes one staff member about 15 minutes a day and is often done only occasionally. The aim is to estimate the returns automatically from a photo of the plate, to get better data on what residents actually eat and to help spot the risk of malnutrition early. All data was created in L. Stroetmann's test kitchen.
+
 ## 🍽️ Dataset
 
 Photos of plates **after** a meal, each labelled with how many grams of every ingredient came back uneaten. The dataset was built to train and evaluate models that estimate plate waste from a single photo.
