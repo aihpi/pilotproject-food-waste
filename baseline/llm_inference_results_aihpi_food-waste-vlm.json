@@ -1,7 +1,7 @@
 [
     {
         "id": "meal_0.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_0.jpg",
+        "image_path": "images/meal_0.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -56,7 +56,7 @@
     },
     {
         "id": "meal_1.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_1.jpg",
+        "image_path": "images/meal_1.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -111,7 +111,7 @@
     },
     {
         "id": "meal_2.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_2.jpg",
+        "image_path": "images/meal_2.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -166,7 +166,7 @@
     },
     {
         "id": "meal_3.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_3.jpg",
+        "image_path": "images/meal_3.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -221,7 +221,7 @@
     },
     {
         "id": "meal_4.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_4.jpg",
+        "image_path": "images/meal_4.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -276,7 +276,7 @@
     },
     {
         "id": "meal_5.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_5.jpg",
+        "image_path": "images/meal_5.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -331,7 +331,7 @@
     },
     {
         "id": "meal_6.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_6.jpg",
+        "image_path": "images/meal_6.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -386,7 +386,7 @@
     },
     {
         "id": "meal_7.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_7.jpg",
+        "image_path": "images/meal_7.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -441,7 +441,7 @@
     },
     {
         "id": "meal_8.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_8.jpg",
+        "image_path": "images/meal_8.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -496,7 +496,7 @@
     },
     {
         "id": "meal_9.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_9.jpg",
+        "image_path": "images/meal_9.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -551,7 +551,7 @@
     },
     {
         "id": "meal_10.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_10.jpg",
+        "image_path": "images/meal_10.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -606,7 +606,7 @@
     },
     {
         "id": "meal_11.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_11.jpg",
+        "image_path": "images/meal_11.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -661,7 +661,7 @@
     },
     {
         "id": "meal_12.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_12.jpg",
+        "image_path": "images/meal_12.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -716,7 +716,7 @@
     },
     {
         "id": "meal_13.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_13.jpg",
+        "image_path": "images/meal_13.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -771,7 +771,7 @@
     },
     {
         "id": "meal_14.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_14.jpg",
+        "image_path": "images/meal_14.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -826,7 +826,7 @@
     },
     {
         "id": "meal_15.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_15.jpg",
+        "image_path": "images/meal_15.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -881,7 +881,7 @@
     },
     {
         "id": "meal_16.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_16.jpg",
+        "image_path": "images/meal_16.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -936,7 +936,7 @@
     },
     {
         "id": "meal_17.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_17.jpg",
+        "image_path": "images/meal_17.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -991,7 +991,7 @@
     },
     {
         "id": "meal_18.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_18.jpg",
+        "image_path": "images/meal_18.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1046,7 +1046,7 @@
     },
     {
         "id": "meal_19.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_19.jpg",
+        "image_path": "images/meal_19.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1101,7 +1101,7 @@
     },
     {
         "id": "meal_20.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_20.jpg",
+        "image_path": "images/meal_20.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1156,7 +1156,7 @@
     },
     {
         "id": "meal_21.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_21.jpg",
+        "image_path": "images/meal_21.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1211,7 +1211,7 @@
     },
     {
         "id": "meal_22.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_22.jpg",
+        "image_path": "images/meal_22.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1266,7 +1266,7 @@
     },
     {
         "id": "meal_23.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_23.jpg",
+        "image_path": "images/meal_23.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1331,7 +1331,7 @@
     },
     {
         "id": "meal_24.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_24.jpg",
+        "image_path": "images/meal_24.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1396,7 +1396,7 @@
     },
     {
         "id": "meal_25.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_25.jpg",
+        "image_path": "images/meal_25.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1461,7 +1461,7 @@
     },
     {
         "id": "meal_26.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_26.jpg",
+        "image_path": "images/meal_26.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1526,7 +1526,7 @@
     },
     {
         "id": "meal_27.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_27.jpg",
+        "image_path": "images/meal_27.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1591,7 +1591,7 @@
     },
     {
         "id": "meal_28.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_28.jpg",
+        "image_path": "images/meal_28.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1656,7 +1656,7 @@
     },
     {
         "id": "meal_29.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_29.jpg",
+        "image_path": "images/meal_29.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1721,7 +1721,7 @@
     },
     {
         "id": "meal_30.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_30.jpg",
+        "image_path": "images/meal_30.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1786,7 +1786,7 @@
     },
     {
         "id": "meal_31.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_31.jpg",
+        "image_path": "images/meal_31.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1851,7 +1851,7 @@
     },
     {
         "id": "meal_32.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_32.jpg",
+        "image_path": "images/meal_32.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1916,7 +1916,7 @@
     },
     {
         "id": "meal_33.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_33.jpg",
+        "image_path": "images/meal_33.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1981,7 +1981,7 @@
     },
     {
         "id": "meal_34.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_34.jpg",
+        "image_path": "images/meal_34.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2046,7 +2046,7 @@
     },
     {
         "id": "meal_35.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_35.jpg",
+        "image_path": "images/meal_35.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2111,7 +2111,7 @@
     },
     {
         "id": "meal_36.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_36.jpg",
+        "image_path": "images/meal_36.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2176,7 +2176,7 @@
     },
     {
         "id": "meal_37.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_37.jpg",
+        "image_path": "images/meal_37.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2241,7 +2241,7 @@
     },
     {
         "id": "meal_38.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_38.jpg",
+        "image_path": "images/meal_38.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2306,7 +2306,7 @@
     },
     {
         "id": "meal_39.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_39.jpg",
+        "image_path": "images/meal_39.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2371,7 +2371,7 @@
     },
     {
         "id": "meal_40.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_40.jpg",
+        "image_path": "images/meal_40.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2426,7 +2426,7 @@
     },
     {
         "id": "meal_41.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_41.jpg",
+        "image_path": "images/meal_41.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2481,7 +2481,7 @@
     },
     {
         "id": "meal_42.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_42.jpg",
+        "image_path": "images/meal_42.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2536,7 +2536,7 @@
     },
     {
         "id": "meal_43.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_43.jpg",
+        "image_path": "images/meal_43.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2591,7 +2591,7 @@
     },
     {
         "id": "meal_44.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_44.jpg",
+        "image_path": "images/meal_44.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2646,7 +2646,7 @@
     },
     {
         "id": "meal_45.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_45.jpg",
+        "image_path": "images/meal_45.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2701,7 +2701,7 @@
     },
     {
         "id": "meal_46.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_46.jpg",
+        "image_path": "images/meal_46.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2756,7 +2756,7 @@
     },
     {
         "id": "meal_47.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_47.jpg",
+        "image_path": "images/meal_47.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2811,7 +2811,7 @@
     },
     {
         "id": "meal_48.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_48.jpg",
+        "image_path": "images/meal_48.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2866,7 +2866,7 @@
     },
     {
         "id": "meal_49.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_49.jpg",
+        "image_path": "images/meal_49.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2921,7 +2921,7 @@
     },
     {
         "id": "meal_50.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_50.jpg",
+        "image_path": "images/meal_50.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2976,7 +2976,7 @@
     },
     {
         "id": "meal_51.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_51.jpg",
+        "image_path": "images/meal_51.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3031,7 +3031,7 @@
     },
     {
         "id": "meal_52.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_52.jpg",
+        "image_path": "images/meal_52.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3086,7 +3086,7 @@
     },
     {
         "id": "meal_53.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_53.jpg",
+        "image_path": "images/meal_53.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3141,7 +3141,7 @@
     },
     {
         "id": "meal_54.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_54.jpg",
+        "image_path": "images/meal_54.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3216,7 +3216,7 @@
     },
     {
         "id": "meal_55.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_55.jpg",
+        "image_path": "images/meal_55.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3291,7 +3291,7 @@
     },
     {
         "id": "meal_56.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_56.jpg",
+        "image_path": "images/meal_56.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3366,7 +3366,7 @@
     },
     {
         "id": "meal_57.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_57.jpg",
+        "image_path": "images/meal_57.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3441,7 +3441,7 @@
     },
     {
         "id": "meal_58.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_58.jpg",
+        "image_path": "images/meal_58.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3516,7 +3516,7 @@
     },
     {
         "id": "meal_59.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_59.jpg",
+        "image_path": "images/meal_59.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3591,7 +3591,7 @@
     },
     {
         "id": "meal_60.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_60.jpg",
+        "image_path": "images/meal_60.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3666,7 +3666,7 @@
     },
     {
         "id": "meal_61.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_61.jpg",
+        "image_path": "images/meal_61.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3741,7 +3741,7 @@
     },
     {
         "id": "meal_62.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_62.jpg",
+        "image_path": "images/meal_62.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3816,7 +3816,7 @@
     },
     {
         "id": "meal_63.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_63.jpg",
+        "image_path": "images/meal_63.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3891,7 +3891,7 @@
     },
     {
         "id": "meal_64.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_64.jpg",
+        "image_path": "images/meal_64.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3966,7 +3966,7 @@
     },
     {
         "id": "meal_65.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_65.jpg",
+        "image_path": "images/meal_65.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4041,7 +4041,7 @@
     },
     {
         "id": "meal_66.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_66.jpg",
+        "image_path": "images/meal_66.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4136,7 +4136,7 @@
     },
     {
         "id": "meal_67.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_67.jpg",
+        "image_path": "images/meal_67.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4231,7 +4231,7 @@
     },
     {
         "id": "meal_68.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_68.jpg",
+        "image_path": "images/meal_68.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4326,7 +4326,7 @@
     },
     {
         "id": "meal_69.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_69.jpg",
+        "image_path": "images/meal_69.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4421,7 +4421,7 @@
     },
     {
         "id": "meal_70.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_70.jpg",
+        "image_path": "images/meal_70.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4516,7 +4516,7 @@
     },
     {
         "id": "meal_71.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_71.jpg",
+        "image_path": "images/meal_71.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4611,7 +4611,7 @@
     },
     {
         "id": "meal_72.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_72.jpg",
+        "image_path": "images/meal_72.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4706,7 +4706,7 @@
     },
     {
         "id": "meal_73.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_73.jpg",
+        "image_path": "images/meal_73.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4801,7 +4801,7 @@
     },
     {
         "id": "meal_74.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_74.jpg",
+        "image_path": "images/meal_74.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4896,7 +4896,7 @@
     },
     {
         "id": "meal_75.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_75.jpg",
+        "image_path": "images/meal_75.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4991,7 +4991,7 @@
     },
     {
         "id": "meal_76.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_76.jpg",
+        "image_path": "images/meal_76.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5086,7 +5086,7 @@
     },
     {
         "id": "meal_77.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_77.jpg",
+        "image_path": "images/meal_77.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5181,7 +5181,7 @@
     },
     {
         "id": "meal_78.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_78.jpg",
+        "image_path": "images/meal_78.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5256,7 +5256,7 @@
     },
     {
         "id": "meal_79.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_79.jpg",
+        "image_path": "images/meal_79.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5331,7 +5331,7 @@
     },
     {
         "id": "meal_80.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_80.jpg",
+        "image_path": "images/meal_80.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5406,7 +5406,7 @@
     },
     {
         "id": "meal_81.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_81.jpg",
+        "image_path": "images/meal_81.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5481,7 +5481,7 @@
     },
     {
         "id": "meal_82.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_82.jpg",
+        "image_path": "images/meal_82.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5556,7 +5556,7 @@
     },
     {
         "id": "meal_83.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_83.jpg",
+        "image_path": "images/meal_83.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5631,7 +5631,7 @@
     },
     {
         "id": "meal_84.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_84.jpg",
+        "image_path": "images/meal_84.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5706,7 +5706,7 @@
     },
     {
         "id": "meal_85.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_85.jpg",
+        "image_path": "images/meal_85.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5781,7 +5781,7 @@
     },
     {
         "id": "meal_86.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_86.jpg",
+        "image_path": "images/meal_86.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5856,7 +5856,7 @@
     },
     {
         "id": "meal_87.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_87.jpg",
+        "image_path": "images/meal_87.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5931,7 +5931,7 @@
     },
     {
         "id": "meal_88.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_88.jpg",
+        "image_path": "images/meal_88.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6006,7 +6006,7 @@
     },
     {
         "id": "meal_89.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_89.jpg",
+        "image_path": "images/meal_89.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6081,7 +6081,7 @@
     },
     {
         "id": "meal_90.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_90.jpg",
+        "image_path": "images/meal_90.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6156,7 +6156,7 @@
     },
     {
         "id": "meal_91.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_91.jpg",
+        "image_path": "images/meal_91.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6231,7 +6231,7 @@
     },
     {
         "id": "meal_92.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_92.jpg",
+        "image_path": "images/meal_92.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6306,7 +6306,7 @@
     },
     {
         "id": "meal_93.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_93.jpg",
+        "image_path": "images/meal_93.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6381,7 +6381,7 @@
     },
     {
         "id": "meal_94.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_94.jpg",
+        "image_path": "images/meal_94.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6456,7 +6456,7 @@
     },
     {
         "id": "meal_95.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_95.jpg",
+        "image_path": "images/meal_95.jpg",
         "ground_truth": {
             "ingredients": [
                 {

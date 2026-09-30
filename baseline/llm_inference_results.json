@@ -1,7 +1,7 @@
 [
     {
         "id": "meal_0.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_0.jpg",
+        "image_path": "images/meal_0.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -51,7 +51,7 @@
     },
     {
         "id": "meal_1.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_1.jpg",
+        "image_path": "images/meal_1.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -101,7 +101,7 @@
     },
     {
         "id": "meal_2.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_2.jpg",
+        "image_path": "images/meal_2.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -151,7 +151,7 @@
     },
     {
         "id": "meal_3.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_3.jpg",
+        "image_path": "images/meal_3.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -201,7 +201,7 @@
     },
     {
         "id": "meal_4.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_4.jpg",
+        "image_path": "images/meal_4.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -250,7 +250,7 @@
     },
     {
         "id": "meal_5.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_5.jpg",
+        "image_path": "images/meal_5.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -300,7 +300,7 @@
     },
     {
         "id": "meal_6.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_6.jpg",
+        "image_path": "images/meal_6.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -350,7 +350,7 @@
     },
     {
         "id": "meal_7.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_7.jpg",
+        "image_path": "images/meal_7.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -400,7 +400,7 @@
     },
     {
         "id": "meal_8.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_8.jpg",
+        "image_path": "images/meal_8.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -449,7 +449,7 @@
     },
     {
         "id": "meal_9.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_9.jpg",
+        "image_path": "images/meal_9.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -498,7 +498,7 @@
     },
     {
         "id": "meal_10.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_10.jpg",
+        "image_path": "images/meal_10.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -548,7 +548,7 @@
     },
     {
         "id": "meal_11.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_11.jpg",
+        "image_path": "images/meal_11.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -598,7 +598,7 @@
     },
     {
         "id": "meal_12.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_12.jpg",
+        "image_path": "images/meal_12.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -648,7 +648,7 @@
     },
     {
         "id": "meal_13.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_13.jpg",
+        "image_path": "images/meal_13.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -698,7 +698,7 @@
     },
     {
         "id": "meal_14.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_14.jpg",
+        "image_path": "images/meal_14.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -747,7 +747,7 @@
     },
     {
         "id": "meal_15.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_15.jpg",
+        "image_path": "images/meal_15.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -796,7 +796,7 @@
     },
     {
         "id": "meal_16.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_16.jpg",
+        "image_path": "images/meal_16.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -846,7 +846,7 @@
     },
     {
         "id": "meal_17.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_17.jpg",
+        "image_path": "images/meal_17.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -895,7 +895,7 @@
     },
     {
         "id": "meal_18.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_18.jpg",
+        "image_path": "images/meal_18.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -945,7 +945,7 @@
     },
     {
         "id": "meal_19.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_19.jpg",
+        "image_path": "images/meal_19.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -994,7 +994,7 @@
     },
     {
         "id": "meal_20.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_20.jpg",
+        "image_path": "images/meal_20.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -1044,7 +1044,7 @@
     },
     {
         "id": "meal_21.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_21.jpg",
+        "image_path": "images/meal_21.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -1094,7 +1094,7 @@
     },
     {
         "id": "meal_22.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_22.jpg",
+        "image_path": "images/meal_22.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -1144,7 +1144,7 @@
     },
     {
         "id": "meal_23.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_23.jpg",
+        "image_path": "images/meal_23.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -1202,7 +1202,7 @@
     },
     {
         "id": "meal_24.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_24.jpg",
+        "image_path": "images/meal_24.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -1260,7 +1260,7 @@
     },
     {
         "id": "meal_25.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_25.jpg",
+        "image_path": "images/meal_25.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -1319,7 +1319,7 @@
     },
     {
         "id": "meal_26.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_26.jpg",
+        "image_path": "images/meal_26.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -1378,7 +1378,7 @@
     },
     {
         "id": "meal_27.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_27.jpg",
+        "image_path": "images/meal_27.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -1436,7 +1436,7 @@
     },
     {
         "id": "meal_28.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_28.jpg",
+        "image_path": "images/meal_28.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -1495,7 +1495,7 @@
     },
     {
         "id": "meal_29.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_29.jpg",
+        "image_path": "images/meal_29.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -1553,7 +1553,7 @@
     },
     {
         "id": "meal_30.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_30.jpg",
+        "image_path": "images/meal_30.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -1612,7 +1612,7 @@
     },
     {
         "id": "meal_31.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_31.jpg",
+        "image_path": "images/meal_31.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -1670,7 +1670,7 @@
     },
     {
         "id": "meal_32.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_32.jpg",
+        "image_path": "images/meal_32.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -1729,7 +1729,7 @@
     },
     {
         "id": "meal_33.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_33.jpg",
+        "image_path": "images/meal_33.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -1787,7 +1787,7 @@
     },
     {
         "id": "meal_34.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_34.jpg",
+        "image_path": "images/meal_34.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -1845,7 +1845,7 @@
     },
     {
         "id": "meal_35.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_35.jpg",
+        "image_path": "images/meal_35.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -1904,7 +1904,7 @@
     },
     {
         "id": "meal_36.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_36.jpg",
+        "image_path": "images/meal_36.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -1963,7 +1963,7 @@
     },
     {
         "id": "meal_37.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_37.jpg",
+        "image_path": "images/meal_37.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -2021,7 +2021,7 @@
     },
     {
         "id": "meal_38.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_38.jpg",
+        "image_path": "images/meal_38.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -2079,7 +2079,7 @@
     },
     {
         "id": "meal_39.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_39.jpg",
+        "image_path": "images/meal_39.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -2138,7 +2138,7 @@
     },
     {
         "id": "meal_40.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_40.jpg",
+        "image_path": "images/meal_40.jpg",
         "prediction": {
             "error": "Failed to parse response",
             "raw_response": "Certainly! Based on the initial meal data and the image showing the remnants on the plate, we can estimate the amount of food returned for each ingredient. Here is the JSON format for the amounts of food returned:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"weight_returned\": 80  // Estimated based on the visible remnants\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"weight_returned\": 60  // Estimated based on the visible remnants\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"weight_returned\": 50  // Estimated based on the visible remnants\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"weight_returned\": 20  // Estimated based on the visible remnants\n    }\n  ]\n}\n```"
@@ -2171,7 +2171,7 @@
     },
     {
         "id": "meal_41.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_41.jpg",
+        "image_path": "images/meal_41.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -2224,7 +2224,7 @@
     },
     {
         "id": "meal_42.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_42.jpg",
+        "image_path": "images/meal_42.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -2277,7 +2277,7 @@
     },
     {
         "id": "meal_43.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_43.jpg",
+        "image_path": "images/meal_43.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -2330,7 +2330,7 @@
     },
     {
         "id": "meal_44.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_44.jpg",
+        "image_path": "images/meal_44.jpg",
         "prediction": {
             "error": "Failed to parse response",
             "raw_response": "Certainly! Based on the initial meal data provided, we can calculate the amount of food returned for each ingredient. Since the total weight of the meal is 370 grams and the plate appears to have remnants of the meal, we can estimate the returned amounts by subtracting the weight of the remnants from the total weight of each ingredient.\n\nHere is the JSON format for the amount of food returned for each ingredient:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 120 - 30 // Assuming 30 grams of Semmelkn\\u00f6del is left\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 100 - 20 // Assuming 20 grams of Rotkohl is left\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"initial_weight\": 90,\n      \"returned_weight\": 90 - 15 // Assuming 15 grams of Rinderbraten is left\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 60 - 15 // Assuming 15 grams of Malzbier-Senf-Sauce is left\n    }\n  ],\n  \"total_weight\": 370\n}\n```\n\nNote: The amounts of remnants are estimated based on the visual appearance of the plate. Adjustments can be made based on more precise observations."
@@ -2363,7 +2363,7 @@
     },
     {
         "id": "meal_45.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_45.jpg",
+        "image_path": "images/meal_45.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -2416,7 +2416,7 @@
     },
     {
         "id": "meal_46.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_46.jpg",
+        "image_path": "images/meal_46.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -2469,7 +2469,7 @@
     },
     {
         "id": "meal_47.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_47.jpg",
+        "image_path": "images/meal_47.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -2522,7 +2522,7 @@
     },
     {
         "id": "meal_48.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_48.jpg",
+        "image_path": "images/meal_48.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -2571,7 +2571,7 @@
     },
     {
         "id": "meal_49.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_49.jpg",
+        "image_path": "images/meal_49.jpg",
         "prediction": {
             "error": "Failed to parse response",
             "raw_response": "Certainly! Based on the initial meal data provided, we can calculate the amount of food returned for each ingredient by subtracting the remaining weight from the initial weight. Here is the JSON format for the amount of food returned for each ingredient:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 120 - 0  // Assuming no Semmelkn\\u00f6del was returned\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 100 - 0  // Assuming no Rotkohl was returned\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"initial_weight\": 90,\n      \"returned_weight\": 90 - 0  // Assuming no Rinderbraten was returned\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 60 - 0  // Assuming no Malzbier-Senf-Sauce was returned\n    }\n  ]\n}\n```"
@@ -2604,7 +2604,7 @@
     },
     {
         "id": "meal_50.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_50.jpg",
+        "image_path": "images/meal_50.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -2658,7 +2658,7 @@
     },
     {
         "id": "meal_51.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_51.jpg",
+        "image_path": "images/meal_51.jpg",
         "prediction": {
             "error": "Failed to parse response",
             "raw_response": "Certainly! Based on the initial meal data provided, we can calculate the amount of food returned for each ingredient. Since the total weight of the meal is 370 grams and the plate appears to have remnants of food, we can estimate the returned amounts by subtracting the weight of the remnants from the total weight of each ingredient.\n\nHere is the JSON format for the amount of food returned for each ingredient:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 120 - 30  // Assuming 30 grams of Semmelkn\\u00f6del is left\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 100 - 20  // Assuming 20 grams of Rotkohl is left\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"initial_weight\": 90,\n      \"returned_weight\": 90 - 15  // Assuming 15 grams of Rinderbraten is left\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 60 - 15  // Assuming 15 grams of Malzbier-Senf-Sauce is left\n    }\n  ],\n  \"total_weight\": 370\n}\n```\n\nNote: The amounts of remnants are estimated and may vary based on the actual remnants visible in the image."
@@ -2691,7 +2691,7 @@
     },
     {
         "id": "meal_52.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_52.jpg",
+        "image_path": "images/meal_52.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -2745,7 +2745,7 @@
     },
     {
         "id": "meal_53.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_53.jpg",
+        "image_path": "images/meal_53.jpg",
         "prediction": {
             "error": "Failed to parse response",
             "raw_response": "Certainly! Based on the initial meal data provided, we can calculate the amount of food returned for each ingredient. Since the total weight of the meal is 370 grams and the plate appears to have remnants of food, we can estimate the returned amounts by subtracting the remaining food from the initial weights.\n\nHere is the JSON format for the amount of food returned for each ingredient:\n\n```json\n{\n  \"ingredients\": [\n    {\n      \"name\": \"Semmelkn\\u00f6del \",\n      \"initial_weight\": 120,\n      \"returned_weight\": 20  // Estimated based on the remnants\n    },\n    {\n      \"name\": \"Rotkohl\",\n      \"initial_weight\": 100,\n      \"returned_weight\": 80  // Estimated based on the remnants\n    },\n    {\n      \"name\": \"Rinderbraten\",\n      \"initial_weight\": 90,\n      \"returned_weight\": 10  // Estimated based on the remnants\n    },\n    {\n      \"name\": \"Malzbier-Senf-Sauce\",\n      \"initial_weight\": 60,\n      \"returned_weight\": 50  // Estimated based on the remnants\n    }\n  ]\n}\n```\n\nNote: The returned weights are estimated based on the visual remnants on the plate."
@@ -2778,7 +2778,7 @@
     },
     {
         "id": "meal_54.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_54.jpg",
+        "image_path": "images/meal_54.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -2845,7 +2845,7 @@
     },
     {
         "id": "meal_55.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_55.jpg",
+        "image_path": "images/meal_55.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -2912,7 +2912,7 @@
     },
     {
         "id": "meal_56.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_56.jpg",
+        "image_path": "images/meal_56.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -2979,7 +2979,7 @@
     },
     {
         "id": "meal_57.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_57.jpg",
+        "image_path": "images/meal_57.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -3046,7 +3046,7 @@
     },
     {
         "id": "meal_58.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_58.jpg",
+        "image_path": "images/meal_58.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -3113,7 +3113,7 @@
     },
     {
         "id": "meal_59.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_59.jpg",
+        "image_path": "images/meal_59.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -3180,7 +3180,7 @@
     },
     {
         "id": "meal_60.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_60.jpg",
+        "image_path": "images/meal_60.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -3247,7 +3247,7 @@
     },
     {
         "id": "meal_61.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_61.jpg",
+        "image_path": "images/meal_61.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -3314,7 +3314,7 @@
     },
     {
         "id": "meal_62.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_62.jpg",
+        "image_path": "images/meal_62.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -3381,7 +3381,7 @@
     },
     {
         "id": "meal_63.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_63.jpg",
+        "image_path": "images/meal_63.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -3449,7 +3449,7 @@
     },
     {
         "id": "meal_64.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_64.jpg",
+        "image_path": "images/meal_64.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -3516,7 +3516,7 @@
     },
     {
         "id": "meal_65.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_65.jpg",
+        "image_path": "images/meal_65.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -3583,7 +3583,7 @@
     },
     {
         "id": "meal_66.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_66.jpg",
+        "image_path": "images/meal_66.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -3669,7 +3669,7 @@
     },
     {
         "id": "meal_67.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_67.jpg",
+        "image_path": "images/meal_67.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -3765,7 +3765,7 @@
     },
     {
         "id": "meal_68.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_68.jpg",
+        "image_path": "images/meal_68.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -3859,7 +3859,7 @@
     },
     {
         "id": "meal_69.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_69.jpg",
+        "image_path": "images/meal_69.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -3945,7 +3945,7 @@
     },
     {
         "id": "meal_70.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_70.jpg",
+        "image_path": "images/meal_70.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -4030,7 +4030,7 @@
     },
     {
         "id": "meal_71.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_71.jpg",
+        "image_path": "images/meal_71.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -4150,7 +4150,7 @@
     },
     {
         "id": "meal_72.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_72.jpg",
+        "image_path": "images/meal_72.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -4236,7 +4236,7 @@
     },
     {
         "id": "meal_73.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_73.jpg",
+        "image_path": "images/meal_73.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -4322,7 +4322,7 @@
     },
     {
         "id": "meal_74.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_74.jpg",
+        "image_path": "images/meal_74.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -4408,7 +4408,7 @@
     },
     {
         "id": "meal_75.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_75.jpg",
+        "image_path": "images/meal_75.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -4494,7 +4494,7 @@
     },
     {
         "id": "meal_76.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_76.jpg",
+        "image_path": "images/meal_76.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -4580,7 +4580,7 @@
     },
     {
         "id": "meal_77.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_77.jpg",
+        "image_path": "images/meal_77.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -4666,7 +4666,7 @@
     },
     {
         "id": "meal_78.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_78.jpg",
+        "image_path": "images/meal_78.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -4733,7 +4733,7 @@
     },
     {
         "id": "meal_79.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_79.jpg",
+        "image_path": "images/meal_79.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -4800,7 +4800,7 @@
     },
     {
         "id": "meal_80.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_80.jpg",
+        "image_path": "images/meal_80.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -4867,7 +4867,7 @@
     },
     {
         "id": "meal_81.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_81.jpg",
+        "image_path": "images/meal_81.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -4934,7 +4934,7 @@
     },
     {
         "id": "meal_82.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_82.jpg",
+        "image_path": "images/meal_82.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -5001,7 +5001,7 @@
     },
     {
         "id": "meal_83.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_83.jpg",
+        "image_path": "images/meal_83.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -5068,7 +5068,7 @@
     },
     {
         "id": "meal_84.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_84.jpg",
+        "image_path": "images/meal_84.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -5135,7 +5135,7 @@
     },
     {
         "id": "meal_85.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_85.jpg",
+        "image_path": "images/meal_85.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -5202,7 +5202,7 @@
     },
     {
         "id": "meal_86.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_86.jpg",
+        "image_path": "images/meal_86.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -5269,7 +5269,7 @@
     },
     {
         "id": "meal_87.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_87.jpg",
+        "image_path": "images/meal_87.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -5336,7 +5336,7 @@
     },
     {
         "id": "meal_88.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_88.jpg",
+        "image_path": "images/meal_88.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -5403,7 +5403,7 @@
     },
     {
         "id": "meal_89.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_89.jpg",
+        "image_path": "images/meal_89.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -5470,7 +5470,7 @@
     },
     {
         "id": "meal_90.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_90.jpg",
+        "image_path": "images/meal_90.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -5537,7 +5537,7 @@
     },
     {
         "id": "meal_91.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_91.jpg",
+        "image_path": "images/meal_91.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -5604,7 +5604,7 @@
     },
     {
         "id": "meal_92.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_92.jpg",
+        "image_path": "images/meal_92.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -5671,7 +5671,7 @@
     },
     {
         "id": "meal_93.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_93.jpg",
+        "image_path": "images/meal_93.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -5738,7 +5738,7 @@
     },
     {
         "id": "meal_94.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_94.jpg",
+        "image_path": "images/meal_94.jpg",
         "prediction": {
             "ingredients": [
                 {
@@ -5805,7 +5805,7 @@
     },
     {
         "id": "meal_95.jpg",
-        "image_path": "/Users/felixboelter/Documents/GitHub/food-waste/images/meal_95.jpg",
+        "image_path": "images/meal_95.jpg",
         "prediction": {
             "ingredients": [
                 {

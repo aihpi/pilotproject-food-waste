@@ -11,7 +11,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_0.jpg"
+      "images/meal_0.jpg"
     ]
   },
   {
@@ -26,7 +26,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_1.jpg"
+      "images/meal_1.jpg"
     ]
   },
   {
@@ -41,7 +41,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_2.jpg"
+      "images/meal_2.jpg"
     ]
   },
   {
@@ -56,7 +56,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_3.jpg"
+      "images/meal_3.jpg"
     ]
   },
   {
@@ -71,7 +71,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_4.jpg"
+      "images/meal_4.jpg"
     ]
   },
   {
@@ -86,7 +86,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_5.jpg"
+      "images/meal_5.jpg"
     ]
   },
   {
@@ -101,7 +101,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_6.jpg"
+      "images/meal_6.jpg"
     ]
   },
   {
@@ -116,7 +116,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_7.jpg"
+      "images/meal_7.jpg"
     ]
   },
   {
@@ -131,7 +131,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_8.jpg"
+      "images/meal_8.jpg"
     ]
   },
   {
@@ -146,7 +146,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_9.jpg"
+      "images/meal_9.jpg"
     ]
   },
   {
@@ -161,7 +161,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_10.jpg"
+      "images/meal_10.jpg"
     ]
   },
   {
@@ -176,7 +176,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_11.jpg"
+      "images/meal_11.jpg"
     ]
   },
   {
@@ -191,7 +191,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_12.jpg"
+      "images/meal_12.jpg"
     ]
   },
   {
@@ -206,7 +206,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_13.jpg"
+      "images/meal_13.jpg"
     ]
   },
   {
@@ -221,7 +221,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_14.jpg"
+      "images/meal_14.jpg"
     ]
   },
   {
@@ -236,7 +236,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_15.jpg"
+      "images/meal_15.jpg"
     ]
   },
   {
@@ -251,7 +251,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_16.jpg"
+      "images/meal_16.jpg"
     ]
   },
   {
@@ -266,7 +266,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_17.jpg"
+      "images/meal_17.jpg"
     ]
   },
   {
@@ -281,7 +281,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_18.jpg"
+      "images/meal_18.jpg"
     ]
   },
   {
@@ -296,7 +296,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_19.jpg"
+      "images/meal_19.jpg"
     ]
   },
   {
@@ -311,7 +311,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_20.jpg"
+      "images/meal_20.jpg"
     ]
   },
   {
@@ -326,7 +326,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_21.jpg"
+      "images/meal_21.jpg"
     ]
   },
   {
@@ -341,7 +341,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_22.jpg"
+      "images/meal_22.jpg"
     ]
   },
   {
@@ -356,7 +356,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_23.jpg"
+      "images/meal_23.jpg"
     ]
   },
   {
@@ -371,7 +371,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_24.jpg"
+      "images/meal_24.jpg"
     ]
   },
   {
@@ -386,7 +386,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_25.jpg"
+      "images/meal_25.jpg"
     ]
   },
   {
@@ -401,7 +401,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_26.jpg"
+      "images/meal_26.jpg"
     ]
   },
   {
@@ -416,7 +416,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_27.jpg"
+      "images/meal_27.jpg"
     ]
   },
   {
@@ -431,7 +431,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_28.jpg"
+      "images/meal_28.jpg"
     ]
   },
   {
@@ -446,7 +446,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_29.jpg"
+      "images/meal_29.jpg"
     ]
   },
   {
@@ -461,7 +461,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_30.jpg"
+      "images/meal_30.jpg"
     ]
   },
   {
@@ -476,7 +476,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_31.jpg"
+      "images/meal_31.jpg"
     ]
   },
   {
@@ -491,7 +491,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_32.jpg"
+      "images/meal_32.jpg"
     ]
   },
   {
@@ -506,7 +506,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_33.jpg"
+      "images/meal_33.jpg"
     ]
   },
   {
@@ -521,7 +521,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_34.jpg"
+      "images/meal_34.jpg"
     ]
   },
   {
@@ -536,7 +536,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_35.jpg"
+      "images/meal_35.jpg"
     ]
   },
   {
@@ -551,7 +551,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_36.jpg"
+      "images/meal_36.jpg"
     ]
   },
   {
@@ -566,7 +566,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_37.jpg"
+      "images/meal_37.jpg"
     ]
   },
   {
@@ -581,7 +581,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_38.jpg"
+      "images/meal_38.jpg"
     ]
   },
   {
@@ -596,7 +596,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_39.jpg"
+      "images/meal_39.jpg"
     ]
   },
   {
@@ -611,7 +611,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_40.jpg"
+      "images/meal_40.jpg"
     ]
   },
   {
@@ -626,7 +626,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_41.jpg"
+      "images/meal_41.jpg"
     ]
   },
   {
@@ -641,7 +641,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_42.jpg"
+      "images/meal_42.jpg"
     ]
   },
   {
@@ -656,7 +656,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_43.jpg"
+      "images/meal_43.jpg"
     ]
   },
   {
@@ -671,7 +671,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_44.jpg"
+      "images/meal_44.jpg"
     ]
   },
   {
@@ -686,7 +686,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_45.jpg"
+      "images/meal_45.jpg"
     ]
   },
   {
@@ -701,7 +701,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_46.jpg"
+      "images/meal_46.jpg"
     ]
   },
   {
@@ -716,7 +716,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_47.jpg"
+      "images/meal_47.jpg"
     ]
   },
   {
@@ -731,7 +731,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_48.jpg"
+      "images/meal_48.jpg"
     ]
   },
   {
@@ -746,7 +746,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_49.jpg"
+      "images/meal_49.jpg"
     ]
   },
   {
@@ -761,7 +761,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_50.jpg"
+      "images/meal_50.jpg"
     ]
   },
   {
@@ -776,7 +776,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_51.jpg"
+      "images/meal_51.jpg"
     ]
   },
   {
@@ -791,7 +791,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_52.jpg"
+      "images/meal_52.jpg"
     ]
   },
   {
@@ -806,7 +806,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_53.jpg"
+      "images/meal_53.jpg"
     ]
   },
   {
@@ -821,7 +821,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_54.jpg"
+      "images/meal_54.jpg"
     ]
   },
   {
@@ -836,7 +836,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_55.jpg"
+      "images/meal_55.jpg"
     ]
   },
   {
@@ -851,7 +851,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_56.jpg"
+      "images/meal_56.jpg"
     ]
   },
   {
@@ -866,7 +866,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_57.jpg"
+      "images/meal_57.jpg"
     ]
   },
   {
@@ -881,7 +881,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_58.jpg"
+      "images/meal_58.jpg"
     ]
   },
   {
@@ -896,7 +896,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_59.jpg"
+      "images/meal_59.jpg"
     ]
   },
   {
@@ -911,7 +911,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_60.jpg"
+      "images/meal_60.jpg"
     ]
   },
   {
@@ -926,7 +926,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_61.jpg"
+      "images/meal_61.jpg"
     ]
   },
   {
@@ -941,7 +941,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_62.jpg"
+      "images/meal_62.jpg"
     ]
   },
   {
@@ -956,7 +956,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_63.jpg"
+      "images/meal_63.jpg"
     ]
   },
   {
@@ -971,7 +971,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_64.jpg"
+      "images/meal_64.jpg"
     ]
   },
   {
@@ -986,7 +986,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_65.jpg"
+      "images/meal_65.jpg"
     ]
   },
   {
@@ -1001,7 +1001,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_66.jpg"
+      "images/meal_66.jpg"
     ]
   },
   {
@@ -1016,7 +1016,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_67.jpg"
+      "images/meal_67.jpg"
     ]
   },
   {
@@ -1031,7 +1031,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_68.jpg"
+      "images/meal_68.jpg"
     ]
   },
   {
@@ -1046,7 +1046,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_69.jpg"
+      "images/meal_69.jpg"
     ]
   },
   {
@@ -1061,7 +1061,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_70.jpg"
+      "images/meal_70.jpg"
     ]
   },
   {
@@ -1076,7 +1076,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_71.jpg"
+      "images/meal_71.jpg"
     ]
   },
   {
@@ -1091,7 +1091,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_72.jpg"
+      "images/meal_72.jpg"
     ]
   },
   {
@@ -1106,7 +1106,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_73.jpg"
+      "images/meal_73.jpg"
     ]
   },
   {
@@ -1121,7 +1121,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_74.jpg"
+      "images/meal_74.jpg"
     ]
   },
   {
@@ -1136,7 +1136,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_75.jpg"
+      "images/meal_75.jpg"
     ]
   },
   {
@@ -1151,7 +1151,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_76.jpg"
+      "images/meal_76.jpg"
     ]
   },
   {
@@ -1166,7 +1166,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_77.jpg"
+      "images/meal_77.jpg"
     ]
   },
   {
@@ -1181,7 +1181,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_78.jpg"
+      "images/meal_78.jpg"
     ]
   },
   {
@@ -1196,7 +1196,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_79.jpg"
+      "images/meal_79.jpg"
     ]
   },
   {
@@ -1211,7 +1211,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_80.jpg"
+      "images/meal_80.jpg"
     ]
   },
   {
@@ -1226,7 +1226,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_81.jpg"
+      "images/meal_81.jpg"
     ]
   },
   {
@@ -1241,7 +1241,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_82.jpg"
+      "images/meal_82.jpg"
     ]
   },
   {
@@ -1256,7 +1256,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_83.jpg"
+      "images/meal_83.jpg"
     ]
   },
   {
@@ -1271,7 +1271,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_84.jpg"
+      "images/meal_84.jpg"
     ]
   },
   {
@@ -1286,7 +1286,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_85.jpg"
+      "images/meal_85.jpg"
     ]
   },
   {
@@ -1301,7 +1301,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_86.jpg"
+      "images/meal_86.jpg"
     ]
   },
   {
@@ -1316,7 +1316,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_87.jpg"
+      "images/meal_87.jpg"
     ]
   },
   {
@@ -1331,7 +1331,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_88.jpg"
+      "images/meal_88.jpg"
     ]
   },
   {
@@ -1346,7 +1346,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_89.jpg"
+      "images/meal_89.jpg"
     ]
   },
   {
@@ -1361,7 +1361,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_90.jpg"
+      "images/meal_90.jpg"
     ]
   },
   {
@@ -1376,7 +1376,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_91.jpg"
+      "images/meal_91.jpg"
     ]
   },
   {
@@ -1391,7 +1391,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_92.jpg"
+      "images/meal_92.jpg"
     ]
   },
   {
@@ -1406,7 +1406,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_93.jpg"
+      "images/meal_93.jpg"
     ]
   },
   {
@@ -1421,7 +1421,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_94.jpg"
+      "images/meal_94.jpg"
     ]
   },
   {
@@ -1436,7 +1436,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_95.jpg"
+      "images/meal_95.jpg"
     ]
   },
   {
@@ -1451,7 +1451,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_96.jpg"
+      "images/meal_96.jpg"
     ]
   },
   {
@@ -1466,7 +1466,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_97.jpg"
+      "images/meal_97.jpg"
     ]
   },
   {
@@ -1481,7 +1481,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_98.jpg"
+      "images/meal_98.jpg"
     ]
   },
   {
@@ -1496,7 +1496,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_99.jpg"
+      "images/meal_99.jpg"
     ]
   },
   {
@@ -1511,7 +1511,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_100.jpg"
+      "images/meal_100.jpg"
     ]
   },
   {
@@ -1526,7 +1526,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_101.jpg"
+      "images/meal_101.jpg"
     ]
   },
   {
@@ -1541,7 +1541,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_102.jpg"
+      "images/meal_102.jpg"
     ]
   },
   {
@@ -1556,7 +1556,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_103.jpg"
+      "images/meal_103.jpg"
     ]
   },
   {
@@ -1571,7 +1571,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_104.jpg"
+      "images/meal_104.jpg"
     ]
   },
   {
@@ -1586,7 +1586,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_105.jpg"
+      "images/meal_105.jpg"
     ]
   },
   {
@@ -1601,7 +1601,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_106.jpg"
+      "images/meal_106.jpg"
     ]
   },
   {
@@ -1616,7 +1616,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_107.jpg"
+      "images/meal_107.jpg"
     ]
   },
   {
@@ -1631,7 +1631,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_108.jpg"
+      "images/meal_108.jpg"
     ]
   },
   {
@@ -1646,7 +1646,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_109.jpg"
+      "images/meal_109.jpg"
     ]
   },
   {
@@ -1661,7 +1661,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_110.jpg"
+      "images/meal_110.jpg"
     ]
   },
   {
@@ -1676,7 +1676,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_111.jpg"
+      "images/meal_111.jpg"
     ]
   },
   {
@@ -1691,7 +1691,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_112.jpg"
+      "images/meal_112.jpg"
     ]
   },
   {
@@ -1706,7 +1706,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_113.jpg"
+      "images/meal_113.jpg"
     ]
   },
   {
@@ -1721,7 +1721,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_114.jpg"
+      "images/meal_114.jpg"
     ]
   },
   {
@@ -1736,7 +1736,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_115.jpg"
+      "images/meal_115.jpg"
     ]
   },
   {
@@ -1751,7 +1751,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_116.jpg"
+      "images/meal_116.jpg"
     ]
   },
   {
@@ -1766,7 +1766,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_117.jpg"
+      "images/meal_117.jpg"
     ]
   },
   {
@@ -1781,7 +1781,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_118.jpg"
+      "images/meal_118.jpg"
     ]
   },
   {
@@ -1796,7 +1796,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_119.jpg"
+      "images/meal_119.jpg"
     ]
   },
   {
@@ -1811,7 +1811,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_120.jpg"
+      "images/meal_120.jpg"
     ]
   },
   {
@@ -1826,7 +1826,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_121.jpg"
+      "images/meal_121.jpg"
     ]
   },
   {
@@ -1841,7 +1841,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_122.jpg"
+      "images/meal_122.jpg"
     ]
   },
   {
@@ -1856,7 +1856,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_123.jpg"
+      "images/meal_123.jpg"
     ]
   },
   {
@@ -1871,7 +1871,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_124.jpg"
+      "images/meal_124.jpg"
     ]
   },
   {
@@ -1886,7 +1886,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_125.jpg"
+      "images/meal_125.jpg"
     ]
   },
   {
@@ -1901,7 +1901,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_126.jpg"
+      "images/meal_126.jpg"
     ]
   },
   {
@@ -1916,7 +1916,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_127.jpg"
+      "images/meal_127.jpg"
     ]
   },
   {
@@ -1931,7 +1931,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_128.jpg"
+      "images/meal_128.jpg"
     ]
   },
   {
@@ -1946,7 +1946,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_129.jpg"
+      "images/meal_129.jpg"
     ]
   },
   {
@@ -1961,7 +1961,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_130.jpg"
+      "images/meal_130.jpg"
     ]
   },
   {
@@ -1976,7 +1976,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_131.jpg"
+      "images/meal_131.jpg"
     ]
   },
   {
@@ -1991,7 +1991,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_132.jpg"
+      "images/meal_132.jpg"
     ]
   },
   {
@@ -2006,7 +2006,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_133.jpg"
+      "images/meal_133.jpg"
     ]
   },
   {
@@ -2021,7 +2021,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_134.jpg"
+      "images/meal_134.jpg"
     ]
   },
   {
@@ -2036,7 +2036,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_135.jpg"
+      "images/meal_135.jpg"
     ]
   },
   {
@@ -2051,7 +2051,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_136.jpg"
+      "images/meal_136.jpg"
     ]
   },
   {
@@ -2066,7 +2066,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_137.jpg"
+      "images/meal_137.jpg"
     ]
   },
   {
@@ -2081,7 +2081,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_138.jpg"
+      "images/meal_138.jpg"
     ]
   },
   {
@@ -2096,7 +2096,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_139.jpg"
+      "images/meal_139.jpg"
     ]
   },
   {
@@ -2111,7 +2111,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_140.jpg"
+      "images/meal_140.jpg"
     ]
   },
   {
@@ -2126,7 +2126,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_141.jpg"
+      "images/meal_141.jpg"
     ]
   },
   {
@@ -2141,7 +2141,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_142.jpg"
+      "images/meal_142.jpg"
     ]
   },
   {
@@ -2156,7 +2156,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_143.jpg"
+      "images/meal_143.jpg"
     ]
   },
   {
@@ -2171,7 +2171,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_144.jpg"
+      "images/meal_144.jpg"
     ]
   },
   {
@@ -2186,7 +2186,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_145.jpg"
+      "images/meal_145.jpg"
     ]
   },
   {
@@ -2201,7 +2201,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_146.jpg"
+      "images/meal_146.jpg"
     ]
   },
   {
@@ -2216,7 +2216,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_147.jpg"
+      "images/meal_147.jpg"
     ]
   },
   {
@@ -2231,7 +2231,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_148.jpg"
+      "images/meal_148.jpg"
     ]
   },
   {
@@ -2246,7 +2246,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_149.jpg"
+      "images/meal_149.jpg"
     ]
   },
   {
@@ -2261,7 +2261,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_150.jpg"
+      "images/meal_150.jpg"
     ]
   },
   {
@@ -2276,7 +2276,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_151.jpg"
+      "images/meal_151.jpg"
     ]
   },
   {
@@ -2291,7 +2291,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_152.jpg"
+      "images/meal_152.jpg"
     ]
   },
   {
@@ -2306,7 +2306,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_153.jpg"
+      "images/meal_153.jpg"
     ]
   },
   {
@@ -2321,7 +2321,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_154.jpg"
+      "images/meal_154.jpg"
     ]
   },
   {
@@ -2336,7 +2336,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_155.jpg"
+      "images/meal_155.jpg"
     ]
   },
   {
@@ -2351,7 +2351,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_156.jpg"
+      "images/meal_156.jpg"
     ]
   },
   {
@@ -2366,7 +2366,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_157.jpg"
+      "images/meal_157.jpg"
     ]
   },
   {
@@ -2381,7 +2381,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_158.jpg"
+      "images/meal_158.jpg"
     ]
   },
   {
@@ -2396,7 +2396,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_159.jpg"
+      "images/meal_159.jpg"
     ]
   },
   {
@@ -2411,7 +2411,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_160.jpg"
+      "images/meal_160.jpg"
     ]
   },
   {
@@ -2426,7 +2426,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_161.jpg"
+      "images/meal_161.jpg"
     ]
   },
   {
@@ -2441,7 +2441,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_162.jpg"
+      "images/meal_162.jpg"
     ]
   },
   {
@@ -2456,7 +2456,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_163.jpg"
+      "images/meal_163.jpg"
     ]
   },
   {
@@ -2471,7 +2471,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_164.jpg"
+      "images/meal_164.jpg"
     ]
   },
   {
@@ -2486,7 +2486,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_165.jpg"
+      "images/meal_165.jpg"
     ]
   },
   {
@@ -2501,7 +2501,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_166.jpg"
+      "images/meal_166.jpg"
     ]
   },
   {
@@ -2516,7 +2516,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_167.jpg"
+      "images/meal_167.jpg"
     ]
   },
   {
@@ -2531,7 +2531,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_168.jpg"
+      "images/meal_168.jpg"
     ]
   },
   {
@@ -2546,7 +2546,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_169.jpg"
+      "images/meal_169.jpg"
     ]
   },
   {
@@ -2561,7 +2561,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_170.jpg"
+      "images/meal_170.jpg"
     ]
   },
   {
@@ -2576,7 +2576,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_171.jpg"
+      "images/meal_171.jpg"
     ]
   },
   {
@@ -2591,7 +2591,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_172.jpg"
+      "images/meal_172.jpg"
     ]
   },
   {
@@ -2606,7 +2606,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_173.jpg"
+      "images/meal_173.jpg"
     ]
   },
   {
@@ -2621,7 +2621,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_174.jpg"
+      "images/meal_174.jpg"
     ]
   },
   {
@@ -2636,7 +2636,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_175.jpg"
+      "images/meal_175.jpg"
     ]
   },
   {
@@ -2651,7 +2651,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_176.jpg"
+      "images/meal_176.jpg"
     ]
   },
   {
@@ -2666,7 +2666,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_177.jpg"
+      "images/meal_177.jpg"
     ]
   },
   {
@@ -2681,7 +2681,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_178.jpg"
+      "images/meal_178.jpg"
     ]
   },
   {
@@ -2696,7 +2696,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_179.jpg"
+      "images/meal_179.jpg"
     ]
   },
   {
@@ -2711,7 +2711,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_180.jpg"
+      "images/meal_180.jpg"
     ]
   },
   {
@@ -2726,7 +2726,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_181.jpg"
+      "images/meal_181.jpg"
     ]
   },
   {
@@ -2741,7 +2741,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_182.jpg"
+      "images/meal_182.jpg"
     ]
   },
   {
@@ -2756,7 +2756,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_183.jpg"
+      "images/meal_183.jpg"
     ]
   },
   {
@@ -2771,7 +2771,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_184.jpg"
+      "images/meal_184.jpg"
     ]
   },
   {
@@ -2786,7 +2786,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_185.jpg"
+      "images/meal_185.jpg"
     ]
   },
   {
@@ -2801,7 +2801,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_186.jpg"
+      "images/meal_186.jpg"
     ]
   },
   {
@@ -2816,7 +2816,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_187.jpg"
+      "images/meal_187.jpg"
     ]
   },
   {
@@ -2831,7 +2831,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_188.jpg"
+      "images/meal_188.jpg"
     ]
   },
   {
@@ -2846,7 +2846,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_189.jpg"
+      "images/meal_189.jpg"
     ]
   },
   {
@@ -2861,7 +2861,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_190.jpg"
+      "images/meal_190.jpg"
     ]
   },
   {
@@ -2876,7 +2876,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_191.jpg"
+      "images/meal_191.jpg"
     ]
   },
   {
@@ -2891,7 +2891,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_192.jpg"
+      "images/meal_192.jpg"
     ]
   },
   {
@@ -2906,7 +2906,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_193.jpg"
+      "images/meal_193.jpg"
     ]
   },
   {
@@ -2921,7 +2921,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_194.jpg"
+      "images/meal_194.jpg"
     ]
   },
   {
@@ -2936,7 +2936,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_195.jpg"
+      "images/meal_195.jpg"
     ]
   },
   {
@@ -2951,7 +2951,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_196.jpg"
+      "images/meal_196.jpg"
     ]
   },
   {
@@ -2966,7 +2966,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_197.jpg"
+      "images/meal_197.jpg"
     ]
   },
   {
@@ -2981,7 +2981,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_198.jpg"
+      "images/meal_198.jpg"
     ]
   },
   {
@@ -2996,7 +2996,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_199.jpg"
+      "images/meal_199.jpg"
     ]
   },
   {
@@ -3011,7 +3011,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_200.jpg"
+      "images/meal_200.jpg"
     ]
   },
   {
@@ -3026,7 +3026,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_201.jpg"
+      "images/meal_201.jpg"
     ]
   },
   {
@@ -3041,7 +3041,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_202.jpg"
+      "images/meal_202.jpg"
     ]
   },
   {
@@ -3056,7 +3056,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_203.jpg"
+      "images/meal_203.jpg"
     ]
   },
   {
@@ -3071,7 +3071,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_204.jpg"
+      "images/meal_204.jpg"
     ]
   },
   {
@@ -3086,7 +3086,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_205.jpg"
+      "images/meal_205.jpg"
     ]
   },
   {
@@ -3101,7 +3101,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_206.jpg"
+      "images/meal_206.jpg"
     ]
   },
   {
@@ -3116,7 +3116,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_207.jpg"
+      "images/meal_207.jpg"
     ]
   },
   {
@@ -3131,7 +3131,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_208.jpg"
+      "images/meal_208.jpg"
     ]
   },
   {
@@ -3146,7 +3146,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_209.jpg"
+      "images/meal_209.jpg"
     ]
   },
   {
@@ -3161,7 +3161,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_210.jpg"
+      "images/meal_210.jpg"
     ]
   },
   {
@@ -3176,7 +3176,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_211.jpg"
+      "images/meal_211.jpg"
     ]
   },
   {
@@ -3191,7 +3191,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_212.jpg"
+      "images/meal_212.jpg"
     ]
   },
   {
@@ -3206,7 +3206,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_213.jpg"
+      "images/meal_213.jpg"
     ]
   },
   {
@@ -3221,7 +3221,7 @@
       }
     ],
     "images": [
-      "/home/felix.boelter/food-waste/train/data/images/meal_214.jpg"
+      "images/meal_214.jpg"
     ]
   }
 ]
