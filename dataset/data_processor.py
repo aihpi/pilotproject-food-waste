@@ -8,7 +8,7 @@ import base64
 import re
 import logging
 from datasets import concatenate_datasets, Dataset, Features, Value, Image as HFImage, Sequence
-from huggingface_hub import HfApi
+from huggingface_hub import HfApi, metadata_update
 from datasets import load_dataset
 from datetime import datetime
 import json
@@ -299,40 +299,6 @@ class DatasetProcessor:
         
         return dataset
 
-    def _create_readme(self, dataset):
-        """Create a README for the dataset."""
-        # Get current date
-        current_date = datetime.now().strftime("%Y-%m-%d")
-        
-        # Get dataset features
-        features_list = "\n".join([f"- **{k}**: {v}" for k, v in dataset.features.items()])
-        
-        # Create README content
-        readme = f"""# Food Waste Dataset
-
-## Dataset Information
-- **Created/Updated**: {current_date}
-- **Number of samples**: {len(dataset)}
-- **License**: [Add license information]
-
-## Description
-This dataset contains food waste data with images and nutritional information.
-
-## Features
-{features_list}
-
-## Usage
-```python
-from datasets import load_dataset
-
-dataset = load_dataset("{dataset.name}")
-```
-
-## Citation
-[Add citation information]
-"""
-        return readme
-
     def download_dataset(self, repo_id, split="train"):
         """
         Download a dataset from Hugging Face to a local directory and return the path to its parquet files.
@@ -407,24 +373,6 @@ dataset = load_dataset("{dataset.name}")
                     
                 logger.info(f"Current version: {current_version}, New version: {new_version}")
                 
-                # Store version history in dataset metadata instead of version field
-                # Ensure metadata exists
-                if dataset.info.metadata is None:
-                    dataset.info.metadata = {}
-                metadata = dataset.info.metadata # Now safe to access
-                
-                # Create or update version history in metadata
-                if 'version_history' not in metadata:
-                    metadata['version_history'] = []
-                    
-                metadata['version_history'].append({
-                    "version": new_version,
-                    "timestamp": datetime.now().isoformat(),
-                    "samples_added": len(dataset),
-                    "total_samples": len(existing_dataset) + len(dataset),
-                    "split": split
-                })
-                
                 # Try to combine datasets
                 try:
                     # Combine existing and new datasets
@@ -433,7 +381,7 @@ dataset = load_dataset("{dataset.name}")
                     
                     # Update dataset info
                     combined_dataset.info.version = new_version
-                    combined_dataset.info.metadata = metadata
+                    # We will not set combined_dataset.info.metadata here to avoid constructor issues
                     
                     # Get all splits in the repository
                     try:
@@ -537,9 +485,7 @@ original_dataset = load_dataset("parquet", data_files="https://huggingface.co/{r
 new_dataset = load_dataset("parquet", data_files="https://huggingface.co/{repo_id}/resolve/main/parquet/new_data_{split}_v{new_version}_{timestamp}.parquet")
 ```
 
-## Version History
-{json.dumps(metadata['version_history'], indent=2)}
-"""
+""" # Removed version history from README
                     
                     readme_path = tmp_dir / "README.md"
                     with open(readme_path, "w", encoding="utf-8") as f:
@@ -557,13 +503,14 @@ new_dataset = load_dataset("parquet", data_files="https://huggingface.co/{repo_i
                     logger.info(f"New data saved as parquet/new_data_{split}_v{new_version}_{timestamp}.parquet")
                     
                     return dataset
-                    
+                
             except Exception as e:
                 logger.warning(f"Error handling version: {e}")
                 new_version = "0.0.1"
                 
                 # Set version for new dataset
                 dataset.info.version = new_version
+                # We will not set dataset.info.metadata here to avoid constructor issues
                 
                 # Push to hub
                 dataset.push_to_hub(repo_id, split=split, private=private)
@@ -583,22 +530,9 @@ new_dataset = load_dataset("parquet", data_files="https://huggingface.co/{repo_i
             # Initialize version for new dataset (standard semantic version)
             new_version = "0.0.1"
             
-            # Store version history in metadata
-            # Ensure metadata exists
-            if dataset.info.metadata is None:
-                dataset.info.metadata = {}
-            metadata = dataset.info.metadata # Now safe to access
-            metadata['version_history'] = [{
-                "version": new_version,
-                "timestamp": datetime.now().isoformat(),
-                "samples_added": len(dataset),
-                "total_samples": len(dataset),
-                "split": split
-            }]
-            
             # Update dataset info
             dataset.info.version = new_version
-            dataset.info.metadata = metadata
+            # We will not set dataset.info.metadata here to avoid constructor issues
             
             # Check if other splits exist
             try:
@@ -627,21 +561,6 @@ new_dataset = load_dataset("parquet", data_files="https://huggingface.co/{repo_i
                 )
             except Exception as e:
                 logger.warning(f"Failed to create version tag: {e}")
-            
-            # Create and upload README
-            readme_content = self._create_readme(dataset)
-            with open("README.md", "w", encoding="utf-8") as f:
-                f.write(readme_content)
-            
-            try:
-                api.upload_file(
-                    path_or_fileobj="README.md",
-                    path_in_repo="README.md",
-                    repo_id=repo_id,
-                    repo_type="dataset"
-                )
-            except Exception as e:
-                logger.warning(f"Failed to upload README: {e}")
             
             logger.info(f"Successfully uploaded new dataset to {repo_id} for split '{split}'")
             logger.info(f"Dataset version: {new_version}")
@@ -1084,6 +1003,8 @@ if __name__ == "__main__":
                     private=args.private,
                     split=args.split
                 )
+                # Uploads can replace the dataset card, so re-apply the licence every time.
+                metadata_update(args.hf_repo_id, {"license": "cc-by-4.0"}, repo_type="dataset", overwrite=True)
                 logger.info(f"Successfully uploaded dataset to {args.hf_repo_id} (split: {args.split})")
             else:
                 logger.info("Upload cancelled by user")
