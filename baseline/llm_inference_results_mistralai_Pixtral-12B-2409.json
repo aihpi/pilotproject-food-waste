@@ -1,7 +1,7 @@
 [
     {
         "id": "meal_0.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_0.jpg",
+        "image_path": "images/meal_0.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -34,7 +34,7 @@
     },
     {
         "id": "meal_1.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_1.jpg",
+        "image_path": "images/meal_1.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -67,7 +67,7 @@
     },
     {
         "id": "meal_2.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_2.jpg",
+        "image_path": "images/meal_2.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -100,7 +100,7 @@
     },
     {
         "id": "meal_3.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_3.jpg",
+        "image_path": "images/meal_3.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -133,7 +133,7 @@
     },
     {
         "id": "meal_4.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_4.jpg",
+        "image_path": "images/meal_4.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -166,7 +166,7 @@
     },
     {
         "id": "meal_5.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_5.jpg",
+        "image_path": "images/meal_5.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -199,7 +199,7 @@
     },
     {
         "id": "meal_6.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_6.jpg",
+        "image_path": "images/meal_6.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -232,7 +232,7 @@
     },
     {
         "id": "meal_7.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_7.jpg",
+        "image_path": "images/meal_7.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -265,7 +265,7 @@
     },
     {
         "id": "meal_8.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_8.jpg",
+        "image_path": "images/meal_8.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -298,7 +298,7 @@
     },
     {
         "id": "meal_9.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_9.jpg",
+        "image_path": "images/meal_9.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -331,7 +331,7 @@
     },
     {
         "id": "meal_10.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_10.jpg",
+        "image_path": "images/meal_10.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -364,7 +364,7 @@
     },
     {
         "id": "meal_11.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_11.jpg",
+        "image_path": "images/meal_11.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -397,7 +397,7 @@
     },
     {
         "id": "meal_12.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_12.jpg",
+        "image_path": "images/meal_12.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -430,7 +430,7 @@
     },
     {
         "id": "meal_13.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_13.jpg",
+        "image_path": "images/meal_13.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -463,7 +463,7 @@
     },
     {
         "id": "meal_14.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_14.jpg",
+        "image_path": "images/meal_14.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -496,7 +496,7 @@
     },
     {
         "id": "meal_15.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_15.jpg",
+        "image_path": "images/meal_15.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -529,7 +529,7 @@
     },
     {
         "id": "meal_16.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_16.jpg",
+        "image_path": "images/meal_16.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -562,7 +562,7 @@
     },
     {
         "id": "meal_17.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_17.jpg",
+        "image_path": "images/meal_17.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -595,7 +595,7 @@
     },
     {
         "id": "meal_18.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_18.jpg",
+        "image_path": "images/meal_18.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -628,7 +628,7 @@
     },
     {
         "id": "meal_19.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_19.jpg",
+        "image_path": "images/meal_19.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -661,7 +661,7 @@
     },
     {
         "id": "meal_20.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_20.jpg",
+        "image_path": "images/meal_20.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -694,7 +694,7 @@
     },
     {
         "id": "meal_21.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_21.jpg",
+        "image_path": "images/meal_21.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -727,7 +727,7 @@
     },
     {
         "id": "meal_22.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_22.jpg",
+        "image_path": "images/meal_22.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -760,7 +760,7 @@
     },
     {
         "id": "meal_23.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_23.jpg",
+        "image_path": "images/meal_23.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -798,7 +798,7 @@
     },
     {
         "id": "meal_24.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_24.jpg",
+        "image_path": "images/meal_24.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -836,7 +836,7 @@
     },
     {
         "id": "meal_25.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_25.jpg",
+        "image_path": "images/meal_25.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -874,7 +874,7 @@
     },
     {
         "id": "meal_26.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_26.jpg",
+        "image_path": "images/meal_26.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -912,7 +912,7 @@
     },
     {
         "id": "meal_27.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_27.jpg",
+        "image_path": "images/meal_27.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -950,7 +950,7 @@
     },
     {
         "id": "meal_28.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_28.jpg",
+        "image_path": "images/meal_28.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -988,7 +988,7 @@
     },
     {
         "id": "meal_29.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_29.jpg",
+        "image_path": "images/meal_29.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1026,7 +1026,7 @@
     },
     {
         "id": "meal_30.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_30.jpg",
+        "image_path": "images/meal_30.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1064,7 +1064,7 @@
     },
     {
         "id": "meal_31.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_31.jpg",
+        "image_path": "images/meal_31.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1102,7 +1102,7 @@
     },
     {
         "id": "meal_32.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_32.jpg",
+        "image_path": "images/meal_32.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1140,7 +1140,7 @@
     },
     {
         "id": "meal_33.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_33.jpg",
+        "image_path": "images/meal_33.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1178,7 +1178,7 @@
     },
     {
         "id": "meal_34.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_34.jpg",
+        "image_path": "images/meal_34.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1216,7 +1216,7 @@
     },
     {
         "id": "meal_35.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_35.jpg",
+        "image_path": "images/meal_35.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1254,7 +1254,7 @@
     },
     {
         "id": "meal_36.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_36.jpg",
+        "image_path": "images/meal_36.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1292,7 +1292,7 @@
     },
     {
         "id": "meal_37.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_37.jpg",
+        "image_path": "images/meal_37.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1330,7 +1330,7 @@
     },
     {
         "id": "meal_38.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_38.jpg",
+        "image_path": "images/meal_38.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1368,7 +1368,7 @@
     },
     {
         "id": "meal_39.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_39.jpg",
+        "image_path": "images/meal_39.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1406,7 +1406,7 @@
     },
     {
         "id": "meal_40.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_40.jpg",
+        "image_path": "images/meal_40.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1439,7 +1439,7 @@
     },
     {
         "id": "meal_41.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_41.jpg",
+        "image_path": "images/meal_41.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1472,7 +1472,7 @@
     },
     {
         "id": "meal_42.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_42.jpg",
+        "image_path": "images/meal_42.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1505,7 +1505,7 @@
     },
     {
         "id": "meal_43.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_43.jpg",
+        "image_path": "images/meal_43.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1538,7 +1538,7 @@
     },
     {
         "id": "meal_44.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_44.jpg",
+        "image_path": "images/meal_44.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1571,7 +1571,7 @@
     },
     {
         "id": "meal_45.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_45.jpg",
+        "image_path": "images/meal_45.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1604,7 +1604,7 @@
     },
     {
         "id": "meal_46.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_46.jpg",
+        "image_path": "images/meal_46.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1637,7 +1637,7 @@
     },
     {
         "id": "meal_47.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_47.jpg",
+        "image_path": "images/meal_47.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1670,7 +1670,7 @@
     },
     {
         "id": "meal_48.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_48.jpg",
+        "image_path": "images/meal_48.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1703,7 +1703,7 @@
     },
     {
         "id": "meal_49.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_49.jpg",
+        "image_path": "images/meal_49.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1736,7 +1736,7 @@
     },
     {
         "id": "meal_50.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_50.jpg",
+        "image_path": "images/meal_50.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1769,7 +1769,7 @@
     },
     {
         "id": "meal_51.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_51.jpg",
+        "image_path": "images/meal_51.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1802,7 +1802,7 @@
     },
     {
         "id": "meal_52.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_52.jpg",
+        "image_path": "images/meal_52.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1835,7 +1835,7 @@
     },
     {
         "id": "meal_53.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_53.jpg",
+        "image_path": "images/meal_53.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1868,7 +1868,7 @@
     },
     {
         "id": "meal_54.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_54.jpg",
+        "image_path": "images/meal_54.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1911,7 +1911,7 @@
     },
     {
         "id": "meal_55.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_55.jpg",
+        "image_path": "images/meal_55.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1954,7 +1954,7 @@
     },
     {
         "id": "meal_56.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_56.jpg",
+        "image_path": "images/meal_56.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -1997,7 +1997,7 @@
     },
     {
         "id": "meal_57.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_57.jpg",
+        "image_path": "images/meal_57.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2040,7 +2040,7 @@
     },
     {
         "id": "meal_58.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_58.jpg",
+        "image_path": "images/meal_58.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2083,7 +2083,7 @@
     },
     {
         "id": "meal_59.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_59.jpg",
+        "image_path": "images/meal_59.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2126,7 +2126,7 @@
     },
     {
         "id": "meal_60.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_60.jpg",
+        "image_path": "images/meal_60.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2169,7 +2169,7 @@
     },
     {
         "id": "meal_61.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_61.jpg",
+        "image_path": "images/meal_61.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2212,7 +2212,7 @@
     },
     {
         "id": "meal_62.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_62.jpg",
+        "image_path": "images/meal_62.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2255,7 +2255,7 @@
     },
     {
         "id": "meal_63.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_63.jpg",
+        "image_path": "images/meal_63.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2298,7 +2298,7 @@
     },
     {
         "id": "meal_64.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_64.jpg",
+        "image_path": "images/meal_64.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2341,7 +2341,7 @@
     },
     {
         "id": "meal_65.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_65.jpg",
+        "image_path": "images/meal_65.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2384,7 +2384,7 @@
     },
     {
         "id": "meal_66.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_66.jpg",
+        "image_path": "images/meal_66.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2437,7 +2437,7 @@
     },
     {
         "id": "meal_67.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_67.jpg",
+        "image_path": "images/meal_67.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2490,7 +2490,7 @@
     },
     {
         "id": "meal_68.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_68.jpg",
+        "image_path": "images/meal_68.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2543,7 +2543,7 @@
     },
     {
         "id": "meal_69.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_69.jpg",
+        "image_path": "images/meal_69.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2596,7 +2596,7 @@
     },
     {
         "id": "meal_70.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_70.jpg",
+        "image_path": "images/meal_70.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2649,7 +2649,7 @@
     },
     {
         "id": "meal_71.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_71.jpg",
+        "image_path": "images/meal_71.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2702,7 +2702,7 @@
     },
     {
         "id": "meal_72.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_72.jpg",
+        "image_path": "images/meal_72.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2755,7 +2755,7 @@
     },
     {
         "id": "meal_73.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_73.jpg",
+        "image_path": "images/meal_73.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2808,7 +2808,7 @@
     },
     {
         "id": "meal_74.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_74.jpg",
+        "image_path": "images/meal_74.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2861,7 +2861,7 @@
     },
     {
         "id": "meal_75.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_75.jpg",
+        "image_path": "images/meal_75.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2914,7 +2914,7 @@
     },
     {
         "id": "meal_76.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_76.jpg",
+        "image_path": "images/meal_76.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -2967,7 +2967,7 @@
     },
     {
         "id": "meal_77.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_77.jpg",
+        "image_path": "images/meal_77.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3020,7 +3020,7 @@
     },
     {
         "id": "meal_78.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_78.jpg",
+        "image_path": "images/meal_78.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3063,7 +3063,7 @@
     },
     {
         "id": "meal_79.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_79.jpg",
+        "image_path": "images/meal_79.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3106,7 +3106,7 @@
     },
     {
         "id": "meal_80.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_80.jpg",
+        "image_path": "images/meal_80.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3149,7 +3149,7 @@
     },
     {
         "id": "meal_81.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_81.jpg",
+        "image_path": "images/meal_81.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3192,7 +3192,7 @@
     },
     {
         "id": "meal_82.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_82.jpg",
+        "image_path": "images/meal_82.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3235,7 +3235,7 @@
     },
     {
         "id": "meal_83.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_83.jpg",
+        "image_path": "images/meal_83.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3278,7 +3278,7 @@
     },
     {
         "id": "meal_84.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_84.jpg",
+        "image_path": "images/meal_84.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3321,7 +3321,7 @@
     },
     {
         "id": "meal_85.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_85.jpg",
+        "image_path": "images/meal_85.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3364,7 +3364,7 @@
     },
     {
         "id": "meal_86.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_86.jpg",
+        "image_path": "images/meal_86.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3407,7 +3407,7 @@
     },
     {
         "id": "meal_87.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_87.jpg",
+        "image_path": "images/meal_87.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3450,7 +3450,7 @@
     },
     {
         "id": "meal_88.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_88.jpg",
+        "image_path": "images/meal_88.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3493,7 +3493,7 @@
     },
     {
         "id": "meal_89.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_89.jpg",
+        "image_path": "images/meal_89.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3536,7 +3536,7 @@
     },
     {
         "id": "meal_90.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_90.jpg",
+        "image_path": "images/meal_90.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3579,7 +3579,7 @@
     },
     {
         "id": "meal_91.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_91.jpg",
+        "image_path": "images/meal_91.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3622,7 +3622,7 @@
     },
     {
         "id": "meal_92.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_92.jpg",
+        "image_path": "images/meal_92.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3665,7 +3665,7 @@
     },
     {
         "id": "meal_93.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_93.jpg",
+        "image_path": "images/meal_93.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3708,7 +3708,7 @@
     },
     {
         "id": "meal_94.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_94.jpg",
+        "image_path": "images/meal_94.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3751,7 +3751,7 @@
     },
     {
         "id": "meal_95.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_95.jpg",
+        "image_path": "images/meal_95.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3794,7 +3794,7 @@
     },
     {
         "id": "meal_96.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_96.jpg",
+        "image_path": "images/meal_96.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3832,7 +3832,7 @@
     },
     {
         "id": "meal_97.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_97.jpg",
+        "image_path": "images/meal_97.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3870,7 +3870,7 @@
     },
     {
         "id": "meal_98.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_98.jpg",
+        "image_path": "images/meal_98.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3908,7 +3908,7 @@
     },
     {
         "id": "meal_99.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_99.jpg",
+        "image_path": "images/meal_99.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3946,7 +3946,7 @@
     },
     {
         "id": "meal_100.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_100.jpg",
+        "image_path": "images/meal_100.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -3984,7 +3984,7 @@
     },
     {
         "id": "meal_101.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_101.jpg",
+        "image_path": "images/meal_101.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4022,7 +4022,7 @@
     },
     {
         "id": "meal_102.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_102.jpg",
+        "image_path": "images/meal_102.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4060,7 +4060,7 @@
     },
     {
         "id": "meal_103.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_103.jpg",
+        "image_path": "images/meal_103.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4098,7 +4098,7 @@
     },
     {
         "id": "meal_104.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_104.jpg",
+        "image_path": "images/meal_104.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4136,7 +4136,7 @@
     },
     {
         "id": "meal_105.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_105.jpg",
+        "image_path": "images/meal_105.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4174,7 +4174,7 @@
     },
     {
         "id": "meal_106.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_106.jpg",
+        "image_path": "images/meal_106.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4212,7 +4212,7 @@
     },
     {
         "id": "meal_107.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_107.jpg",
+        "image_path": "images/meal_107.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4250,7 +4250,7 @@
     },
     {
         "id": "meal_108.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_108.jpg",
+        "image_path": "images/meal_108.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4288,7 +4288,7 @@
     },
     {
         "id": "meal_109.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_109.jpg",
+        "image_path": "images/meal_109.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4326,7 +4326,7 @@
     },
     {
         "id": "meal_110.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_110.jpg",
+        "image_path": "images/meal_110.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4364,7 +4364,7 @@
     },
     {
         "id": "meal_111.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_111.jpg",
+        "image_path": "images/meal_111.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4402,7 +4402,7 @@
     },
     {
         "id": "meal_112.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_112.jpg",
+        "image_path": "images/meal_112.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4440,7 +4440,7 @@
     },
     {
         "id": "meal_113.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_113.jpg",
+        "image_path": "images/meal_113.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4478,7 +4478,7 @@
     },
     {
         "id": "meal_114.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_114.jpg",
+        "image_path": "images/meal_114.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4516,7 +4516,7 @@
     },
     {
         "id": "meal_115.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_115.jpg",
+        "image_path": "images/meal_115.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4554,7 +4554,7 @@
     },
     {
         "id": "meal_116.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_116.jpg",
+        "image_path": "images/meal_116.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4592,7 +4592,7 @@
     },
     {
         "id": "meal_117.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_117.jpg",
+        "image_path": "images/meal_117.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4630,7 +4630,7 @@
     },
     {
         "id": "meal_118.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_118.jpg",
+        "image_path": "images/meal_118.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4668,7 +4668,7 @@
     },
     {
         "id": "meal_119.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_119.jpg",
+        "image_path": "images/meal_119.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4706,7 +4706,7 @@
     },
     {
         "id": "meal_120.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_120.jpg",
+        "image_path": "images/meal_120.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4744,7 +4744,7 @@
     },
     {
         "id": "meal_121.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_121.jpg",
+        "image_path": "images/meal_121.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4782,7 +4782,7 @@
     },
     {
         "id": "meal_122.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_122.jpg",
+        "image_path": "images/meal_122.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4820,7 +4820,7 @@
     },
     {
         "id": "meal_123.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_123.jpg",
+        "image_path": "images/meal_123.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4858,7 +4858,7 @@
     },
     {
         "id": "meal_124.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_124.jpg",
+        "image_path": "images/meal_124.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4896,7 +4896,7 @@
     },
     {
         "id": "meal_125.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_125.jpg",
+        "image_path": "images/meal_125.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4934,7 +4934,7 @@
     },
     {
         "id": "meal_126.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_126.jpg",
+        "image_path": "images/meal_126.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -4972,7 +4972,7 @@
     },
     {
         "id": "meal_127.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_127.jpg",
+        "image_path": "images/meal_127.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5010,7 +5010,7 @@
     },
     {
         "id": "meal_128.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_128.jpg",
+        "image_path": "images/meal_128.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5048,7 +5048,7 @@
     },
     {
         "id": "meal_129.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_129.jpg",
+        "image_path": "images/meal_129.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5086,7 +5086,7 @@
     },
     {
         "id": "meal_130.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_130.jpg",
+        "image_path": "images/meal_130.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5124,7 +5124,7 @@
     },
     {
         "id": "meal_131.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_131.jpg",
+        "image_path": "images/meal_131.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5162,7 +5162,7 @@
     },
     {
         "id": "meal_132.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_132.jpg",
+        "image_path": "images/meal_132.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5195,7 +5195,7 @@
     },
     {
         "id": "meal_133.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_133.jpg",
+        "image_path": "images/meal_133.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5228,7 +5228,7 @@
     },
     {
         "id": "meal_134.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_134.jpg",
+        "image_path": "images/meal_134.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5261,7 +5261,7 @@
     },
     {
         "id": "meal_135.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_135.jpg",
+        "image_path": "images/meal_135.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5294,7 +5294,7 @@
     },
     {
         "id": "meal_136.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_136.jpg",
+        "image_path": "images/meal_136.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5327,7 +5327,7 @@
     },
     {
         "id": "meal_137.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_137.jpg",
+        "image_path": "images/meal_137.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5360,7 +5360,7 @@
     },
     {
         "id": "meal_138.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_138.jpg",
+        "image_path": "images/meal_138.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5393,7 +5393,7 @@
     },
     {
         "id": "meal_139.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_139.jpg",
+        "image_path": "images/meal_139.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5426,7 +5426,7 @@
     },
     {
         "id": "meal_140.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_140.jpg",
+        "image_path": "images/meal_140.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5459,7 +5459,7 @@
     },
     {
         "id": "meal_141.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_141.jpg",
+        "image_path": "images/meal_141.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5492,7 +5492,7 @@
     },
     {
         "id": "meal_142.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_142.jpg",
+        "image_path": "images/meal_142.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5525,7 +5525,7 @@
     },
     {
         "id": "meal_143.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_143.jpg",
+        "image_path": "images/meal_143.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5558,7 +5558,7 @@
     },
     {
         "id": "meal_144.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_144.jpg",
+        "image_path": "images/meal_144.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5591,7 +5591,7 @@
     },
     {
         "id": "meal_145.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_145.jpg",
+        "image_path": "images/meal_145.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5624,7 +5624,7 @@
     },
     {
         "id": "meal_146.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_146.jpg",
+        "image_path": "images/meal_146.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5657,7 +5657,7 @@
     },
     {
         "id": "meal_147.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_147.jpg",
+        "image_path": "images/meal_147.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5690,7 +5690,7 @@
     },
     {
         "id": "meal_148.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_148.jpg",
+        "image_path": "images/meal_148.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5723,7 +5723,7 @@
     },
     {
         "id": "meal_149.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_149.jpg",
+        "image_path": "images/meal_149.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5756,7 +5756,7 @@
     },
     {
         "id": "meal_150.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_150.jpg",
+        "image_path": "images/meal_150.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5789,7 +5789,7 @@
     },
     {
         "id": "meal_151.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_151.jpg",
+        "image_path": "images/meal_151.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5822,7 +5822,7 @@
     },
     {
         "id": "meal_152.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_152.jpg",
+        "image_path": "images/meal_152.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5855,7 +5855,7 @@
     },
     {
         "id": "meal_153.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_153.jpg",
+        "image_path": "images/meal_153.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5888,7 +5888,7 @@
     },
     {
         "id": "meal_154.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_154.jpg",
+        "image_path": "images/meal_154.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5921,7 +5921,7 @@
     },
     {
         "id": "meal_155.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_155.jpg",
+        "image_path": "images/meal_155.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5954,7 +5954,7 @@
     },
     {
         "id": "meal_156.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_156.jpg",
+        "image_path": "images/meal_156.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -5987,7 +5987,7 @@
     },
     {
         "id": "meal_157.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_157.jpg",
+        "image_path": "images/meal_157.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6020,7 +6020,7 @@
     },
     {
         "id": "meal_158.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_158.jpg",
+        "image_path": "images/meal_158.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6053,7 +6053,7 @@
     },
     {
         "id": "meal_159.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_159.jpg",
+        "image_path": "images/meal_159.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6086,7 +6086,7 @@
     },
     {
         "id": "meal_160.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_160.jpg",
+        "image_path": "images/meal_160.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6119,7 +6119,7 @@
     },
     {
         "id": "meal_161.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_161.jpg",
+        "image_path": "images/meal_161.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6152,7 +6152,7 @@
     },
     {
         "id": "meal_162.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_162.jpg",
+        "image_path": "images/meal_162.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6185,7 +6185,7 @@
     },
     {
         "id": "meal_163.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_163.jpg",
+        "image_path": "images/meal_163.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6218,7 +6218,7 @@
     },
     {
         "id": "meal_164.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_164.jpg",
+        "image_path": "images/meal_164.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6251,7 +6251,7 @@
     },
     {
         "id": "meal_165.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_165.jpg",
+        "image_path": "images/meal_165.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6284,7 +6284,7 @@
     },
     {
         "id": "meal_166.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_166.jpg",
+        "image_path": "images/meal_166.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6317,7 +6317,7 @@
     },
     {
         "id": "meal_167.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_167.jpg",
+        "image_path": "images/meal_167.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6350,7 +6350,7 @@
     },
     {
         "id": "meal_168.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_168.jpg",
+        "image_path": "images/meal_168.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6383,7 +6383,7 @@
     },
     {
         "id": "meal_169.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_169.jpg",
+        "image_path": "images/meal_169.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6416,7 +6416,7 @@
     },
     {
         "id": "meal_170.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_170.jpg",
+        "image_path": "images/meal_170.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6449,7 +6449,7 @@
     },
     {
         "id": "meal_171.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_171.jpg",
+        "image_path": "images/meal_171.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6482,7 +6482,7 @@
     },
     {
         "id": "meal_172.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_172.jpg",
+        "image_path": "images/meal_172.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6515,7 +6515,7 @@
     },
     {
         "id": "meal_173.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_173.jpg",
+        "image_path": "images/meal_173.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6563,7 +6563,7 @@
     },
     {
         "id": "meal_174.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_174.jpg",
+        "image_path": "images/meal_174.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6611,7 +6611,7 @@
     },
     {
         "id": "meal_175.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_175.jpg",
+        "image_path": "images/meal_175.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6659,7 +6659,7 @@
     },
     {
         "id": "meal_176.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_176.jpg",
+        "image_path": "images/meal_176.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6707,7 +6707,7 @@
     },
     {
         "id": "meal_177.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_177.jpg",
+        "image_path": "images/meal_177.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6755,7 +6755,7 @@
     },
     {
         "id": "meal_178.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_178.jpg",
+        "image_path": "images/meal_178.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6803,7 +6803,7 @@
     },
     {
         "id": "meal_179.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_179.jpg",
+        "image_path": "images/meal_179.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6851,7 +6851,7 @@
     },
     {
         "id": "meal_180.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_180.jpg",
+        "image_path": "images/meal_180.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6899,7 +6899,7 @@
     },
     {
         "id": "meal_181.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_181.jpg",
+        "image_path": "images/meal_181.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6947,7 +6947,7 @@
     },
     {
         "id": "meal_182.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_182.jpg",
+        "image_path": "images/meal_182.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -6995,7 +6995,7 @@
     },
     {
         "id": "meal_183.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_183.jpg",
+        "image_path": "images/meal_183.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -7043,7 +7043,7 @@
     },
     {
         "id": "meal_184.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_184.jpg",
+        "image_path": "images/meal_184.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -7091,7 +7091,7 @@
     },
     {
         "id": "meal_185.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_185.jpg",
+        "image_path": "images/meal_185.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -7139,7 +7139,7 @@
     },
     {
         "id": "meal_186.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_186.jpg",
+        "image_path": "images/meal_186.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -7187,7 +7187,7 @@
     },
     {
         "id": "meal_187.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_187.jpg",
+        "image_path": "images/meal_187.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -7235,7 +7235,7 @@
     },
     {
         "id": "meal_188.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_188.jpg",
+        "image_path": "images/meal_188.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -7283,7 +7283,7 @@
     },
     {
         "id": "meal_189.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_189.jpg",
+        "image_path": "images/meal_189.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -7331,7 +7331,7 @@
     },
     {
         "id": "meal_190.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_190.jpg",
+        "image_path": "images/meal_190.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -7379,7 +7379,7 @@
     },
     {
         "id": "meal_191.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_191.jpg",
+        "image_path": "images/meal_191.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -7427,7 +7427,7 @@
     },
     {
         "id": "meal_192.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_192.jpg",
+        "image_path": "images/meal_192.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -7460,7 +7460,7 @@
     },
     {
         "id": "meal_193.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_193.jpg",
+        "image_path": "images/meal_193.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -7493,7 +7493,7 @@
     },
     {
         "id": "meal_194.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_194.jpg",
+        "image_path": "images/meal_194.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -7526,7 +7526,7 @@
     },
     {
         "id": "meal_195.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_195.jpg",
+        "image_path": "images/meal_195.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -7559,7 +7559,7 @@
     },
     {
         "id": "meal_196.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_196.jpg",
+        "image_path": "images/meal_196.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -7592,7 +7592,7 @@
     },
     {
         "id": "meal_197.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_197.jpg",
+        "image_path": "images/meal_197.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -7625,7 +7625,7 @@
     },
     {
         "id": "meal_198.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_198.jpg",
+        "image_path": "images/meal_198.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -7658,7 +7658,7 @@
     },
     {
         "id": "meal_199.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_199.jpg",
+        "image_path": "images/meal_199.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -7691,7 +7691,7 @@
     },
     {
         "id": "meal_200.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_200.jpg",
+        "image_path": "images/meal_200.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -7724,7 +7724,7 @@
     },
     {
         "id": "meal_201.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_201.jpg",
+        "image_path": "images/meal_201.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -7757,7 +7757,7 @@
     },
     {
         "id": "meal_202.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_202.jpg",
+        "image_path": "images/meal_202.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -7790,7 +7790,7 @@
     },
     {
         "id": "meal_203.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_203.jpg",
+        "image_path": "images/meal_203.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -7823,7 +7823,7 @@
     },
     {
         "id": "meal_204.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_204.jpg",
+        "image_path": "images/meal_204.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -7856,7 +7856,7 @@
     },
     {
         "id": "meal_205.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_205.jpg",
+        "image_path": "images/meal_205.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -7889,7 +7889,7 @@
     },
     {
         "id": "meal_206.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_206.jpg",
+        "image_path": "images/meal_206.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -7922,7 +7922,7 @@
     },
     {
         "id": "meal_207.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_207.jpg",
+        "image_path": "images/meal_207.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -7955,7 +7955,7 @@
     },
     {
         "id": "meal_208.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_208.jpg",
+        "image_path": "images/meal_208.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -7988,7 +7988,7 @@
     },
     {
         "id": "meal_209.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_209.jpg",
+        "image_path": "images/meal_209.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -8021,7 +8021,7 @@
     },
     {
         "id": "meal_210.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_210.jpg",
+        "image_path": "images/meal_210.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -8054,7 +8054,7 @@
     },
     {
         "id": "meal_211.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_211.jpg",
+        "image_path": "images/meal_211.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -8087,7 +8087,7 @@
     },
     {
         "id": "meal_212.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_212.jpg",
+        "image_path": "images/meal_212.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -8120,7 +8120,7 @@
     },
     {
         "id": "meal_213.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_213.jpg",
+        "image_path": "images/meal_213.jpg",
         "ground_truth": {
             "ingredients": [
                 {
@@ -8153,7 +8153,7 @@
     },
     {
         "id": "meal_214.jpg",
-        "image_path": "/home/felix.boelter/food-waste/baseline/images/meal_214.jpg",
+        "image_path": "images/meal_214.jpg",
         "ground_truth": {
             "ingredients": [
                 {

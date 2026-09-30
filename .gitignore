@@ -184,3 +184,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Raw kitchen exports stay local; the published data is on Hugging Face
+/dataset/data/csv
+.DS_Store
