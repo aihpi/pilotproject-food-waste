@@ -34,7 +34,7 @@ The [dataset card](https://huggingface.co/datasets/AI-ServicesBB/food-waste-data
 
 1. Clone the repository with its submodule:
 ```bash
-git clone --recurse-submodules https://github.com/aihpi/food-waste
+git clone --recurse-submodules https://github.com/aihpi/pilotproject-food-waste
 ```
 
 2. Create and activate a virtual environment:
